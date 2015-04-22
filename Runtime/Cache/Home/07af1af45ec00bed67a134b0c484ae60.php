@@ -1,0 +1,127 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>驾客－首页</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/Public/static/bootstrap/css/front-end.css" rel="stylesheet" type="text/css" />
+        <link href="/Public/static/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="/Public/static/bootstrap/css/pagination.css" rel="stylesheet" type="text/css" />
+        <link href="/Public/static/bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+<!--         <link href="/Public/static/bootstrap/css/prettify.css" rel="stylesheet" type="text/css" /> -->
+        <link href="/Public/static/bootstrap/css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css" />
+        <script src="/Public/static/jquery-2.0.3.min.js" type="text/javascript"></script>
+		<script src="/Public/static/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+		<script src="/Public/static/bootstrap/js/jquery.paginatetable.js" type="text/javascript"></script>
+		<script src="/Public/static/bootstrap/js/bootstrap-dialog.min.js" type="text/javascript"></script>
+<!-- 		<script src="/Public/static/bootstrap/js/run_prettify.js" type="text/javascript"></script> -->
+    </head>
+    <body>
+    
+    	<!-- Large modal -->
+		
+		<!-- modal end -->
+		
+    	<div class="col-md-12" style="height:30px; background-color:#ddd; z-index:99;margin-bottom:0px; margin-top:0px;">
+	    	<ul class="top-nav pull-right">
+		    	<li><a href="/jiake/php_jiake/ycbb/Index/message"><i class="fa fa-envelope"></i> 消息 <span class="label label-primary">0</span> </a></li>
+		    	<li><a href="/jiake/php_jiake/ycbb/Index/profile"><i class="fa fa-gear"></i> 帐号管理 </a></li>
+		    	<li><a href="#"> 欢迎 ，<span class="label label-primary">卢先生</span></a></li>
+		    	<li><a href="#"> 退出 </a></li>
+	    	</ul>
+    	</div>
+    	<div class="col-md-12" style="height:80px; z-index:99; margin-bottom:0px; background-color:#fff;">
+	    	<a href="#" class="pull-left" style="margin-top:20px; margin-left:50px;"><img src="/Public/img/logo.png"></a>
+    	</div>
+        <nav class="navbar navbar-default" role="navigation" style="background-color:#f87d22;">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+			      data-target="#bs-example-navbar-collapse-1">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-left nav-p">
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/orderIncomplete"> 我的订单 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/unbid"> 我要抢单 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/event"> 限时活动 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/comment"> 服务评价 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/project" > 我的项目 </a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="text-align:center">
+				
+			</div>
+		</div>
+			<div class="col-md-12" style="text-align:left; margin-top:10px;">
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+					<!-- Default panel contents -->
+					  <div class="panel-heading" style="text-align:center"><h3>消息</h3></div>
+					  <div class="panel-body">
+					    <p>
+					    <div class="btn-group" role="group" >
+						  <a href="/jiake/php_jiake/ycbb/Index/message" class="btn btn-info active">全部 <span class="badge">3
+						  </span></a>
+						  <a href="/jiake/php_jiake/ycbb/Index/messageUnread" class="btn btn-info">未读 <span class="badge">2
+						  </span></a>
+						  <a href="/jiake/php_jiake/ycbb/Index/messageRead" class="btn btn-info">已读 <span class="badge">1
+						  </span></a>
+						</div>
+						<div class="col-lg-4 pull-right">
+						<div class="input-group">
+					      <div class="input-group-btn">
+					        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">全部 <span class="caret"></span></button>
+					        <ul class="dropdown-menu" role="menu">
+					          <li><a href="#">标题</a></li>
+					          <li><a href="#">内容</a></li>
+					        </ul>
+					      </div><!-- /btn-group -->
+					      <input type="text" class="form-control">
+					      <span class="input-group-btn">
+					        <button class="btn btn-default" type="button">搜索</button>
+					      </span>
+					    </div><!-- /input-group -->
+						</div>
+						</p>
+					  </div>
+					  <a href="#" class="list-group-item">
+					    <h4 class="list-group-item-heading"> (团购上线确认提醒) 有页面等待上线！已通过。。。</h4>
+					    <p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    <p><?php echo ($date); ?> <label class="pull-right">未读</label></p>
+					  </a>
+					   <a href="#" class="list-group-item">
+					    <h4 class="list-group-item-heading"> (团购上线确认提醒) 有页面等待上线！已通过。。。</h4>
+					    <p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    <p><?php echo ($date); ?> <label class="pull-right">已读</label></p>
+					  </a>
+					   <a href="#" class="list-group-item">
+					    <h4 class="list-group-item-heading"> (团购上线确认提醒) 有页面等待上线！已通过。。。</h4>
+					    <p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    <p><?php echo ($date); ?> <label class="pull-right">已读</label></p>
+					  </a>
+				</div>
+				<div class="col-md-12" id="pagination" style="text-align:center"><?php echo ($pages); ?></div>
+			</div>
+		</div>
+		
+		
+		<!-- footer -->
+		<div class="footer">
+			<div class="col-md-12" style="text-align:center; font-size:18px; background-color:#f87d22; color:#fff; padding-top:50px; padding-bottom:40px;">
+			<p class="copy-right">版权所有：厦门日后科技有限公司</p>
+			<p>客服电话：000－0000-000 传真：0000-1234567 邮编：361000</p>
+			<p>Copyright &copy; 2013-2014</p>
+			</div>
+		</div>
+		<!-- footer end-->
+		
+    </body>
+</html>

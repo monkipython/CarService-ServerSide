@@ -1,0 +1,1302 @@
+[ 2015-04-17T23:09:13+08:00 ] 112.90.141.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000755s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.001895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-04-17T23:10:24+08:00 ] 203.208.60.239 /index.php/User/detail/id/98/p/1/num/6/pa/2/numa/6/pr/10/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-17T23:12:03+08:00 ] 183.195.233.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000746s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2015-04-17T23:13:00+08:00 ] 203.208.60.239 /Answer/detail/id/2467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2015-04-17T23:13:14+08:00 ] 123.125.71.112 /index.php/User/detail/id/68/p/1/num/6/pa/2/numa/6/pr/6/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2015-04-17T23:13:38+08:00 ] 180.153.212.45 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.001019s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-04-17T23:14:10+08:00 ] 203.208.60.239 /index.php/User/detail/id/90/p/2/num/6/pa/3/numa/6/pr/7/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2015-04-17T23:15:14+08:00 ] 112.90.82.139 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000729s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2015-04-17T23:16:22+08:00 ] 203.208.60.239 /index.php/User/detail/id/142/p/2/num/6/pa/3/numa/6/pr/10/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-17T23:17:33+08:00 ] 220.181.51.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000750s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2015-04-17T23:17:33+08:00 ] 220.181.51.80 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.001827s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2015-04-17T23:17:57+08:00 ] 203.208.60.239 /index.php/User/detail/id/96/p/1/num/6/pa/2/numa/6/pr/1/numr/5/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2015-04-17T23:18:26+08:00 ] 220.181.108.103 /Answer/detail/id/148
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-17T23:19:39+08:00 ] 101.226.73.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.001005s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-04-17T23:21:15+08:00 ] 112.90.82.139 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000896s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2015-04-17T23:21:44+08:00 ] 203.208.60.239 /index.php/User/detail/id/81/p/1/num/6/pa/5/numa/6/pr/3/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2015-04-17T23:23:38+08:00 ] 220.181.108.150 /index.php/User/detail/id/58/p/1/num/6/pa/2/numa/6/pr/10/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-04-17T23:24:04+08:00 ] 183.195.233.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000734s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-17T23:25:31+08:00 ] 203.208.60.239 /index.php/User/detail/id/79/p/1/num/6/pa/7/numa/6/pr/9/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2015-04-17T23:25:40+08:00 ] 101.226.73.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000812s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2015-04-17T23:27:15+08:00 ] 112.90.82.139 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000925s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-04-17T23:28:49+08:00 ] 123.125.71.89 /Answer/detail/id/767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-04-17T23:29:18+08:00 ] 203.208.60.239 /index.php/User/detail/id/127/p/2/num/6/pa/1/numa/6/pr/4/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2015-04-17T23:30:05+08:00 ] 183.195.233.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000756s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-04-17T23:31:41+08:00 ] 101.226.73.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000785s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2015-04-17T23:33:06+08:00 ] 203.208.60.239 /index.php/User/detail/id/151/p/1/num/6/pa/1/numa/6/pr/1/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-04-17T23:33:16+08:00 ] 112.90.141.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000854s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2015-04-17T23:34:01+08:00 ] 123.125.71.74 /Answer/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/c1f952c31548b091cc365b5df6507f98.php 第 59 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/c1f952c31548b091cc365b5df6507f98.php 第 480 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/c1f952c31548b091cc365b5df6507f98.php 第 519 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2015-04-17T23:36:06+08:00 ] 120.204.200.21 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000876s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-17T23:36:52+08:00 ] 203.208.60.239 /index.php/User/detail/id/113/p/1/num/6/pa/6/numa/6/pr/8/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-04-17T23:37:41+08:00 ] 180.153.81.158 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000763s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-04-17T23:39:13+08:00 ] 220.181.108.152 /index.php/User/detail/id/58/p/1/num/6/pa/1/numa/6/pr/12/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2015-04-17T23:39:17+08:00 ] 112.90.141.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000726s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-17T23:40:39+08:00 ] 203.208.60.239 /index.php/User/detail/id/119/p/1/num/6/pa/3/numa/6/pr/4/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2015-04-17T23:42:07+08:00 ] 120.204.200.21 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000729s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2015-04-17T23:43:42+08:00 ] 180.153.212.45 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000739s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-04-17T23:44:25+08:00 ] 220.181.108.166 /Answer/detail/id/145
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-04-17T23:44:27+08:00 ] 203.208.60.239 /index.php/User/detail/id/142/p/2/num/6/pa/5/numa/6/pr/2/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2015-04-17T23:47:17+08:00 ] 218.85.114.19 /Service/freeToWashCar?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-04-17T23:48:08+08:00 ] 183.195.233.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000733s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2015-04-17T23:48:13+08:00 ] 203.208.60.239 /index.php/User/detail/id/132/p/1/num/6/pa/7/numa/6/pr/6/numr/5/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-04-17T23:48:50+08:00 ] 36.99.31.52 /Answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/c1f952c31548b091cc365b5df6507f98.php 第 59 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/c1f952c31548b091cc365b5df6507f98.php 第 480 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/c1f952c31548b091cc365b5df6507f98.php 第 519 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-04-17T23:49:37+08:00 ] 123.125.71.116 /Answer/detail/id/764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2015-04-17T23:49:43+08:00 ] 180.153.212.45 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000759s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2015-04-17T23:51:19+08:00 ] 112.90.82.139 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000860s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2015-04-17T23:51:34+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000788s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-04-17T23:51:55+08:00 ] 203.208.60.239 /Answer/detail/id/2542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2015-04-17T23:52:00+08:00 ] 203.208.60.239 /index.php/User/detail/id/150/p/1/num/6/pa/1/numa/6/pr/3/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2015-04-17T23:54:08+08:00 ] 183.195.233.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000897s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-17T23:54:49+08:00 ] 220.181.108.184 /index.php/User/detail/id/58/p/1/num/6/pa/3/numa/6/pr/10/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-17T23:55:44+08:00 ] 180.153.81.158 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000759s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2015-04-17T23:55:48+08:00 ] 203.208.60.239 /index.php/User/detail/id/158/p/1/num/6/pa/1/numa/6/pr/6/numr/5/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-04-17T23:57:19+08:00 ] 112.90.82.164 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000739s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2015-04-17T23:58:04+08:00 ] 36.99.31.40 /Answer/detail/id/1000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/AnswerController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 58 行.
+NOTIC: [8] Undefined index: is_answered /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 422 行.
+NOTIC: [8] Undefined variable: pages /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 594 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 624 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/661648336a3a059ac6b3b1d950e0a80d.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-04-17T23:58:06+08:00 ] 203.208.60.239 /index.php/User/detail/id/60/p/3/num/6/pa/3/numa/6/pr/7/numr/5/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2015-04-17T23:59:34+08:00 ] 203.208.60.239 /index.php/User/detail/id/140/p/2/num/6/pa/3/numa/6/pr/6/numr/5/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: user /var/www/html/ycbb/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: keyword /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 58 行.
+NOTIC: [8] Undefined variable: sessionJID /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 622 行.
+NOTIC: [8] Undefined variable: mer_session_id /var/www/html/ycbb/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php 第 661 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+

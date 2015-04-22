@@ -1,0 +1,33 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="page">
+    <div class="pageContent">
+
+        <form method="post" action="/index.php/Admin/Config/insert/navTabId/Config.index/callbackType/closeCurrent" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone)">
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>key：</label>
+                    <input type="text" class="required"   name="key" id="key">
+                </div>
+         
+                <div class="unit">
+                    <label>value：</label>
+                    <input type="text" class="required"   name="value" id="value">
+                </div>
+    
+                 <div class="unit">
+                    <label>说明：</label>
+                      <textarea rows="5" cols="75" name="intro" id="intro"></textarea>
+                </div>
+   
+               
+            </div>
+
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+</div>

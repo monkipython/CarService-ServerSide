@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os
+END
+class.BSD.common.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.BSD.common.inc.php
+END
+class.Linux.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.Linux.inc.php
+END
+class.NetBSD.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.NetBSD.inc.php
+END
+class.WINNT.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.WINNT.inc.php
+END
+class.HP-UX.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.HP-UX.inc.php
+END
+class.Darwin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.Darwin.inc.php
+END
+class.parseProgs.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.parseProgs.inc.php
+END
+class.SunOS.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.SunOS.inc.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/index.html
+END
+class.FreeBSD.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.FreeBSD.inc.php
+END
+class.OpenBSD.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/php_jiake/!svn/ver/5/ycbb/Public/phpsysinfo/includes/os/class.OpenBSD.inc.php
+END

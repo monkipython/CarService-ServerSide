@@ -1,0 +1,2069 @@
+[ 2015-03-18T23:02:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+
+[ 2015-03-18T23:04:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+
+[ 2015-03-18T23:06:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-03-18T23:08:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-03-18T23:09:47+08:00 ] 117.30.217.210 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2015-03-18T23:09:47+08:00 ] 117.30.217.210 /index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-03-18T23:09:47+08:00 ] 117.30.217.210 /index.php/Admin/Public/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+
+[ 2015-03-18T23:09:57+08:00 ] 117.30.217.210 /index.php/Admin/Public/checkLogin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2015-03-18T23:09:58+08:00 ] 117.30.217.210 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2015-03-18T23:10:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+
+[ 2015-03-18T23:10:08+08:00 ] 117.30.217.210 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-03-18T23:10:13+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691417875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000793s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-03-18T23:10:23+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691428107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000816s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2015-03-18T23:10:24+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691429204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000767s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-03-18T23:10:33+08:00 ] 117.30.217.210 /index.php/Admin/Auth/edit/id/25/?_=1426691437420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000833s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `id` = 25 LIMIT 1   [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: pics /var/www/html/ycbb/Runtime/Cache/Admin/f6ab42e3af3d441c98ae4c750254e11d.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-03-18T23:10:37+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691441611
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000893s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2015-03-18T23:10:38+08:00 ] 117.30.217.210 /index.php/Admin/Auth/edit/id/26/?_=1426691443305
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `id` = 26 LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: pics /var/www/html/ycbb/Runtime/Cache/Admin/f6ab42e3af3d441c98ae4c750254e11d.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2015-03-18T23:10:43+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691448107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.001084s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2015-03-18T23:10:44+08:00 ] 117.30.217.210 /index.php/Admin/Auth/edit/id/25/?_=1426691449282
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000830s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `id` = 25 LIMIT 1   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: pics /var/www/html/ycbb/Runtime/Cache/Admin/f6ab42e3af3d441c98ae4c750254e11d.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-03-18T23:10:47+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691451527
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000776s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-03-18T23:10:48+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691452592
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000745s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2015-03-18T23:12:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-03-18T23:12:35+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691559716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.001083s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-03-18T23:12:36+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691560775
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000820s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-03-18T23:12:36+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691561428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000810s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-03-18T23:12:37+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691561677
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000846s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2015-03-18T23:12:37+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691561868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000791s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2015-03-18T23:12:38+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691562885
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000804s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-03-18T23:13:32+08:00 ] 117.30.217.210 /index.php/Admin/Merchant/index?_=1426691617333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000772s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000961s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000998s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 6 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-03-18T23:14:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+
+[ 2015-03-18T23:14:07+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691651934
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000759s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2015-03-18T23:15:15+08:00 ] 117.30.217.210 /index.php/Admin/Merchant/index?_=1426691719455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000708s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000907s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 6 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2015-03-18T23:16:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-03-18T23:16:21+08:00 ] 117.30.217.210 /index.php/Admin/Merchant/index?_=1426691785429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000760s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000992s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000962s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 6 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2015-03-18T23:16:28+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426691792867
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000769s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2015-03-18T23:18:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-03-18T23:20:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2015-03-18T23:22:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2015-03-18T23:23:19+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692204029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.003706s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2015-03-18T23:23:21+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692206218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000830s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2015-03-18T23:23:22+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692207260
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000801s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-03-18T23:23:23+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692208273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000749s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2015-03-18T23:23:26+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692210787
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2015-03-18T23:23:26+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692211387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000750s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-03-18T23:23:27+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692211888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.001236s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-03-18T23:23:27+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692212277
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000875s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-03-18T23:23:28+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426692212622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000775s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-03-18T23:24:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-03-18T23:26:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-03-18T23:28:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-03-18T23:30:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2015-03-18T23:32:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-03-18T23:32:40+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693001359
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000778s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2015-03-18T23:32:43+08:00 ] 117.30.217.210 /index.php/Admin/AuthService/index?_=1426693004731
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.003462s ]
+SQL: SELECT a.id,a.name,b.merchant_name,a.price,a.timeout,a.addtime FROM ycbb_service as a INNER JOIN ycbb_merchant as b on b.id = a.merchant_id  WHERE a.effect = 0 ORDER BY a.addtime desc  [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE a.effect = 0 LIMIT 1   [ RunTime:0.000317s ]
+ERR: 1054:Unknown column 'a.effect' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE a.effect = 0 LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 73 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 74 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 75 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 76 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 78 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-03-18T23:32:46+08:00 ] 117.30.217.210 /index.php/Admin/AuthService/indexHistory?_=1426693007429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000974s ]
+SQL: SELECT a.id,a.name,b.merchant_name,a.price,a.timeout,a.addtime FROM ycbb_service as a INNER JOIN ycbb_merchant as b on b.id = a.merchant_id  WHERE a.effect = '1' ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE `effect` = 1 LIMIT 1   [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 6 行.
+NOTIC: [8] Undefined index: type /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-03-18T23:32:47+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693008557
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000774s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-03-18T23:32:57+08:00 ] 117.30.217.210 /index.php/Admin/Auth/edit/id/25/?_=1426693017999
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000866s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `id` = 25 LIMIT 1   [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: pics /var/www/html/ycbb/Runtime/Cache/Admin/f6ab42e3af3d441c98ae4c750254e11d.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-03-18T23:33:10+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693031750
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000874s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2015-03-18T23:33:14+08:00 ] 117.30.217.210 /index.php/Admin/Auth/edit/id/26/?_=1426693034940
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000826s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `id` = 26 LIMIT 1   [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: pics /var/www/html/ycbb/Runtime/Cache/Admin/f6ab42e3af3d441c98ae4c750254e11d.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-03-18T23:34:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-03-18T23:34:07+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693088237
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000781s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-03-18T23:34:11+08:00 ] 117.30.217.210 /index.php/Admin/AuthService/index?_=1426693092037
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.001173s ]
+SQL: SELECT a.id,a.name,b.merchant_name,a.price,a.timeout,a.addtime FROM ycbb_service as a INNER JOIN ycbb_merchant as b on b.id = a.merchant_id  WHERE a.effect = 0 ORDER BY a.addtime desc  [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000899s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE a.effect = 0 LIMIT 1   [ RunTime:0.000207s ]
+ERR: 1054:Unknown column 'a.effect' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE a.effect = 0 LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 73 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 74 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 75 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 76 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 78 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2015-03-18T23:34:14+08:00 ] 117.30.217.210 /index.php/Admin/AuthService/indexHistory?_=1426693094901
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000904s ]
+SQL: SELECT a.id,a.name,b.merchant_name,a.price,a.timeout,a.addtime FROM ycbb_service as a INNER JOIN ycbb_merchant as b on b.id = a.merchant_id  WHERE a.effect = '1' ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000738s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE `effect` = 1 LIMIT 1   [ RunTime:0.000081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 6 行.
+NOTIC: [8] Undefined index: type /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/d2c3aab721f6dbdba102cf4201e0c74b.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2015-03-18T23:34:22+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693103623
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000763s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-03-18T23:36:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-03-18T23:36:06+08:00 ] 117.30.217.210 /index.php/Admin/AuthService/index?_=1426693207467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000940s ]
+SQL: SELECT a.id,a.name,b.merchant_name,a.price,a.timeout,a.addtime FROM ycbb_service as a INNER JOIN ycbb_merchant as b on b.id = a.merchant_id  WHERE a.effect = 0 ORDER BY a.addtime desc  [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `ycbb_service` [ RunTime:0.000632s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE a.effect = 0 LIMIT 1   [ RunTime:0.000266s ]
+ERR: 1054:Unknown column 'a.effect' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ycbb_service` WHERE a.effect = 0 LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 73 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 74 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 75 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 76 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 78 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/8938d03f837823ebd39fc625ac4d1207.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2015-03-18T23:38:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2015-03-18T23:39:43+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693423866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000770s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2015-03-18T23:39:49+08:00 ] 117.30.217.210 /index.php/Admin/Merchant/index?_=1426693430554
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000848s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000894s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 6 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2015-03-18T23:40:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-03-18T23:42:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2015-03-18T23:44:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+
+[ 2015-03-18T23:46:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-03-18T23:48:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-03-18T23:48:35+08:00 ] 117.30.217.210 /index.php/Admin/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000721s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001458s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 10,10   [ RunTime:0.000981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2015-03-18T23:48:42+08:00 ] 117.30.217.210 /index.php/Admin/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.001809s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000888s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-03-18T23:50:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+
+[ 2015-03-18T23:51:18+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426693882071
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000736s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-03-18T23:51:18+08:00 ] 117.30.217.210 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-03-18T23:51:20+08:00 ] 117.30.217.210 /index.php/Admin/Answer/index?_=1426693885265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_category` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `ycbb_answer_category` WHERE `status` = 1 AND `pid` = 0  [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_problem` [ RunTime:0.000631s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_problem` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_problem` [ RunTime:0.000555s ]
+SQL: SELECT a.id,a.title,c.name as pidname,a.system_user_id,b.name,a.attention,a.answer_num,a.addtime FROM ycbb_answer_problem as a INNER JOIN ycbb_system_user as b on a.system_user_id = b.id INNER JOIN ycbb_answer_category as c on a.pid = c.id  WHERE a.status = 0 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 6 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 8 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined index: keywords /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2015-03-18T23:51:21+08:00 ] 117.30.217.210 /index.php/Admin/Recent/index?_=1426693885873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent` [ RunTime:0.000853s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent` [ RunTime:0.000543s ]
+SQL: SELECT a.id,b.name,a.content,a.system_user_id,a.addtime,a.longitude,a.latitude FROM ycbb_answer_user_recent as a INNER JOIN ycbb_system_user as b on a.system_user_id = b.id  WHERE a.status = 0 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent_reply` [ RunTime:0.000542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 582 LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 577 LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 586 LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 584 LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 585 LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 589 LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 591 LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 590 LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 581 LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 576 LIMIT 1   [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 6 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2015-03-18T23:52:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+
+[ 2015-03-18T23:52:51+08:00 ] 117.30.217.210 /index.php/Admin/Merchant/index?_=1426694212629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000893s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000992s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000918s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 6 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2015-03-18T23:52:51+08:00 ] 117.30.217.210 /index.php/Admin/Merchant/index?_=1426694212851
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_city` [ RunTime:0.000785s ]
+SQL: SELECT `id`,`name` FROM `ycbb_city` WHERE ( pid=0 )  [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: is_check /var/www/html/ycbb/Application/Admin/Controller/MerchantController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_merchant` LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000999s ]
+SQL: SELECT a.id,a.merchant_name,a.manager,a.tel,a.province_id,a.city_id,a.area_id,a.address,a.intro,a.mobile,a.status,a.is_check,a.addtime,ifnull(b.mobile,"管理员")  as salename FROM ycbb_merchant as a LEFT JOIN ycbb_merchant as b on a.check_by = b.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 6 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+NOTIC: [8] Undefined index: baidumap /var/www/html/ycbb/Runtime/Cache/Admin/d278e6bf5e2b672db9da7a76be6ae9fd.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-03-18T23:52:54+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426694215734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000844s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-03-18T23:53:03+08:00 ] 117.30.217.210 /index.php/Admin/Auth/edit/id/27/?_=1426694224105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000788s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `id` = 27 LIMIT 1   [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: header /var/www/html/ycbb/Application/Admin/Controller/AuthController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: pics /var/www/html/ycbb/Runtime/Cache/Admin/f6ab42e3af3d441c98ae4c750254e11d.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-03-18T23:53:54+08:00 ] 117.30.217.210 /index.php/Admin/Auth/index?_=1426694275672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth` [ RunTime:0.000817s ]
+SQL: SELECT * FROM `ycbb_auth` WHERE `status` = 0  [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 6 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 7 行.
+NOTIC: [8] Undefined index: name /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 18 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 84 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 86 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/7037a8d5a64fd30b57d5fa54024ea286.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2015-03-18T23:54:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-03-18T23:56:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-03-18T23:58:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+

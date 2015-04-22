@@ -1,0 +1,1886 @@
+[ 2015-04-22T18:40:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2015-04-22T18:40:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-22T18:40:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-04-22T18:42:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2015-04-22T18:42:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-22T18:44:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-04-22T18:44:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-04-22T18:45:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-04-22T18:46:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-04-22T18:46:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-04-22T18:48:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+
+[ 2015-04-22T18:48:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+
+[ 2015-04-22T18:49:02+08:00 ] 117.30.204.235 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2015-04-22T18:49:04+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429699744185
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000803s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='53' and g.status='1' )  [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000717s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('16','20','32','35','9','11','13','36','37','14','39','40','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429699744 LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001084s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429699744 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2015-04-22T18:49:09+08:00 ] 117.30.204.235 /index.php/Admin/Demand/detail/id/1241/furl/aHR0cCUzQSUyRiUyRmNhcnl1Lm5ldCUyRmluZGV4LnBocCUyRkFkbWluJTJGRGVtYW5kJTJGaW5kZXglMkZwYWdlTnVtJTJGMSUyRm51bVBlclBhZ2UlMkYxMA==?_=1429699749179
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000709s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='53' and g.status='1' )  [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000587s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('16','20','32','35','9','11','13','36','37','14','39','40','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000907s ]
+SQL: SELECT a.*,b.nick_name,b.mobile,b.header FROM ycbb_member_demand as a INNER JOIN ycbb_member as b on a.member_id = b.id  WHERE ( a.id=1241 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: select sum(a.price) as total_price,sum(a.out_time) as total_time,b.merchant_name,b.header,b.mobile,b.tel ,b.id as merchant_id,b.latitude,b.longitude from ycbb_merchant_bidding as a left join ycbb_merchant as b on a.merchant_id = b.id where demand_id = 1241  group by merchant_id order by a.addtime asc [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant_bidding_remark` [ RunTime:0.000507s ]
+SQL: SELECT `remark` FROM `ycbb_merchant_bidding_remark` WHERE `demand_id` = 1241 AND `merchant_id` = 285 LIMIT 1   [ RunTime:0.000084s ]
+SQL: SELECT `remark` FROM `ycbb_merchant_bidding_remark` WHERE `demand_id` = 1241 AND `merchant_id` = 228 LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `remark` FROM `ycbb_merchant_bidding_remark` WHERE `demand_id` = 1241 AND `merchant_id` = 234 LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ycbb_demand_merchant_enable` [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `ycbb_demand_merchant_enable` [ RunTime:0.000427s ]
+SQL: SELECT a.merchant_name,a.tel,a.id,a.mobile,a.header,a.longitude,a.latitude,a.address,b.name as province,c.name as city,d.name as area FROM ycbb_demand_merchant_enable as f LEFT JOIN ycbb_merchant as a on f.merchant_id = a.id LEFT JOIN ycbb_city as b on a.province_id = b.id LEFT JOIN ycbb_city as c on a.city_id = c.id LEFT JOIN ycbb_city as d on a.area_id = d.id  WHERE f.demand_id = '1241'  [ RunTime:0.002350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: currentUser /var/www/html/ycbb/Runtime/Cache/Admin/36e75e3387b43eeebbbf4192a4dcae03.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-04-22T18:50:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2015-04-22T18:50:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2015-04-22T18:50:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-04-22T18:52:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+
+[ 2015-04-22T18:52:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2015-04-22T18:54:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+
+[ 2015-04-22T18:54:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-04-22T18:54:38+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429700300701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000901s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000750s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429700078 LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000912s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429700078 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2015-04-22T18:55:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-04-22T18:56:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2015-04-22T18:56:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+
+[ 2015-04-22T18:58:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2015-04-22T18:58:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+
+[ 2015-04-22T19:00:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2015-04-22T19:00:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-04-22T19:00:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2015-04-22T19:02:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-04-22T19:02:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-04-22T19:04:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-04-22T19:04:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-04-22T19:05:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-04-22T19:06:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-04-22T19:06:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+
+[ 2015-04-22T19:08:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-04-22T19:08:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-22T19:10:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-04-22T19:10:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+
+[ 2015-04-22T19:10:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+
+[ 2015-04-22T19:12:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-04-22T19:12:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2015-04-22T19:13:49+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429701450881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000755s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000553s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429701229 LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001240s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429701229 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-04-22T19:13:49+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429701451541
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000647s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.001405s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429701229 LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000863s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429701229 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2015-04-22T19:13:49+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429701451721
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000733s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000708s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000898s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429701229 LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000815s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429701229 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2015-04-22T19:13:50+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429701452065
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000814s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000583s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429701230 LIMIT 1   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001135s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429701230 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-04-22T19:13:54+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand/index?_=1429701455972
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000698s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000556s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000913s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.000788s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 317 LIMIT 1   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 312 LIMIT 1   [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 316 LIMIT 1   [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 266 LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 306 LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 306 LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 310 LIMIT 1   [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 279 LIMIT 1   [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+NOTIC: [8] Undefined index: id /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001071s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 531 LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 531 LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 531 LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 467 LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001290s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 434 LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 434 LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 526 LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 450 LIMIT 1   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-04-22T19:14:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+
+[ 2015-04-22T19:14:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+
+[ 2015-04-22T19:15:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-22T19:16:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-22T19:16:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+
+[ 2015-04-22T19:16:24+08:00 ] 117.30.204.235 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-04-22T19:16:24+08:00 ] 117.30.204.235 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+
+[ 2015-04-22T19:16:25+08:00 ] 117.30.204.235 /index.php/Admin/Public/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+
+[ 2015-04-22T19:16:27+08:00 ] 117.30.204.235 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-04-22T19:16:27+08:00 ] 117.30.204.235 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+
+[ 2015-04-22T19:16:27+08:00 ] 117.30.204.235 /index.php/Admin/Public/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-04-22T19:18:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2015-04-22T19:18:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2015-04-22T19:18:18+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000718s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000748s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000893s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000341s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` WHERE `status` = 0 ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.001169s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 296 LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 282 LIMIT 1   [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 287 LIMIT 1   [ RunTime:0.000211s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 202 LIMIT 1   [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 286 LIMIT 1   [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 57 行.
+NOTIC: [2] Illegal string offset 'pageNum' /var/www/html/ycbb/ThinkPHP/Library/Think/Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001130s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 512 LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 499 LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 503 LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 449 LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 479 LIMIT 1   [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2015-04-22T19:18:18+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000665s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000563s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000870s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` WHERE `status` = 0 ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.000702s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 296 LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 282 LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 287 LIMIT 1   [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 202 LIMIT 1   [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 286 LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 57 行.
+NOTIC: [2] Illegal string offset 'pageNum' /var/www/html/ycbb/ThinkPHP/Library/Think/Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001256s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 512 LIMIT 1   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 499 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 503 LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 449 LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 479 LIMIT 1   [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-22T19:18:19+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000747s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000636s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001114s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` WHERE `status` = 0 ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.000774s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 296 LIMIT 1   [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 282 LIMIT 1   [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 287 LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 202 LIMIT 1   [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 286 LIMIT 1   [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 57 行.
+NOTIC: [2] Illegal string offset 'pageNum' /var/www/html/ycbb/ThinkPHP/Library/Think/Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001244s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 512 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 499 LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 503 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 449 LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 479 LIMIT 1   [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-04-22T19:18:19+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000797s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000666s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001142s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` WHERE `status` = 0 ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.000932s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 296 LIMIT 1   [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 282 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 287 LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 202 LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 286 LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 57 行.
+NOTIC: [2] Illegal string offset 'pageNum' /var/www/html/ycbb/ThinkPHP/Library/Think/Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001003s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 512 LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 499 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 503 LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 449 LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 479 LIMIT 1   [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-04-22T19:18:19+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000791s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.001544s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000905s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` WHERE `status` = 0 ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.000758s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 296 LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 282 LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 287 LIMIT 1   [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 202 LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 286 LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 57 行.
+NOTIC: [2] Illegal string offset 'pageNum' /var/www/html/ycbb/ThinkPHP/Library/Think/Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001107s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 512 LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 499 LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 503 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 449 LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 479 LIMIT 1   [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2015-04-22T19:18:19+08:00 ] 117.30.204.235 /index.php/Admin/MemberDemand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2048] Declaration of MemberDemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [2048] Declaration of MemberDemandController::edit() should be compatible with CommonController::edit($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000685s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000973s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000847s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 LIMIT 1   [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 45 行.
+SQL: SELECT * FROM `ycbb_member_demand` WHERE `status` = 0 ORDER BY  id desc LIMIT 0,10   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `ycbb_cart` [ RunTime:0.000741s ]
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 319 LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 318 LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 296 LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 282 LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 215 LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 287 LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 202 LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 286 LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+SQL: SELECT * FROM `ycbb_cart` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: cart_brand /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 57 行.
+NOTIC: [2] Illegal string offset 'pageNum' /var/www/html/ycbb/ThinkPHP/Library/Think/Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/MemberDemandController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/f4204575c7b6b04f11ec6b1a06c60d05.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001054s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 536 LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 516 LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 512 LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 499 LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 392 LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 503 LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 449 LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 479 LIMIT 1   [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2015-04-22T19:18:24+08:00 ] 117.30.204.235 /index.php/Admin/Order/index?_=1429701726106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [2048] Declaration of OrderController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/OrderController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000699s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000743s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.000820s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_order` LIMIT 1   [ RunTime:0.000350s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 183 行.
+SQL: SELECT * FROM `ycbb_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 193 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 6 行.
+NOTIC: [8] Undefined index: order_no /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 18 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 24 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 27 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 30 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 33 行.
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001050s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 244 LIMIT 1   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000940s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 467 LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 420 LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 526 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 450 LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 523 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 226 LIMIT 1   [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 525 LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 522 LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 482 LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 507 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 238 LIMIT 1   [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2015-04-22T19:18:24+08:00 ] 117.30.204.235 /index.php/Admin/Order/index?_=1429701726739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+NOTIC: [2048] Declaration of OrderController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/OrderController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000710s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000558s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.000907s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_order` LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 183 行.
+SQL: SELECT * FROM `ycbb_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 193 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 6 行.
+NOTIC: [8] Undefined index: order_no /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 18 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 24 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 27 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 30 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 33 行.
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001213s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 244 LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001148s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 467 LIMIT 1   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 420 LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 526 LIMIT 1   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 450 LIMIT 1   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 523 LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 226 LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 525 LIMIT 1   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 522 LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 482 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 507 LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 238 LIMIT 1   [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2015-04-22T19:18:25+08:00 ] 117.30.204.235 /index.php/Admin/Order/index?_=1429701727001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2048] Declaration of OrderController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/OrderController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000772s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000589s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.001218s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_order` LIMIT 1   [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 183 行.
+SQL: SELECT * FROM `ycbb_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 193 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 6 行.
+NOTIC: [8] Undefined index: order_no /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 18 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 24 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 27 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 30 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 33 行.
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001084s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 244 LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.000992s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 467 LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 420 LIMIT 1   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 526 LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 450 LIMIT 1   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 523 LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 226 LIMIT 1   [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 525 LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 522 LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 482 LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 507 LIMIT 1   [ RunTime:0.000110s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 238 LIMIT 1   [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2015-04-22T19:18:25+08:00 ] 117.30.204.235 /index.php/Admin/Order/index?_=1429701727537
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [2048] Declaration of OrderController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/OrderController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000705s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000506s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.000813s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_order` LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 183 行.
+SQL: SELECT * FROM `ycbb_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 193 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 6 行.
+NOTIC: [8] Undefined index: order_no /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 18 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 24 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 27 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 30 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 33 行.
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001235s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 244 LIMIT 1   [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001155s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 467 LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 420 LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 526 LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 450 LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 523 LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 226 LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 525 LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 522 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 482 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 507 LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 238 LIMIT 1   [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-04-22T19:18:26+08:00 ] 117.30.204.235 /index.php/Admin/Order/index?_=1429701728026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+NOTIC: [2048] Declaration of OrderController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/OrderController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000733s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000708s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `ycbb_order` [ RunTime:0.001318s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ycbb_order` LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: pageNum /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 183 行.
+SQL: SELECT * FROM `ycbb_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 193 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: sort /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 6 行.
+NOTIC: [8] Undefined index: order_no /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 18 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 24 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 27 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 30 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 33 行.
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SHOW COLUMNS FROM `ycbb_member` [ RunTime:0.001189s ]
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 244 LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant` [ RunTime:0.001005s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 273 LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 467 LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 420 LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 526 LIMIT 1   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 251 LIMIT 1   [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 450 LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 523 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 226 LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 525 LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 522 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 482 LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 259 LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: furl /var/www/html/ycbb/Runtime/Cache/Admin/18bc66a7b6334412ab8e61a2539ecfbd.php 第 77 行.
+SQL: SELECT * FROM `ycbb_member` WHERE `id` = 507 LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT * FROM `ycbb_merchant` WHERE `id` = 238 LIMIT 1   [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-04-22T19:20:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-04-22T19:20:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+
+[ 2015-04-22T19:20:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+
+[ 2015-04-22T19:22:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+
+[ 2015-04-22T19:22:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2015-04-22T19:22:25+08:00 ] 117.30.204.235 /index.php/Admin/Public/checkLogin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2015-04-22T19:22:25+08:00 ] 117.30.204.235 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-04-22T19:22:27+08:00 ] 117.30.204.235 /index.php/Admin/Recent/index?_=1429702012384
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2048] Declaration of RecentController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/RecentController.class.php 第 3 行.
+NOTIC: [2048] Declaration of RecentController::insert() should be compatible with CommonController::insert($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/RecentController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000785s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='56' and g.status='1' )  [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000840s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent` [ RunTime:0.000788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent` WHERE `status` <> '-1' LIMIT 1   [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent` [ RunTime:0.000736s ]
+SQL: SELECT a.id,b.name,a.content,a.system_user_id,a.addtime,a.longitude,a.latitude,a.comment_count FROM ycbb_answer_user_recent as a INNER JOIN ycbb_system_user as b on a.system_user_id = b.id  WHERE a.status <> '-1' ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent_reply` [ RunTime:0.000552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 866 AND `status` = 0 LIMIT 1   [ RunTime:0.000084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 950 AND `status` = 0 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 868 AND `status` = 0 LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 862 AND `status` = 0 LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 858 AND `status` = 0 LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 867 AND `status` = 0 LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 923 AND `status` = 0 LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 861 AND `status` = 0 LIMIT 1   [ RunTime:0.000076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 863 AND `status` = 0 LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 859 AND `status` = 0 LIMIT 1   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2015-04-22T19:22:28+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429702013132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000730s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='56' and g.status='1' )  [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000607s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000926s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429701748 LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000876s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429701748 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2015-04-22T19:22:40+08:00 ] 117.30.204.235 /index.php/Admin/Demand/detail/id/1242/furl/aHR0cCUzQSUyRiUyRmNhcnl1Lm5ldCUyRmluZGV4LnBocCUyRkFkbWluJTJGRGVtYW5kJTJGaW5kZXglMkZwYWdlTnVtJTJGMSUyRm51bVBlclBhZ2UlMkYxMA==?_=1429702024895
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000698s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='56' and g.status='1' )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000538s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001017s ]
+SQL: SELECT a.*,b.nick_name,b.mobile,b.header FROM ycbb_member_demand as a INNER JOIN ycbb_member as b on a.member_id = b.id  WHERE ( a.id=1242 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: select sum(a.price) as total_price,sum(a.out_time) as total_time,b.merchant_name,b.header,b.mobile,b.tel ,b.id as merchant_id,b.latitude,b.longitude from ycbb_merchant_bidding as a left join ycbb_merchant as b on a.merchant_id = b.id where demand_id = 1242  group by merchant_id order by a.addtime asc [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `ycbb_demand_merchant_enable` [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `ycbb_demand_merchant_enable` [ RunTime:0.000450s ]
+SQL: SELECT a.merchant_name,a.tel,a.id,a.mobile,a.header,a.longitude,a.latitude,a.address,b.name as province,c.name as city,d.name as area FROM ycbb_demand_merchant_enable as f LEFT JOIN ycbb_merchant as a on f.merchant_id = a.id LEFT JOIN ycbb_city as b on a.province_id = b.id LEFT JOIN ycbb_city as c on a.city_id = c.id LEFT JOIN ycbb_city as d on a.area_id = d.id  WHERE f.demand_id = '1242'  [ RunTime:0.001464s ]
+NOTIC: [8] Undefined variable: biddingMerchant /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: currentUser /var/www/html/ycbb/Runtime/Cache/Admin/36e75e3387b43eeebbbf4192a4dcae03.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2015-04-22T19:24:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-04-22T19:24:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2015-04-22T19:25:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2015-04-22T19:26:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+
+[ 2015-04-22T19:26:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2015-04-22T19:28:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2015-04-22T19:28:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2015-04-22T19:30:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+
+[ 2015-04-22T19:30:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-04-22T19:30:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+
+[ 2015-04-22T19:31:37+08:00 ] 117.30.204.235 /index.php/Admin/Demand/urge_merchant?_=1429702562273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000736s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='56' and g.status='1' )  [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000575s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `ycbb_demand_merchant_enable` [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `ycbb_demand_merchant_enable` [ RunTime:0.000439s ]
+SQL: SELECT a.merchant_id,a.demand_id,b.manager,b.merchant_name,b.address,c.name FROM ycbb_demand_merchant_enable as a LEFT JOIN ycbb_merchant as b on a.merchant_id = b.id INNER JOIN ycbb_city as c on b.area_id = c.id  ORDER BY a.id asc  [ RunTime:0.016581s ]
+SQL: SHOW COLUMNS FROM `ycbb_merchant_bidding` [ RunTime:0.001090s ]
+SQL: SELECT * FROM `ycbb_merchant_bidding`  [ RunTime:0.000800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 3 行.
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 7 行.
+NOTIC: [8] Undefined variable: map /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 8 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 85 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 91 行.
+NOTIC: [8] Undefined variable: currentPage /var/www/html/ycbb/Runtime/Cache/Admin/bc4e2b58527bad1aac5846142efab8c3.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2015-04-22T19:31:39+08:00 ] 117.30.204.235 /index.php/Admin/Recent/index?_=1429702564317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2048] Declaration of RecentController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/RecentController.class.php 第 3 行.
+NOTIC: [2048] Declaration of RecentController::insert() should be compatible with CommonController::insert($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/RecentController.class.php 第 3 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000687s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='56' and g.status='1' )  [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000570s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent` [ RunTime:0.000678s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent` WHERE `status` <> '-1' LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent` [ RunTime:0.000733s ]
+SQL: SELECT a.id,b.name,a.content,a.system_user_id,a.addtime,a.longitude,a.latitude,a.comment_count FROM ycbb_answer_user_recent as a INNER JOIN ycbb_system_user as b on a.system_user_id = b.id  WHERE a.status <> '-1' ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_user_recent_reply` [ RunTime:0.000550s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 866 AND `status` = 0 LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 950 AND `status` = 0 LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 868 AND `status` = 0 LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 862 AND `status` = 0 LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 858 AND `status` = 0 LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 867 AND `status` = 0 LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 923 AND `status` = 0 LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 861 AND `status` = 0 LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 863 AND `status` = 0 LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_user_recent_reply` WHERE `recent_id` = 859 AND `status` = 0 LIMIT 1   [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/5f47516b588ab2712d13d52b63fe955f.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-04-22T19:31:40+08:00 ] 117.30.204.235 /index.php/Admin/Answer/index?_=1429702564816
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [2048] Declaration of AnswerController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/AnswerController.class.php 第 4 行.
+NOTIC: [2048] Declaration of AnswerController::insert() should be compatible with CommonController::insert($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/AnswerController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000753s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='56' and g.status='1' )  [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000514s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_category` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `ycbb_answer_category` WHERE `status` = 1 AND `pid` = 0  [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_problem` [ RunTime:0.000957s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_answer_problem` WHERE `status` = 0 LIMIT 1   [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `ycbb_answer_problem` [ RunTime:0.000718s ]
+SQL: SELECT a.id,a.title,c.name as pidname,a.system_user_id,b.name,a.attention,a.answer_num,a.addtime FROM ycbb_answer_problem as a INNER JOIN ycbb_system_user as b on a.system_user_id = b.id INNER JOIN ycbb_answer_category as c on a.pid = c.id  WHERE a.status = 0 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.003900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 6 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 8 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined variable: pid /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 21 行.
+NOTIC: [8] Undefined index: keywords /var/www/html/ycbb/Runtime/Cache/Admin/7e758007528072d8d93a82e3e90b0178.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-04-22T19:32:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2015-04-22T19:32:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-04-22T19:34:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2015-04-22T19:34:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2015-04-22T19:35:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2015-04-22T19:36:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-22T19:36:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2015-04-22T19:38:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+
+[ 2015-04-22T19:38:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-04-22T19:40:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-22T19:40:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-04-22T19:40:02+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-04-22T19:42:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-04-22T19:42:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-04-22T19:44:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+
+[ 2015-04-22T19:44:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+
+[ 2015-04-22T19:45:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+
+[ 2015-04-22T19:45:21+08:00 ] 117.30.204.235 /index.php/Admin/Demand/index?_=1429703342975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [2048] Declaration of DemandController::index() should be compatible with CommonController::index($dwz_db_name = '') /var/www/html/ycbb/Application/Admin/Controller/DemandController.class.php 第 4 行.
+NOTIC: [8] Undefined index: administrator /var/www/html/ycbb/Application/Admin/Controller/CommonController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ycbb_auth_group_access` [ RunTime:0.000667s ]
+SQL: SELECT `rules` FROM ycbb_auth_group_access a INNER JOIN ycbb_auth_group g on a.group_id=g.id  WHERE ( a.uid='49' and g.status='1' )  [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ycbb_auth_rule` [ RunTime:0.000520s ]
+SQL: SELECT `condition`,`name` FROM `ycbb_auth_rule` WHERE `id` IN ('1','2','3','30','33','5','6','7','8','34','16','20','32','35','41','9','11','13','36','37','14','18','19','21') AND `type` = 1 AND `status` = 1  [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.000987s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ycbb_member_demand` WHERE `status` = 0 AND `expire_time` > 1429703121 LIMIT 1   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ycbb_member_demand` [ RunTime:0.001086s ]
+SQL: SELECT a.id,b.nick_name,b.mobile,a.title,a.is_bidding,a.addtime FROM ycbb_member_demand as a LEFT JOIN ycbb_member as b on a.member_id = b.id  WHERE a.status = 0 AND a.expire_time > 1429703121 ORDER BY a.addtime desc LIMIT 0,10   [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: _order /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 4 行.
+NOTIC: [8] Undefined index: listRows /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 6 行.
+NOTIC: [8] Undefined variable: hidden_id /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 7 行.
+NOTIC: [8] Undefined index: status /var/www/html/ycbb/Runtime/Cache/Admin/a7be786326210371084d35c9ac466474.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-04-22T19:46:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-04-22T19:46:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2015-04-22T19:48:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-22T19:48:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-04-22T19:50:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+
+[ 2015-04-22T19:50:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+
+[ 2015-04-22T19:50:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/demand_push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2015-04-22T19:52:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/recent_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+
+[ 2015-04-22T19:52:01+08:00 ] 121.40.92.53 /index.php/Admin/Cron/answer_reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+

@@ -1,0 +1,236 @@
+@CHARSET "UTF-8";
+.banner{
+	 background:url('../img/banner.png') no-repeat center center;"
+}
+
+.banner .login{
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	border-radius:10px; 
+	padding:0px ;
+	margin-top:44px;
+	margin-bottom:44px;"
+	
+}
+.theme-color{
+	color:rgb(248,125,34);
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.banner form input:focus{
+	border:1px solid rgb(248,125,34);
+}
+.black-color{
+	color:black;
+	text-align:left;
+}
+.login-bottom{
+	background:rgb(96,96,96);
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	color:white;
+}
+.login-body{
+	background-color:rgb(226,229,220);
+	border-top-right-radius:6px;
+	border-top-left-radius:6px; 
+	padding:5px 15% 10px 15%;
+}
+.login_submit{
+	background-color: #eb5a47;
+	border :0px;
+	width:80%;
+	border-radius:5px;
+	
+}
+.login_submit:hover{
+	background:#393939;
+}
+.register_submit{
+	background:rgb(248,125,34);
+	border:0;
+	margin:5px 5px ;
+	font-size:13px;
+	padding: 8px 13px;
+	border-radius:5px;
+}
+.register_submit:hover{
+	background:#393939;
+}
+.nav li a:hover{
+	color: rgb(248,125,34);
+}
+.navbar-default .navbar-nav > li > a.active{
+	color: rgb(248,125,34);
+}
+.login-body .checkboxsize{
+	width:17px;
+	height:17px;
+	margin-top:2px;
+	background:rgb(248,125,34);
+}
+.login-body .input-type{
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.login-body .span-left-type{
+	border-bottom-left-radius: 7px;
+	border-top-left-radius: 7px;
+}
+.border-bottom{
+	border-bottom:2px solid  rgb(248,125,34);
+}
+.con-title{
+	margin-top:13px;
+	margin-bottom:3px;
+	margin-left:122px;
+	color:#f87d22;
+	font-size:23px;
+}
+.conten-title{
+	margin-top:137px;
+	color:#2291f8;
+	font-size:25px;
+	
+}
+
+
+.conten-p{
+	
+	padding:32.5px 0px  0px 0px;
+	color:#4d4d4d;
+	font-size:16px;
+	~font-weight:700;
+}
+.content1{
+	margin-left:-1000px;
+}
+.pic1{
+	margin-left:1000px;
+}
+.content2{
+	margin-left:1000px;
+}
+.pic2{
+	margin-left:-1000px;
+}
+
+.content3{
+	margin-left:-1500px;
+}
+.pic3{
+	margin-left:1000px;
+}
+
+.content4{
+	margin-left:1000px;
+}
+.pic4{
+	margin-left:-1000px;
+}
+.border-deshed{
+	border-bottom: 1px dashed #999999;
+}
+@media (max-width:768px){
+	.conten-title{
+		margin-top:37px;
+		color:#2291f8;
+		font-size:25px;
+	}
+	.conten-p{
+		padding:32.5px 0px 0px 0px;
+		color:#4d4d4d;
+		font-size:16px;
+		font-weight:700;
+	}
+
+}
+.bottom-font{
+	color:#2291f8;
+	font-size:21px;
+	line-height:36px;
+	font-weight:500;
+}
+.bottom-font-2{
+	font-size:16px;
+	font-weight:500;
+	text-align:left;
+	
+}
+.btn-transparent{
+	background-color: transparent;
+	border: 0;
+	text-decoration: underline;
+	color:black;
+}
+.form-group .input-group .time-padding{
+	padding:1px 5px;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.theme-color-btn{
+	background-color: #eb5a47;
+	border: 0px;
+	border-radius: 5px;
+}
+.theme-color-btn:hover{
+	background:#393939;
+}
+.nav-right-answer a{
+	font-size: 18px;
+	color: #ffffff;
+	position: relative;
+	display: block;
+	line-height:23px;
+	padding: 10px 15px;
+
+	
+}
+.color-red{
+	color:red;
+}
+.color-green{
+	color:green;
+}
+.color-grep{
+	color:#cccccc;
+}
+.sprite{
+	background:url(../img/spite.png) 2px 30px;
+	width:2px;
+	height:30px;
+	display:block;
+	float:left;
+	margin-top:5px;
+}
+.theme-h5{
+	color:#6e6e6e;
+	font-size:16px;
+	line-height:16px;
+	margin:10px;
+	display:block;
+}
+.theme-h6{
+	color:#6e6e6e;
+	font-size:14px;
+	line-height:14px;
+	
+}
+.font-grep{
+	color:rgb(145,148,153);
+}
+#cnzz_stat_icon_1254510099 a{color:white;}
+	
+.sep {
+	display:inline-block;
+	}
+.footer .menu_bottom a {
+	color:rgb(153,153,153);
+}
+#nostatus .input-group input{
+	text-indent:1em;
+}
+.nav-tabs > li.active > a:focus {
+	~border:none;
+}

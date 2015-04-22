@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+.top_header{
+	background:black;
+	height:64px;
+}
+.title-yel-1{
+	color:rgb(248,125,35);
+	font-size:16px;
+	text-align:center;
+}
+
+.block-20{
+	height:25px;
+}
+.input-radius{
+	width:240px;
+	height:32px;
+	~border-radius: 4px;
+	border:1px solid rgb(248,125,35);
+	text-indent:10px;
+}
+.height32{
+	height:32px;
+}
+.height68{
+	height:68px;
+}
+.icon{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.bg{
+	background:#f0f0f0;
+}
+.icon_1_l{
+	background:url('../img/num_1_l.png') no-repeat center center;
+}
+.icon_2_l{
+	background:url('../img/num_2_l.png') no-repeat center center;
+}
+.icon_3_l{
+	background:url('../img/num_3_l.png') no-repeat center center;
+}
+
+.icon2{
+	background:url('../img/num_2.png') no-repeat center center;
+}
+.icon3{
+	background:url('../img/num_3.png') no-repeat center center;
+}
+.load_l{
+	background:url('../img/load_l.png') no-repeat center center;
+}
+.load_g{
+	background:url('../img/load_g.png') no-repeat center center;
+}
+.title_font{
+	margin-left:4px;
+	font-size:28px;
+	line-height:25px;
+	！font-weight:bold;
+	float:left;
+	
+}
+.title_font_l{
+	color:#f87d22;
+}
+.title_font_g{
+	color:#b3b3b3;
+}
+.load{
+	
+	width:84px;
+	margin:11px 14px;
+	height:4px;
+	float:left;
+	
+}
+.white_bg_border{
+	background:white;
+	border:1px solid #cccccc;
+ 	box-shadow: 4px 4px 5px #888888;;
+   -webkit-box-shadow:   4px 4px 5px #888888;;
+   -moz-box-shadow:   4px 4px 5px #888888;;
+	
+}
+.laber_info{
+	padding:4px 0px;
+	font-size:24px;
+    color:#f87d22;
+	line-height:24px;
+	text-align:right;
+   
+}
+.laber_alert{
+	font-size:16px;
+	line-height:16px;
+	text-align:left;
+	color:#A3A3A3;
+	padding:8px 0px;
+	
+}
+.cont{
+	width:598px;
+	height:435px;
+	margin:0 auto;
+}
+.button_code{
+	width:106px;
+	height:32px;
+	background:#f87d22;
+	color:white;
+	font-size:14px;
+	line-height:14px;
+	text-align:center;
+	padding:9px 0px;
+	float:right;
+	margin-right:6px;
+	cursor:pointer;
+}
+.padding-r-0{
+	padding-right:0px;
+}
+.auth_user{
+	margin:24px auto;
+	width:280px;
+	font-size:16px;
+	color:#1a1a1a;
+	line-height:16px;
+}
+.auth_user .link{
+	color:#f87d22;
+	
+}
+.auth_user input {
+	width:16px;
+	height:16px;
+	
+}
+.submit {
+	width:305px;
+	height:38px;
+	background:#f87d22;
+	margin:0 auto;
+	display:block;
+	color:white;
+	font-size:20px;
+	line-height:20px;
+}
+.white_bg_border p {
+	text-align:center;
+	font-size:24px;
+}
+.border_yel_bottom{
+	border-bottom:2px solid #f87d22;
+}
+
