@@ -1,0 +1,38 @@
+<div class="page">
+    <div class="pageContent">
+
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>商家名称：</label>
+                    {$vo.merchant_id|getMerchantName}
+                </div>
+                <div class="unit">
+                    <label>客户名称：</label>
+                   {$vo.member_id|getMemberName}
+                </div>
+                <div class="unit">
+                    <label>需求标题：</label>
+                   {$vo.title}
+                </div>
+                <div class="unit">
+                    <label>需求详情：</label>
+                   {$vo.desc}
+                </div>
+                <div class="unit">
+                    <label>商家报价：</label>
+                   {$vo.price}
+                </div>
+                <div class="unit">
+                    <label>商家备注：</label>
+                    {$vo.remark}
+                </div>
+                <div class="unit">
+                    <label>报价时间：</label>
+                   {$vo.addtime|toDate}
+                </div>
+            </div>
+
+    </div>
+</div>
+
+

@@ -1,0 +1,123 @@
+<div class="page">
+	<div class="pageContent pageForm">
+		<div class="pageHeader">
+		<form onsubmit="return dwzSearch(this, 'dialog')" action="__URL__/changeUser/dialogID/changeUser" method="post">
+		<div class="searchBar">
+			<ul class="searchContent">
+				<li>
+					<label>搜索名称：</label>
+					<input name="keywords" type="text" value="{$keywords}"/>
+				</li>
+				
+			</ul>
+			<div class="subBar">
+				<ul>
+					<li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+					
+				</ul>
+			</div>
+		</div>
+		</form>
+	</div>
+		<div class="pageFormContent" layoutH="110">
+		<table class="list">
+		<tr class="row" ><td colspan="3" class="space" id="currentUser">当前用户:{$currentUser['id']|default="无"},
+		<if condition="$currentUser.type eq 2">
+			商户
+		<elseif condition="$currentUser.type eq 0"/>
+			用户
+		<else/>
+			未知
+		</if>
+		 ,{$currentUser['name']|default="无"},{$currentUser['phone']|default="无"}
+		</td></tr>
+		<tr>
+			<th>ID</th>
+			<th>类型</th>
+			<th>名称</th>
+			<th>电话</th>
+		</tr>
+		<volist name="user" id="v">
+		<tr class="row clickable" id = "{$v['id']}" >
+		
+		<td width="15%">{$v['id']}</td>
+		<td>
+		<if condition="$v.type eq 2">
+			商户
+		<elseif condition="$v.type eq 0"/>
+			用户
+		<else/>
+			未知
+		</if>	
+		</td>
+	<td>{$v['name']}</td><td>{$v['phone']}</td>
+	</tr>
+		</volist>
+		</table>
+		</div>
+		<div class="formBar">
+			<ul>
+				
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">关闭</button></div></div></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+$().ready(function(){
+	//定义setTimeout执行方法
+	var TimeFn = null;
+
+	$('table .clickable').click(function () {
+	    // 取消上次延时未执行的方法
+	   // clearTimeout(TimeFn);
+	    //执行延时
+	  //  TimeFn = setTimeout(function(){
+	        //do function在此处写单击事件要执行的代码
+	    	$('table .clickable').removeAttr('checked');
+			$(this).attr('checked','checked');
+	   // },300);
+	});
+
+	$('table .clickable').dblclick(function () {
+	     // 取消上次延时未执行的方法
+	  //  clearTimeout(TimeFn);
+	    //双击事件的执行代码
+		var id = $(".clickable[checked=checked]").attr('id');
+		if( id == ''|| id == undefined){
+			alert('请选择用户后在确认');
+			return false;
+		}
+
+		$.ajax({
+			url:'__MODULE__/Public/ajaxChangeUser',
+			type:"POST",
+			data:{'id':id},
+			success: function(data){
+				var type ;
+				if(data.code == 0){
+					if(data.data.type == 0){
+						type = '用户';
+					}else if (data.data.type ==2){
+						type ='商户';
+					}else{
+						type ='未知';
+					}
+						$('#currentUser').html('当前用户:'+data.data.id+','+type+','+data.data.name+','+data.data.phone);
+						$('.pageFormContent').animate({scrollTop: '0px'}, 500);
+						$.pdialog.closeCurrent();
+						  navTab.reloadFlag('container.index');
+						 
+				}else{
+					alert(data.msg);
+				}
+			},
+			  dataType: 'json'
+		});
+		
+	})
+
+	
+})
+
+</script>

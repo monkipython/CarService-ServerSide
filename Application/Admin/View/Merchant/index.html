@@ -1,0 +1,130 @@
+<form id="pagerForm" action="__URL__" method="post">
+    <input type="hidden" name="pageNum" value="{$_REQUEST['pageNum']|default=1}"/>
+    <input type="hidden" name="numPerPage" value="{$numPerPage}"/>
+    <input type="hidden" name="_order" value="{$_REQUEST['_order']}"/>
+    <input type="hidden" name="_sort" value="{$_REQUEST['_sort']|default='1'}"/>
+    <input type="hidden" name="listRows" value="{$_REQUEST['listRows']}"/>
+    <volist name="map" id="m">
+        <input type="hidden" name="{$key}" value="{$_REQUEST[$key]}"/>
+    </volist>
+</form>
+
+
+<div class="page">
+    <div class="pageHeader">
+        <form onsubmit="return navTabSearch(this);" action="__URL__" method="post">
+            <div class="searchBar">
+                <ul class="searchContent">
+                  <li style="width:250px;">
+                        <label>商家手机号：</label>
+                        <input type="text" name="mobile" value="{$mobile}" class="medium" >
+                    </li>
+                    <li style="width:250px;">
+                        <label>商家名称：</label>
+                        <input type="text" name="keywords" value="{$keywords}" class="medium" >
+                    </li>
+                    <li style="width:250px;">
+                        <label>激活状态：</label>
+                        <select class="combox" name="is_check">
+                            <option value="">请选择</option>
+                            <option value="1" <eq name="status" value="1">selected=selected</eq>>已审核</option>
+                            <option value="2" <eq name="status" value="2">selected=selected</eq>>未审核</option>
+                        </select>
+                    </li>
+                      <li style="width:250px;">
+                        <label>状态：</label>
+                        <select class="combox" name="status">
+                            <option value="">请选择</option>
+                             <option value="2" <eq name="mstatus" value="2">selected=selected</eq>>正常</option>
+                            <option value="1" <eq name="mstatus" value="1">selected=selected</eq>>测试</option>
+                            <option value="-1" <eq name="mstatus" value="-1">selected=selected</eq>>封停</option>
+                            
+                        </select>
+                    </li>
+                </ul>
+                <div class="subBar">
+                    <ul>
+                        <li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="pageContent">
+        <div class="panelBar">
+            <ul class="toolBar">
+              <!--  <li><a class="add" href="__URL__/add" target="navTab" mask="true" width="700" height="400"><span>新增</span></a></li>
+                <li><a class="edit" href="__URL__/edit/id/{sid_node}" target="navTab" mask="true" warn="请选择节点" width="700" height="400"><span>修改</span></a></li>
+             -->
+             <li><a class="delete" href="__URL__/setAcount/id/{sid_node}/status/-1" target="ajaxtodo"  warn="请选择节点" ><span>封停</span></a></li>
+            <li><a class="icon" href="__URL__/setAcount/id/{sid_node}/status/1" target="ajaxtodo"  warn="请选择节点" ><span>升为测试账号</span></a></li>
+            <li><a class="add" href="__URL__/setAcount/id/{sid_node}/status/0" target="ajaxtodo"  warn="请选择节点" ><span>升为正常账号</span></a></li>
+            </ul>
+        </div>
+        <table class="list" width="100%" layoutH="116">
+            <thead>
+                <tr>
+                     <th width="45">商家ID</th>
+                    <th width="100">商家名称</th>
+                    <th width="100">负责人</th>
+                    <th width="100">座机电话</th>
+                    <th width="100">地区</th>
+                    <th width="100">联系地址</th>
+                    <th width="100">简介</th>
+                    <th width="100">联系电话</th>
+                    <th width="70">激活</th>
+                    <th width='60'>状态</th>
+                    <th width="100">注册地址</th>
+                     <th width="100">激活人</th>
+                    <th width="100">添加时间</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+            <volist id="vo" name="list">
+                <tr target="sid_node" rel="{$vo['id']}">
+                    <td>{$vo['id']}</td>
+                    <td><a href="__URL__/edit/id/{$vo['id']}/furl/{$furl}" target="navTab" rel="Merchant.detail">{$vo['merchant_name']}</a></td>
+                    <td>{$vo['manager']}</td>
+                    <td>{$vo['tel']}</td>
+                    <td>{$vo['area_id']|getAreasName}</td>
+                    <td>{$vo['address']}</td>
+                    <td>{$vo['intro']}</td>
+                    <td>{$vo['mobile']}</td>
+                    <td>{$vo['is_check']|getStatus}</td>
+                    <if condition="$vo.status eq 0">
+                    <td style="color:green">正常</td>
+                    <elseif condition ="$vo.status eq -1"/>
+                    <td style="color:red">封停</td>
+                    <elseif condition="$vo.status eq 1"/>
+                    <td style="color:grep">测试</td>
+                     <else/>
+                     <td>未知</td>
+                     </if>
+                    <td>{$vo['baidumap']}</td>
+                    <td>{$vo['salename']}</td>
+                    <td>{$vo['addtime']|toDate}</td>
+                </tr>
+            </volist>
+
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage: this.value})">
+                    <option value="5" <eq name="numPerPage" value="5">selected=selected</eq>>5</option>
+                    <option value="10" <eq name="numPerPage" value="10">selected=selected</eq>>10</option>
+                    <option value="15" <eq name="numPerPage" value="15">selected=selected</eq>>15</option>
+                    <option value="20" <eq name="numPerPage" value="20">selected=selected</eq>>20</option>
+                </select>
+                <span>共{$totalCount}条</span>
+
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+        </div>
+    </div>
+</div>

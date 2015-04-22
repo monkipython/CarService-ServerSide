@@ -1,0 +1,133 @@
+<style type="text/css" media="screen">
+    .my-uploadify-button {
+        background:none;
+        border: none;
+        text-shadow: none;
+        border-radius:0;
+    }
+
+    .uploadify:hover .my-uploadify-button {
+        background:none;
+        border: none;
+    }
+
+    .fileQueue {
+        width: 400px;
+        height: 150px;
+        overflow: auto;
+        border: 1px solid #E5E5E5;
+        margin-bottom: 10px;
+    }
+</style>
+<div class="page">
+    <div class="pageContent">
+
+        <form method="post" action="__URL__/insert/navTabId/__DWZ__" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone)">
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>用户昵称：</label>
+                    <input type="text" class="required"  name="nick_name" id="nick_name">
+                </div>
+                <div class="unit">
+                    <label>头像：</label>
+                    <div class="pageContent">
+                        <input id="testFileInput" type="file" name="image" 
+                               uploaderOption="{
+                               swf:'__PUBLIC__/uploadify/scripts/uploadify.swf',
+                               uploader:'__MODULE__/File/upload/path/Header/',
+                               formData:{PHPSESSID:'xxx', ajax:1},
+                               buttonText:'上传头像',
+                               fileSizeLimit:'500KB',
+                               fileTypeDesc:'*.jpg;*.jpeg;*.gif;*.png;',
+                               fileTypeExts:'*.jpg;*.jpeg;*.gif;*.png;',
+                               auto:true,
+                               multi:false,
+                               onUploadSuccess:function(file,data,response){
+                                    document.getElementById('avatar').value =data;
+                               }
+                               }"
+                               />
+                    </div>
+                </div>
+                <div class="unit">
+                    <label>头像地址：</label>
+                    <input type="text" class="required"  name="avatar" id="avatar">
+                </div>
+                <div class="unit">
+                    <label>联系电话：</label>
+                    <input type="text" class="required"  name="mobile" id="mobile">
+                </div>
+                <div class="unit">
+                    <label>邮箱：</label>
+                    <input type="text" class="required"  name="email" id="email">
+                </div>
+                <div class="unit">
+                    <label>余额：</label>
+                    <input type="text" class="required "  name="account" id="account" value="0.00" />
+                </div>
+                <div class="unit">
+                    <label>积分：</label>
+                    <input type="text" class="required "  name="point" id="point" value="0" />
+                </div>
+                <div class="unit">
+                    <label>提供服务：</label>
+                    <volist name="category" id="vo">
+                        <input type="checkbox" name="pcat_id[]" value="{$key}"/>{$vo}
+                    </volist>
+                </div>
+                <div class="unit">
+                    <label>简介：</label>
+                    <textarea name="intro" cols="70" rows="10"></textarea>
+                </div>
+                <div class="unit">
+                    <label>状态：</label>
+                    <input type="radio" class="required" checked name="status" value='1'>可用
+                    <input type="radio" class="required"  name="status" value='0'>禁用
+                </div>
+            </div>
+
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".look_map").click(function() {
+            window.open("__MODULE__/Public/baidumap");
+        });
+
+        $('#province_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择城市</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#city_id").html(str);
+            });
+        });
+
+        $('#city_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择地区</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#area_id").html(str);
+            });
+        });
+    });
+
+</script>
+

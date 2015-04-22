@@ -1,0 +1,135 @@
+<form id="pagerForm" action="__URL__" method="post">
+    <input type="hidden" name="pageNum" value="{$_REQUEST['pageNum']|default=1}"/>
+    <input type="hidden" name="numPerPage" value="{$numPerPage}"/>
+    <input type="hidden" name="_order" value="{$_REQUEST['_order']}"/>
+    <input type="hidden" name="_sort" value="{$_REQUEST['_sort']|default='1'}"/>
+    <input type="hidden" name="listRows" value="{$_REQUEST['listRows']}"/>
+    <volist name="map" id="m">
+        <input type="hidden" name="{$key}" value="{$_REQUEST[$key]}"/>
+    </volist>
+</form>
+
+
+<div class="page">
+    <div class="pageHeader">
+        <form onsubmit="return navTabSearch(this);" action="__URL__" method="post">
+            <div class="searchBar">
+                <ul class="searchContent">
+                    <li>
+                        <label>订单号：</label>
+                        <input type="text" name="order_no" value="{$_REQUEST.order_no}" class="medium" >
+                    </li>
+                    <li>
+                    	<label>订单状态</label>
+                    	<select name="status">
+                    		<option >请选择</option>
+                    		<if condition ="$_REQUEST.status eq 0">
+                    		<option value="0" selected>未完成订单</option>
+                    		<else/>
+                    		<option value="0">未完成订单</option>
+                    		</if>
+                    		<if condition ="$_REQUEST.status eq 1">
+                    		<option value="1" selected>完成订单</option>
+                    		<else/>
+                    		<option value="1">完成订单</option>
+                    		</if>
+                    		<if condition ="$_REQUEST.status eq 2">
+                    		<option value="2" selected>违约订单</option>
+                    		<else/>
+                    		<option value="2">违约订单</option>
+                    		</if>
+                    		<if condition ="$_REQUEST.status eq 3">
+                    		<option value="3" selected>用户关闭订单</option>
+                    		<else/>
+                    		<option value="3">用户关闭订单</option>
+                    		</if>
+                    		
+                    	</select>
+                    </li>
+                </ul>
+                <div class="subBar">
+                    <ul>
+                       <li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="pageContent">
+        <div class="panelBar">
+            <ul class="toolBar">
+               <!--  <li><a class="edit" href="__URL__/edit/id/{sid_node}" target="dialog" mask="true" warn="请选择节点" width="700" height="400"><span>查看</span></a></li> -->
+            </ul>
+        </div>
+        <table class="list" width="100%" layoutH="116">
+            <thead>
+                <tr>
+                	<th width="40">订单号</th>
+                    <th width="100">服务项目</th>
+                    <th width="80">用户</th>
+                    <th width="80">商户</th>
+                    <th width="40">订单状态</th>
+                    <th width="40">总价（元）</th>
+                    <th width="60">总时长（分）</th>
+                    <th width="60">车ID</th>
+                    <th width="100">添加时间</th>
+                    <th width="100">到店时间</th>
+      
+                </tr>
+            </thead>
+            <tbody>
+
+
+            <volist id="vo" name="list">
+                <tr target="sid_node" rel="{$vo['id']}">
+               		<td>{$vo['order_no']}</td>
+               		<td><a href="__ROOT__/Admin/Demand/detail/id/{$vo['sub_id']}/furl/{$furl}" target="navTab" rel="Demand.detail">{$vo['service_name']}</a></td>
+                    <td>{$vo['member_id']|getMemberName}</td>
+                    <td>{$vo['merchant_id']|getMerchantName}</td>
+                    <if condition="$vo.status eq 0">
+                    <td>未完成</td>
+                    <elseif condition ="$vo.status eq 1"/>
+                    <td>完成</td>
+                    <elseif condition ="$vo.status eq 2"/>
+                    <td>订单违约</td>
+                    <elseif condition = "$vo.status eq 3"/>
+                    <td>用户关闭订单</td>
+                    <else/>
+                    <td>未知错误</td>
+                    </if>
+                    <td>{$vo['total_price']}</td>
+                    <td>{$vo['total_time']}</td>
+                    <td>{$vo['cart_id']}</td>
+                    <td>{$vo['addtime']|toDate}</td>
+                    <td>{$vo['reach_time']|toDate}</td>
+                   <!--  <if condition="$vo.type eq 1">
+                    <td>普通需求</td>
+                    <elseif condition="$vo.type eq 3"/>
+                    <td>保养需求</td>
+                    <else/>
+                		    未知错误
+                    </if>
+                     -->
+                </tr>
+            </volist>
+
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage: this.value})">
+                    <option value="5" <eq name="numPerPage" value="5">selected=selected</eq>>5</option>
+                    <option value="10" <eq name="numPerPage" value="10">selected=selected</eq>>10</option>
+                    <option value="15" <eq name="numPerPage" value="15">selected=selected</eq>>15</option>
+                    <option value="20" <eq name="numPerPage" value="20">selected=selected</eq>>20</option>
+                </select>
+                <span>共{$totalCount}条</span>
+
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,352 @@
+
+
+
+	<include file="Public:header" />
+	<div class="container">
+		<div class="col-md-12" style="text-align: center; margin-top: 10px;">
+			<div class="panel panel-default">
+				<div class="panel-header" style="border-bottom: 1px solid #eee;">
+					<h3 class="h" style="color: #f87d22; margin-bottom: 15px;">
+						订单详情
+						<if condition="$data['status'] eq 1 "> <span
+							class="label label-success">完成</span> 
+							<elseif condition="$data['status'] eq 2 " />
+							<span
+							class="label label-success">用户违约</span> 
+							<elseif condition="$data['status'] eq 3" /> <span
+							class="label label-warning">用户取消</span>
+							<elseif condition="$data['status'] eq 0" /> <span
+							class="label label-warning">未完成</span>
+							
+							 </if>
+					</h3>
+				</div>
+				
+				<div class="panel-body">
+					<div class="col-md-12" style="text-align: left;">
+						<div class="col-md-3">
+							<span class="" style="margin-top: 20px; padding: 21px 5px;">
+								<img
+								src="{$data['header']|default='__PUBLIC__/img/default_user.jpg'}"
+								class="img-responsive  img-circle" width="200"  height="200"/> <!-- <button class="btn btn-info">删除 <i class="fa fa-remove fa-la"></i></button> -->
+							</span>
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h4>昵称：{$data['nick_name']}</h4>
+							</div>
+							<div class="col-md-12">
+								<p>车主留言： {$data['description']}</p>
+							</div>
+							<volist name="data.pics" id="vo">
+							<div class="col-md-3">
+								<span class="thumbnail"> <img src="{$vo.hb}" /> <!-- <button class="btn btn-info">删除 <i class="fa fa-remove fa-la"></i></button> -->
+								</span>
+							</div>
+							</volist>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default">
+									车型：{$data['cart_model']} </label>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default"> 到店时间：
+									{$data['reach_time']} </label>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default"> 距离：
+									{$data['distance']} 公里</label>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default"> 订单号：
+									{$data['order_no']} </label>
+									<input type="hidden" value="{$data['order_no']}" name="order_no"/>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12"
+						style="border-top: 1px solid #eee; padding-top: 25px;">
+						<!-- Table -->
+						<div class="col-md-9 " style="margin-left: 12.5%">
+							
+								<table class="table table-bordered text-center" id="project-table">
+									<thead>
+										<tr>
+											<th>项目</th>
+											<th>价格</th>
+											<th>时长</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<volist name="data.list" id="vo">
+										<tr>
+											<td>{$vo['name']} 
+											</td>
+											<td> <input type="number"
+													name="prices[]" value="{$vo.price}"  class="input-style " disabled="disabled"
+													placeholder="填写价格" />元 </td>
+											<td style="border-right:1px solid #dddddd;">
+													
+													 <input
+													type="number" name="day[]" value="{$vo.day}" disabled="disabled" class="time-format input-style"
+													 /> 天
+													  <input
+													type="number" name="hour[]" value="{$vo.hour}"  disabled="disabled"class="time-format input-style"
+													 /> 时
+													  <input
+													type="number" name="min[]" value="{$vo.min}"  disabled="disabled" class="time-format input-style"
+													 /> 分
+												
+											</td>
+
+
+										</tr>
+										</volist>
+										<tr>
+											<td colspan="4">
+												<div class="form-group">
+													<h4 class="h h-sm"
+														style="text-align:left;">商家备注</h4>
+													<textarea class="form-control" 
+														style="width: 100%; height: 200px; resize: none; color: black; border: 1px solid #dcdcdc;"
+														placeholder="暂无备注" name="merchant_remark" disabled="disabled">{$data['merchant_remark']}</textarea>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							<if condition="$data.member_comment eq 1 ">
+							<div class="col-md-12 text-left" >
+									<div class="col-md-12">
+									<h5 ><strong>用户留言</strong></h5>
+									</div>
+								<div class="col-md-2">
+									
+										<img
+										src="{$data['member_comment_info']['header']|default='__PUBLIC__/img/default_user.jpg'}"
+										class="img-responsive  img-circle" width="80" height="80"/>
+								</div>
+								<div class="col-md-9">
+									<div class="col-md-12">
+										<h6>昵称：{$data['member_comment_info']['nick_name']}</h6>
+									</div>
+									<div class="col-md-12">
+										<p style="font-size:16px;">车主留言： {$data['member_comment_info']['desc']}</p>
+									</div>
+									<div class="col-md-12">
+									 <div class="form-group">
+									    <label class="col-xs-4 col-sm-3 control-label">服务态度：</label>
+									    <div class="col-xs-12 col-sm-8">
+									     <input id="input-id1" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs"  
+										 value="{$data['member_comment_info']['service_attitude']}">
+									  </div>
+									</div>
+									</div>
+									<div class="col-md-12">
+										 <div class="form-group">
+									    <label class="col-xs-4 col-sm-3 control-label"> 服务质量：</label>
+									    <div class="col-xs-12 col-sm-8">
+									     <input id="input-id1" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs"  
+										 value="{$data['member_comment_info']['service_quality']}">
+									  </div>
+									  </div>
+									  
+									</div>
+									<div class="col-md-12">
+										 <div class="form-group">
+									    <label class="col-xs-4 col-sm-3 control-label">休闲环境：</label>
+									    <div class="col-xs-12 col-sm-8">
+									     <input id="input-id1" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs"  
+										 value="{$data['member_comment_info']['merchant_setting']}">
+									  </div>
+									</div>
+									</div>
+									
+								</div>
+								</div>
+							</if>	
+									<if condition="$data.merchant_comment eq 1 ">
+							<div class="col-md-12 text-left" >
+									<div class="col-md-12">
+									<h5 ><strong>商户留言</strong></h5>
+									</div>
+								<div class="col-md-2">
+									
+										<img
+										src="{$data['merchant_comment_info']['header']|default='__PUBLIC__/img/default_user.jpg'}"
+										class="img-responsive  img-circle" width="80" height="80"/>
+								</div>
+								<div class="col-md-9">
+									<div class="col-md-12">
+										<h6>昵称：{$data['merchant_comment_info']['nick_name']}</h6>
+									</div>
+									<div class="col-md-12">
+										<p style="font-size:16px;">我回复： {$data['merchant_comment_info']['desc']}</p>
+									</div>
+						
+									
+								</div>
+								</div>
+							</if>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<div class="row">
+						<div class="col-md-5">
+							<h5>
+								总价<span class="total_price">{$data['total_price']}</span>元 总时间<span
+									class="total_time">{$data['total_time']}</span>
+							</h5>
+						</div>
+						<div class="col-md-3">
+						</div>
+					
+						<div class=" col-md-4">
+							<div class="col-md-4">
+							<if condition="$data.status eq 1 and $data.merchant_comment eq 0">
+							<!-- Button trigger modal -->
+								<button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal">
+								  评论
+								</button>
+							
+							</if>
+							</div>
+							<div class="col-md-4">
+							<if condition ="$data.status eq 1">
+								<button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal1">
+								用户违约
+								</button>
+								<!-- 订单完成 可以违约 -->
+								
+							</if>
+							</div>
+							<div class="col-md-4">
+								<a class="btn btn-info" href="javascript:window.history.go(-1);">取消</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">评论</h4>
+      </div>
+      <div class="modal-body">
+      <textarea class="form-control" rows="4" id="comText" placeholder="填写评论内容"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-info" id ="submitcomment">确认</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">确认用户违约</h4>
+      </div>
+      <div class="modal-body">
+      <textarea class="form-control" rows="4" id="comTextfail" placeholder="填写违约原因" ></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-info" id ="submitorderfail">确认</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- footer -->
+	<include file="Public:footer" />
+	<!-- footer end-->
+	<script>
+		$().ready(function() {
+			//初始化rating
+			$(".rating").rating('refresh',{ showClear: false, showCaption: false,readonly:true});
+			$("input[name='prices[]']").blur(function() {
+				var price = 0 * 1;
+				$("input[name='prices[]']").each(function() {
+					var value = $(this).val();
+					if (value == '' || value == undefined) {
+						$(this).val('');
+					} else if (!isNaN(value) && value >= 0) {
+						price += value * 1;
+					} else {
+						alert('价格必须是数字且大于等于0');
+						$(this).focus();
+						return false;
+					}
+				});
+				$('.total_price').html(price);
+
+			});
+			$("#submitcomment").click(function(){
+				var order_no = $("input[name=order_no]").val();
+				var content = $("textarea[id=comText]").val();
+				//console.log(order_no);
+				//console.log(content);
+				$.ajax({
+				    type: 'POST',
+				    url: '/Plateform/merComment',
+				    data: {'order_no':order_no,'content':content} ,
+				    success: function(json){
+				    	if(json['code'] == 0){
+				    		//location.href = "/Plateform/unbid";
+				    		window.location.reload();
+				    		//$('#login_btn').attr('data-content','登录成功，跳转页面正在开发').popover('show');;
+				    	}else{
+				    		
+				    		alert(json.msg);
+				    		
+				    	}
+				    } ,
+				    dataType: 'json'
+				});
+				
+				
+			});
+			$("#submitorderfail").click(function(){
+				
+				var order_no = $("input[name=order_no]").val();
+				var content = $("textarea[id=comTextfail]").val();
+				//console.log(order_no);
+				//console.log(content);
+				$.ajax({
+				    type: 'POST',
+				    url: '/Plateform/confirmfail',
+				    data: {'order_no':order_no,'content':content} ,
+				    success: function(json){
+				    	if(json['code'] == 0){
+				    		//location.href = "/Plateform/unbid";
+				    		window.location.reload();
+				    		//$('#login_btn').attr('data-content','登录成功，跳转页面正在开发').popover('show');;
+				    	}else{
+				    		
+				    		alert(json.msg);
+				    		
+				    	}
+				    } ,
+				    dataType: 'json'
+				});
+			})
+			
+		})
+	</script>
+</body>
+</html>

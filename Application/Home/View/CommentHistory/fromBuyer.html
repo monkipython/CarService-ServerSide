@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>驾客－首页</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="__PUBLIC__/static/bootstrap/css/front-end.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/static/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/static/bootstrap/css/pagination.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/static/bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+<!--         <link href="__PUBLIC__/static/bootstrap/css/prettify.css" rel="stylesheet" type="text/css" /> -->
+        <link href="__PUBLIC__/static/bootstrap/css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css" />
+        <script src="__PUBLIC__/static/jquery-2.0.3.min.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/jquery.paginatetable.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/bootstrap-dialog.min.js" type="text/javascript"></script>
+<!-- 		<script src="__PUBLIC__/static/bootstrap/js/run_prettify.js" type="text/javascript"></script> -->
+    </head>
+    <body>
+    
+    	<!-- Large modal -->
+		
+		<!-- modal end -->
+		
+    	<div class="col-md-12" style="height:30px; background-color:#ddd; z-index:99;margin-bottom:0px; margin-top:0px;">
+	    	<ul class="top-nav pull-right">
+		    	<li><a href="/jiake/php_jiake/ycbb/Index/message"><i class="fa fa-envelope"></i> 消息 <span class="label label-primary">0</span> </a></li>
+		    	<li><a href="/jiake/php_jiake/ycbb/Index/profile"><i class="fa fa-gear"></i> 帐号管理 </a></li>
+		    	<li><a href="#"> 欢迎 ，<span class="label label-primary">卢先生</span></a></li>
+		    	<li><a href="#"> 退出 </a></li>
+	    	</ul>
+    	</div>
+    	<div class="col-md-12" style="height:80px; z-index:99; margin-bottom:0px; background-color:#fff;">
+	    	<a href="#" class="pull-left" style="margin-top:20px; margin-left:50px;"><img src="__PUBLIC__/img/logo.png"></a>
+    	</div>
+        <nav class="navbar navbar-default" role="navigation" style="background-color:#f87d22;">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+			      data-target="#bs-example-navbar-collapse-1">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-left nav-p">
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/orderIncomplete"> 我的订单 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/unbid"> 我要抢单 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/event"> 限时活动 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/comment"> 服务评价 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/project" > 我的项目 </a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="text-align:center">
+				<div class="btn-group" role="group" >
+						  <a href="/jiake/php_jiake/ycbb/Index/comment" class="btn btn-info active"> 客户给商户评价 <span class="badge">2
+						  </span></a>
+						  <a href="/jiake/php_jiake/ycbb/Index/commentTo" class="btn btn-info"> 商家给客户评价 <span class="badge">1
+						  </span></a>
+						</div>
+			</div>
+		</div>
+			<div class="col-md-12" style="text-align:left; margin-top:10px;">
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+					<!-- Default panel contents -->
+					  <div class="panel-heading" style="text-align:center"><h3>xxx美容店</h3></div>
+					  <div class="panel-body" style="text-align:center">
+					    <p>
+						  	<div class="col-md-4">
+								 	<label>服务态度：</label>
+									<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star-o fa-lg ycbb-star"></i>
+								 </div>
+								 <div class="col-md-4">
+								 	<label>服务质量：</label>
+									<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star-o fa-lg ycbb-star"></i>
+								 </div>
+								 <div class="col-md-4">
+								 	<label>商家环境：</label>
+									<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star fa-lg ycbb-star"></i>
+								  	<i class="fa fa-star-o fa-lg ycbb-star"></i>
+								 </div>
+						</p>
+					  </div>
+					  <!-- List group -->
+					  <ul class="list-group">
+					    <li class="list-group-item">
+					    <div style="padding:25px 10px;">
+					    <span class="thumbnail pull-left" style="width:100px; height:auto; margin-top:-10px;margin-right:20px;">
+						<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU4LjU0MTY2NjAzMDg4Mzc5IiB5PSI5MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE3MXgxODA8L3RleHQ+PC9nPjwvc3ZnPg=="/>
+						</span>
+					   		<h4 class="list-group-item-heading"> 小明</h4>
+							<p><label class="label label-default">{$date}</label> <label class="label label-default">
+								<i class="fa fa-file-text"></i> 订单号：xxxxxxxxxxx</label> 
+								<label class="label label-default">项目：洗车，美容</label></p>
+							<p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    </div>
+						</li>
+					    <li class="list-group-item">
+						    <div style="padding:25px 10px;">
+					    <span class="thumbnail pull-left" style="width:100px; height:auto; margin-top:-10px;margin-right:20px;">
+						<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU4LjU0MTY2NjAzMDg4Mzc5IiB5PSI5MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE3MXgxODA8L3RleHQ+PC9nPjwvc3ZnPg=="/>
+						</span>
+					   		<h4 class="list-group-item-heading"> 小明</h4>
+							<p><label class="label label-default">{$date}</label> <label class="label label-default">
+								<i class="fa fa-file-text"></i> 订单号：xxxxxxxxxxx</label> 
+								<label class="label label-default">项目：洗车，美容</label></p>
+							<p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    </div>
+					    </li>
+					    <li class="list-group-item">
+						    <div style="padding:25px 10px;">
+					    <span class="thumbnail pull-left" style="width:100px; height:auto; margin-top:-10px;margin-right:20px;">
+						<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU4LjU0MTY2NjAzMDg4Mzc5IiB5PSI5MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE3MXgxODA8L3RleHQ+PC9nPjwvc3ZnPg=="/>
+						</span>
+					   		<h4 class="list-group-item-heading"> 小明</h4>
+							<p><label class="label label-default">{$date}</label> <label class="label label-default">
+								<i class="fa fa-file-text"></i> 订单号：xxxxxxxxxxx</label> 
+								<label class="label label-default">项目：洗车，美容</label></p>
+							<p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    </div>
+					    </li>
+					    <li class="list-group-item">
+						    <div style="padding:25px 10px;">
+					    <span class="thumbnail pull-left" style="width:100px; height:auto; margin-top:-10px;margin-right:20px;">
+						<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU4LjU0MTY2NjAzMDg4Mzc5IiB5PSI5MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE3MXgxODA8L3RleHQ+PC9nPjwvc3ZnPg=="/>
+						</span>
+					   		<h4 class="list-group-item-heading"> 小明</h4>
+							<p><label class="label label-default">{$date}</label> <label class="label label-default">
+								<i class="fa fa-file-text"></i> 订单号：xxxxxxxxxxx</label> 
+								<label class="label label-default">项目：洗车，美容</label></p>
+							<p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    </div>
+					    </li>
+					    <li class="list-group-item"><div style="padding:25px 10px;">
+					    <span class="thumbnail pull-left" style="width:100px; height:auto; margin-top:-10px;margin-right:20px;">
+						<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU4LjU0MTY2NjAzMDg4Mzc5IiB5PSI5MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE3MXgxODA8L3RleHQ+PC9nPjwvc3ZnPg=="/>
+						</span>
+					   		<h4 class="list-group-item-heading"> 小明</h4>
+							<p><label class="label label-default">{$date}</label> <label class="label label-default">
+								<i class="fa fa-file-text"></i> 订单号：xxxxxxxxxxx</label> 
+								<label class="label label-default">项目：洗车，美容</label></p>
+							<p class="list-group-item-text">国内最好的团购导航，全国团购网站大全。汇聚全国多家大型知名团购网站</p>
+					    </div></li>
+					  </ul>
+				</div>
+				<div class="col-md-12" id="pagination" style="text-align:center">{$pages}</div>
+			</div>
+		</div>
+		
+		
+		<!-- footer -->
+		<div class="footer">
+			<div class="col-md-12" style="text-align:center; font-size:18px; background-color:#f87d22; color:#fff; padding-top:50px; padding-bottom:40px;">
+			<p class="copy-right">版权所有：厦门日后科技有限公司</p>
+			<p>客服电话：000－0000-000 传真：0000-1234567 邮编：361000</p>
+			<p>Copyright &copy; 2013-2014</p>
+			</div>
+		</div>
+		<!-- footer end-->
+		
+    </body>
+</html>

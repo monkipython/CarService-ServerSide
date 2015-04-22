@@ -1,0 +1,74 @@
+   <include file="Public:header"/>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<div class="btn-group" role="group" >
+				  <a href="/Plateform/addProject" class="btn btn-info ">添加项目</a>
+				  
+				</div>
+			</div>
+		</div>
+			<div class="col-md-12" style="text-align:center; margin-top:10px;">
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+				  <!-- Table -->
+				  <table class="table" id="project-table">
+				  	<thead>
+					  	<tr>
+						  	<th>项目名称</th>
+						  	<th>价格</th>
+						  	<th>耗时</th>
+						  	<th>上级分类</th>
+						  	<th>状态</th>
+						  	<th >操作</th>
+					  	</tr>
+				  	</thead>
+				  	<tbody>
+					  	
+					 <volist name="data" id="vo">
+					 	<tr>
+						  	<td>{$vo['service_name']}</td>
+						  	<td>{$vo['price']}</td>
+						  	<td>{$vo['timeout']|toDaydiff=###}</td>
+						  	<td><if condition ="$vo['classid'] eq 1">
+						  		<span class="">车辆美容</span>
+						  	<elseif condition = "$vo['classid'] eq 2"/>
+						  		<span class="">车辆装饰</span>
+						  	<elseif condition ="$vo['classid'] eq 3"/>	
+						  		<span class="">车辆维修</span>
+						  		
+						  	<elseif condition ="$vo['classid'] eq 4"/>
+						  		<span class="">车辆改装</span>
+						  		
+						  		
+						  	</if></td>
+						  	<td>
+						  	<if condition ="$vo['effect'] eq 0">
+						  		<span class="color-red">审核中</span>
+						  	<elseif condition = "$vo['effect'] eq 1"/>
+						  		<span class="color-green">审核通过</span>
+						  	</if>
+						  	</td>
+						 
+						  	<td>
+						  
+						  	<a href="/Plateform/projectdetail/id/{$vo['service_id']}" class="btn btn-info btn-sm">查看</a>
+						  	</td>
+						  	
+					  	</tr>
+					 
+					 </volist>
+				  	</tbody>
+				  </table>
+				</div>
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+		</div>
+		
+		
+		<!-- footer -->
+		<include file="Public:footer"/>
+		<!-- footer end-->
+		<script src="__PUBLIC__/static/bootstrap/js/jquery.session.js"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/script.js"></script>
+    </body>
+</html>

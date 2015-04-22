@@ -1,0 +1,153 @@
+<div class="page">
+    <div class="pageContent">
+    <div class="pageFormContent"  layoutH="0" style="">
+        <form method="post" action="__URL__/update/navTabId/__DWZ__" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone)">
+            <input type="hidden" name="id" value="{$vo.id}" >
+             <div class="unit">
+                    <label>店名：</label>
+                      <input type="text" class="required" value="{$vo.check_data.merchant_name}"  name="merchant_name">
+               		<img src="{$vo.check_data.header_location|default='__PUBLIC__/img/default_user.jpg'}  " width="75" 	height="75"/>
+               		<input type="hidden" name="header" value="{$vo.check_data.header}"/>
+                </div>
+                 <div class="unit">
+                    <label>联系电话：</label>
+                    <input type="text" class="required " value="{$vo.check_data.tel}"  name="tel"  />
+                </div>
+                
+                <div class="unit">
+                    <label>选择地址：</label>
+                     <select class="" name="province_id" id="province_id" >
+                        <option value="">请选择省份</option>
+                        <volist name="province" id="vocate">
+                        	<if condition=" $vo['check_data']['province_id'] eq $vocate['id']">
+                        	 <option selected=selected value="{$vocate.id}" >{$vocate.name}</option>
+                        	<else/>
+                        	 <option value="{$vocate.id}" >{$vocate.name}</option>
+                        	</if>
+                        </volist>
+                    </select>
+                    <select class="" name="city_id" id="city_id" >
+                        <option value="">请选择省份</option>
+                        <volist name="city" id="vocate1">
+                        	<if condition=" $vo['check_data']['city_id'] eq $vocate1['id']">
+                        	 <option selected=selected value="{$vocate1.id}" >{$vocate1.name}</option>
+                        	<else/>
+                        	 <option value="{$vocate1.id}" >{$vocate1.name}</option>
+                        	</if>
+                        
+                        </volist>
+                    </select>
+                    <select class="" name="area_id" id="area_id">
+                       <option value="">请选择区域</option>
+                        <volist name="area" id="vocate2">
+                        	<if condition=" $vo['check_data']['area_id'] eq $vocate2['id']">
+                        	 <option selected=selected value="{$vocate2.id}" >{$vocate2.name}</option>
+                        	<else/>
+                        	 <option value="{$vocate2.id}" >{$vocate2.name}</option>
+                        	</if>
+                        	
+                        </volist>
+                    </select>
+                </div>
+                <div class="unit">
+                    <label>详情地址：</label>
+                    <input type="text" class="required" value="{$vo.check_data.address}"  name="address" >
+                </div>
+               
+                <div class="unit">
+                    <label>营业时间：</label>
+                    <input type="text" class=" required" value="{$vo.check_data.business_time}"  name="business_time" >
+                </div>
+               
+                <div class="unit">
+                    <label>负责人：</label>
+                    <input type="text" class="required " value="{$vo.check_data.manager}"  name="manager"  />
+                </div>
+           
+                <div class="unit">
+                    <label>经度：</label>
+                    <input type="text" class="required "  name="longitude" id="longitude" value="{$vo.check_data.longitude}"/><a class="look_map">查看地图</a>
+                </div>
+                <div class="unit">
+                    <label>纬度：</label>
+                    <input type="text" class="required "  name="latitude" id="latitude"  value="{$vo.check_data.latitude}"/><a class="look_map">查看地图</a>
+                </div>
+                <div class="unit">
+                    <label>操作：</label>
+                    {$vo.check_action}
+                </div>
+                <div class="unit">
+                    <label>提交人：</label>
+                    {$vo.data_org}
+                </div>
+                 <div class="unit">
+                    <label>提交审核时间：</label>
+                   {$vo.addtime|toDate}
+                </div>
+                
+                 
+             
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit" >通过审核</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+            </form>
+             
+            </div>
+
+		<script>
+		//onclick="checkby({$vo.id})"
+				function checkby(id){
+						$.ajax({
+						     type: 'POST',
+						     url:'/index.php/App/Auth/execAction' ,
+						    data: {'id':id} ,
+						    success: function(json){
+						    	alert(json.msg);
+						    } ,
+						    dataType: 'json'
+						});
+				}
+			</script>
+    </div>
+</div>
+<script>
+    $(function() {
+		//console.log(navTab.getCurrentPanel());
+
+        $(".look_map",navTab.getCurrentPanel()).click(function() {
+         window.open('__MODULE__/Public/baidumap','newwindow','height=400,width=550,top=200,left=300,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no');
+         
+        });
+
+        $('#province_id',navTab.getCurrentPanel()).change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择城市</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#city_id",navTab.getCurrentPanel()).html(str);
+            });
+        });
+
+        $('#city_id',navTab.getCurrentPanel()).change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择地区</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#area_id",navTab.getCurrentPanel()).html(str);
+            });
+        });
+    });
+
+</script>
+

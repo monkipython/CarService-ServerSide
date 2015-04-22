@@ -1,0 +1,131 @@
+<div class="page">
+    <div class="pageContent">
+
+        <form method="post" action="__URL__/update/navTabId/__DWZ__" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone)">
+            <input type="hidden" name="id" value="{$vo.id}" >
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>活动名称：</label>
+                    <input type="text" class="required" value="{$vo.name}"  name="name" id="name">
+                </div>
+                <div class="unit">
+                    <label>秒杀价：</label>
+                    <input type="text" class="required" value="{$vo.second_price}"  name="second_price" id="second_price">
+                </div>
+                <div class="unit">
+                    <label>门市价：</label>
+                    <input type="text" class="required" value="{$vo.market_price}"  name="market_price" id="market_price">
+                </div>
+                <div class="unit">
+                    <label>开始时间：</label>
+                    <input type="text" class="date required" value="{$vo.start_time|toDate}" dateFmt="yyyy-MM-dd HH:mm:ss"  name="start_time" id="start_time">
+                </div>
+                <div class="unit">
+                    <label>结束时间：</label>
+                    <input type="text" class="date required " value="{$vo.end_time|toDate}" dateFmt="yyyy-MM-dd HH:mm:ss"  name="end_time" id="end_time" />
+                </div>
+                <div class="unit">
+                    <label>剩余数量：</label>
+                    <input type="text" class="required " value="{$vo.remain}"  name="remain" id="remain" />
+                </div>
+                 <div class="unit">
+                    <volist name="vo.pics" id="pics">
+                        <img src="__UPLOAD__{$pics}" />
+                    </volist>
+                </div>
+                <div class="unit">
+                    <label>图片：</label>
+                    <div class="divider"></div>
+                    <input id="testFileInput2" type="file" name="image" 
+                           uploaderOption="{
+                           swf:'__PUBLIC__/uploadify/scripts/uploadify.swf',
+                           uploader:'__MODULE__/File/upload/path/Acvitity/',
+                           formData:{PHPSESSID:'xxx', ajax:1},
+                           queueID:'fileQueue',
+                           buttonImage:'__PUBLIC__/uploadify/img/add.jpg',
+                           buttonClass:'my-uploadify-button',
+                           width:102,
+                           auto:false,
+                           onUploadSuccess:function(file,data,response){   
+                           var res=eval('(' + data + ')');
+                           var val=res.image.savepath+res.image.savename;
+                           var str = $('#imgurl1').html();
+                           str+='<input type=\'hidden\' name=\'pics[]\' value=\''+val+'\' />';
+                           $('#imgurl1').html(str);
+                           }
+                           }"
+                           />
+
+                    <div id="fileQueue" class="fileQueue"></div>
+                    <img src="__PUBLIC__/uploadify/img/upload.jpg" onclick="$('#testFileInput2').uploadify('upload', '*');"/>
+                    <img type="image" src="__PUBLIC__/uploadify/img/cancel.jpg" onclick="$('#testFileInput2').uploadify('cancel', '*');"/>
+                </div>
+                <div id="imgurl1">
+
+                </div>
+                <div class="unit">
+                    <label>适用车型：</label>
+                    <textarea name="cart_model" cols="70" rows="10">{$vo.cart_model}</textarea>
+                </div>
+                <div class="unit">
+                    <label>详细信息：</label>
+                    <textarea name="detail" cols="70" rows="10">{$vo.detail}</textarea>
+                </div>
+                
+                <div class="unit">
+                    <label>是否有效：</label>
+                    <input type="radio" class="required" <eq name="vo.effect" value="1">checked</eq>  name="effect" value='1'>有效
+                    <input type="radio" class="required" <eq name="vo.effect" value="0">checked</eq>   name="effect" value='0'>无效
+                </div>
+                <div class="unit">
+                    <label>状态：</label>
+                    <input type="radio" class="required" <eq name="vo.status" value="1">checked</eq>  name="status" value='1'>可用
+                    <input type="radio" class="required" <eq name="vo.status" value="0">checked</eq>  name="status" value='0'>禁用
+                </div>
+            </div>
+
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".look_map").click(function() {
+            window.open("__MODULE__/Public/baidumap");
+        });
+
+        $('#province_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择城市</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#city_id").html(str);
+            });
+        });
+
+        $('#city_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择地区</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#area_id").html(str);
+            });
+        });
+    });
+
+</script>
+

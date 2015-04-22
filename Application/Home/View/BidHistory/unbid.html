@@ -1,0 +1,73 @@
+    
+   <include file="Public:header"/>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<div class="btn-group" role="group" >
+				  <a href="/Plateform/unbid" class="btn btn-info active">未报价</a>
+				  <a href="/Plateform/bid" class="btn btn-info">已报价</a>
+				</div>
+			</div>
+		</div>
+			<div id="frame-view" class="col-md-12" style="text-align:center; margin-top:10px;">
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+				  <!-- Table -->
+				  <table class="table" id="project-table">
+				  	<thead>
+					  	<tr>
+						  	<th>车主称呼</th>
+						  	<th>发布时间</th>
+						  	<th>项目内容</th>
+						  	<th>报价情况</th>
+						  	<th>状态</th>
+						  	<th>距离</th>
+						  	<th colspan="2">操作</th>
+					  	</tr>
+				  	</thead>
+				  	<tbody>
+					  	
+					 <volist name="data" id="vo">
+					 	<if condition ="$vo['demand_status'] neq 0">
+					 	<tr style="color:#cccccc;" >
+					 	<else/>
+					 	<tr >
+					 	</if>
+						  	<td>{$vo['nick_name']}</td>
+						  	<td>{$vo['addtime']|substr=###,5}</td>
+						  	<td>{$vo['service_name']}</td>
+						  	<td>{$vo['offer_price_num']}家报价</td>
+						  	<td>
+						  	<if condition ="$vo['demand_status'] eq 0">
+						  		<span class="color-green">正常</span>
+						  	<elseif condition = "$vo['demand_status'] eq 1"/>
+						  		<span class="color-red">需求被抢</span>
+						  	<elseif condition ="$vo['demand_status'] eq 2"/>	
+						  		<span class="color-grep">取消需求</span>
+						  		
+						  	<elseif condition ="$vo['demand_status'] eq 3"/>
+						  		<span class="color-grep">需求过期</span>
+						  		
+						  	</if>
+						  	</td>
+						  	<td><p>{$vo['distance']}公里</p></td>
+						  	<td>
+						  	<if condition ="$vo['demand_status'] eq 0">
+						  	<a href="/Plateform/updateBid/demand/{$vo['id']}/type/1" class="btn btn-info btn-sm">抢单</a>
+						  	<else/>
+						  	<a href="javascript:;" class="btn btn-info btn-sm disabled">抢单</a>
+						  	</if>
+						  	</td>
+						  	
+					  	</tr>
+					 </volist>
+				  	</tbody>
+				  </table>
+				</div>
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+		</div>
+		
+		<!-- footer -->
+		<include file="Public:footer"/>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class IndexController extends Controller {
+	
+    public function index(){
+        $this->display("index");
+    }
+    
+    public function project(){
+	    $pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('pages',$paginate);
+    	$this->display("Activity/project");
+    }
+    
+    public function addProject(){
+	    $this->display("Activity/addProject");
+    }
+    
+    public function updateProject(){
+	    $this->display("Activity/updateProject");
+    }
+    
+    public function bid(){
+    	$date = date("Y-m-d H:i:s");
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("BidHistory/bid");
+    }
+    
+    public function unbid(){
+    	$date = date("Y-m-d H:i:s");
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("BidHistory/unbid");
+    }
+    public function updateBid(){
+	    $date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+	    $this->display("BidHistory/updateBid");
+    }
+    
+    public function orderIncomplete(){
+	    $date = date("Y-m-d H:i:s");
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("OrderHistory/incomplete");
+    }
+    
+    public function orderIncompleteDetail(){
+	    $date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+	    $this->display("OrderHistory/incompleteDetail");
+    }
+    
+    public function orderFail(){
+	    $date = date("Y-m-d H:i:s");
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("OrderHistory/fail");
+    }
+    
+    public function orderFailDetail(){
+	    $date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+	    $this->display("OrderHistory/failDetail");
+    }
+    
+    public function orderComplete(){
+	    $date = date("Y-m-d H:i:s");
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("OrderHistory/complete");
+    }
+    
+    public function orderCompleteDetail(){
+	    $date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+	    $this->display("OrderHistory/completeDetail");
+    }
+    
+    public function event(){
+	    $date = date("Y-m-d")." ～ ".date("Y-m-d",strtotime("2014-11-30"));
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("EventHistory/event");
+    }
+    
+    public function activeEvent(){
+	    $date = date("Y-m-d")." ～ ".date("Y-m-d",strtotime("2014-11-30"));
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("EventHistory/activeEvent");
+    }
+    
+    public function inActiveEvent(){
+	    $date = date("Y-m-d")." ～ ".date("Y-m-d",strtotime("2014-11-30"));
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("EventHistory/inActiveEvent");
+    }
+    
+    public function completeEvent(){
+	    $date = date("Y-m-d")." ～ ".date("Y-m-d",strtotime("2014-11-30"));
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("EventHistory/completeEvent");
+    }
+    public function addEvent(){
+	    $this->display("EventHistory/addEvent");
+    }
+    
+    public function eventDetail(){
+    	$date = date("Y-m-d")." ～ ".date("Y-m-d",strtotime("2014-11-30"));
+    	$this->assign('date',$date);
+	    $this->display("EventHistory/eventDetail");
+    }
+    
+    public function message(){
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("MessageHistory/main");
+    }
+    
+    public function messageRead(){
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("MessageHistory/read");
+    }
+    
+    public function messageUnread(){
+    	$pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("MessageHistory/unread");
+    }
+    
+    public function comment(){
+	    $pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("CommentHistory/fromBuyer");
+    }
+    
+    public function commentTo(){
+	    $pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("CommentHistory/toBuyer");
+    }
+    
+    public function profile(){
+	    $pages = new \Org\Util\Paginator('10','p');
+    	$pages->set_total(100); 
+    	$paginate = $pages->page_links();
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+    	$this->assign('pages',$paginate);
+	    $this->display("ProfileSetting/main");
+    }
+    
+    public function updateProfile(){
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+	    $this->display("ProfileSetting/updateProfile");
+    }
+    
+    public function updatePassword(){
+    	$date = date("Y-m-d H:i:s");
+    	$this->assign('date',$date);
+	    $this->display("ProfileSetting/updatePassword");
+    }
+    
+    public function login(){
+	    $this->display("Authentication/login");
+    }
+    
+    public function register(){
+	    $this->display("Authentication/register");
+    }
+    
+    public function registerComplete(){
+	    $this->display("Authentication/registerComplete");
+    }
+    
+    public function aboutUs(){
+	    $this->display("Index/aboutus");
+    }
+}

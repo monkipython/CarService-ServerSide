@@ -1,0 +1,95 @@
+<section class='chat-container'>
+        	<header class='top-header'>
+              <div class='left-nav-btn left'>
+                <span class='top-header-tit glyphicon glyphicon-user'></span>
+                <span class="current-chat-user" data="{$sessionJID}"></span>
+                <span class='msg-count-icon badge badge-danger'>新消息</span>
+              </div>
+              <div class='right-nav-btn right'>
+                <span id='chat-box-minimize'>显示</span>
+              </div>
+			 </header>
+			<div class="contact-list-container" style="display:none">
+	        	<div class="setting">
+		            <div class='col-md-2 center'>
+		              <span class='glyphicon glyphicon-user'></span> 
+		            </div>
+		            <div class='col-md-8 center'>
+					  	<input type="text" class="contact-textfield" placeholder="电话号码"/>
+		            </div>
+		            <div class="col-md-2 center">
+			            <span class='add-user-btn glyphicon glyphicon-search'></span> 
+		            </div>
+				</div>
+	        <div class="contact-list">
+		        <ol class='contact-box'>
+		            <li class='push-contact'></li>
+		          </ol>
+	        </div>
+        </div>
+        <div class="chat-minimize-container" style="display:none">
+          <div class="setting">
+          </div>
+          <ol class='chat-box'>
+            <li class='push-msg'></li>
+          </ol>
+          <div class="emojicon">
+	          <div class='emoji-box'></div>
+	          <div class='arrow-down'></div>
+          </div>
+          <div class="tools">
+	          <button class="choose-image-click btn btn-default btn-sm">
+	          	<form class="post-img-form" enctype="multipart/form-data">
+	          		<input id="selectedfile" class="select-image" type="file" name="selectedfile" multiple/>
+	          		<input class="sid" type="hidden" value="{$mer_session_id}"/>
+	          	</form>
+	          	<i class="glyphicon glyphicon-picture"></i>
+	          </button>
+	          <div class="emoji-click">
+	          	<img src="http://121.40.92.53/ycbb/Uploads/Emoji/1.png"/>
+	          </div>
+          </div>
+          <div class="send-message-box">
+              <textarea id="mytTextField" name="send_message" class="col-md-12" row="5"></textarea>
+          </div>
+        </div>
+        </section>
+        <div class="enlarge-img"></div>
+<!-- footer -->
+<div class="footer">
+	
+	<div class="col-md-12" style="text-align:center; font-size:15px; background-color:rgb(254,247,250); color:rgb(153,153,153); padding-top:50px; padding-bottom:5px;">
+	<div class="bottom_logo"><img src="__PUBLIC__/index/img/bottom_logo.png" alt="bottom logo" width="105" height="49"></div>
+	<p class="copy-right">&copy; 2014 Caryu
+版权所有：厦门日厚网络科技有限公司
+客服电话：0592-5021243 传真：0592-5021243 </p>
+	<div class="menu_bottom">
+
+<a href="javascript:;">Support</a> <div class="sep">|</div>
+<a href="/AboutUs" target="_blank">About Us</a> <div class="sep">|</div>
+<a href="/ContactUs" target="_blank">Contact Us</a> <div class="sep">|</div>
+<a href="/Services" target="_blank">Services</a> <div class="sep">|</div>
+<a href="javascript:;">闽ICP备14019281号-1</a>
+
+
+</div>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254510099'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254510099' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
+</div>
+
+<!-- footer end-->
+	<script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/jquery.base64.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/strophe.js"></script>
+<!--         <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/strophe.register.js"></script> -->
+		<script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/strophe.rsm.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/iso8601_support.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/strophe.archive.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/jquery.cookie.js"></script>
+        <script src="__PUBLIC__/static/bootstrap/js/jquery.session.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/lightbox.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/WebSQL.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/static/bootstrap/js/chat.js"></script>
+        <script src="__PUBLIC__/uploadify3.2/jquery.uploadify.js" type="text/javascript"></script>
+	<script src="__PUBLIC__/static/bootstrap/js/script.js"></script>
+
+

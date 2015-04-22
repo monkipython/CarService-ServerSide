@@ -1,0 +1,89 @@
+10
+
+dir
+35
+https://tony@192.168.0.125:443/svn/php_jiake/ycbb/Application/Home/View
+https://tony@192.168.0.125:443/svn/php_jiake
+
+
+
+2014-11-19T05:22:04.373916Z
+35
+tony
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c78fec2-9045-b547-905c-f0ea60403f62
+
+Authentication
+dir
+
+BidHistory
+dir
+
+EventHistory
+dir
+
+CommentHistory
+dir
+
+MessageHistory
+dir
+
+index
+dir
+
+index.html
+file
+39
+
+
+
+2014-11-19T05:24:53.000000Z
+6d92b5dd97b9aeed97d5b71a50488a8a
+2014-11-19T05:26:33.937334Z
+39
+tony
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11398
+
+Activity
+dir
+
+OrderHistory
+dir
+
+ProfileSetting
+dir
+

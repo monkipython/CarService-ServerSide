@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/php_jiake/!svn/ver/83/ycbb/Application/Home/View/EventHistory
+END
+activeEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/php_jiake/!svn/ver/83/ycbb/Application/Home/View/EventHistory/activeEvent.html
+END
+event.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/php_jiake/!svn/ver/83/ycbb/Application/Home/View/EventHistory/event.html
+END
+eventDetail.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/php_jiake/!svn/ver/83/ycbb/Application/Home/View/EventHistory/eventDetail.html
+END
+inactiveEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/php_jiake/!svn/ver/83/ycbb/Application/Home/View/EventHistory/inactiveEvent.html
+END
+addEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/php_jiake/!svn/ver/95/ycbb/Application/Home/View/EventHistory/addEvent.html
+END
+completeEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/php_jiake/!svn/ver/83/ycbb/Application/Home/View/EventHistory/completeEvent.html
+END

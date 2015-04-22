@@ -1,0 +1,90 @@
+<form id="pagerForm" action="__URL__" method="post">
+	<input type="hidden" name="pageNum" value="{$_REQUEST['pageNum']|default=1}"/>
+	<input type="hidden" name="numPerPage" value="{$numPerPage}"/>
+    <input type="hidden" name="_order" value="{$_REQUEST['_order']}"/>
+	<input type="hidden" name="_sort" value="{$_REQUEST['_sort']|default='1'}"/>
+    <input type="hidden" name="listRows" value="{$_REQUEST['listRows']}"/>
+    <volist name="map" id="m">
+    <input type="hidden" name="{$key}" value="{$_REQUEST[$key]}"/>
+    </volist>
+</form>
+
+
+<div class="page">
+	<div class="pageHeader">
+		<form onsubmit="return navTabSearch(this);" action="__URL__" method="post">
+		<div class="searchBar">
+			<ul class="searchContent">
+				<!-- <li>
+					<label>分类名称：</label>
+					<input type="text" name="name" value="{$_REQUEST.name}" class="medium" >
+				</li>
+				 -->
+			</ul>
+			<div class="subBar">
+				<ul>
+					<li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+					
+				</ul>
+			</div>
+		</div>
+		</form>
+	</div>
+
+	<div class="pageContent">
+		<div class="panelBar">
+			<ul class="toolBar">
+				<li><a class="icon" href="__URL__/nopermit/id/{sid_node}/navTabId/__DWZ__" target="ajaxTodo"  title="你确定要不通过吗？" warn="请选择节点"><span>不通过</span></a></li>
+				<li><a class="check icon" href="__URL__/execAction/id/{sid_node}/navTabId/__DWZ__" target="ajaxTodo"   warn="请选择节点"><span>通过</span></a></li>
+			</ul>
+		</div>
+		<table class="list" width="100%" layoutH="116">
+			<thead>
+			<tr>
+				<th width="40">ID</th>
+                <th width="40">审核项目</th>
+                <th width="40">商家名称</th>
+                 <th width="40">价格</th>
+                <th width="40">耗时（分）</th>
+                <th width="40">添加时间</th>
+				<th width="80" >简介</th>
+			</tr>
+			</thead>
+			<tbody>
+	
+			
+			<volist id="vo" name="list">
+				<tr target="sid_node" rel="{$vo['id']}">
+					<td>{$vo['id']}</td>
+					<td>{$vo['name']}</td>
+					<td>{$vo['merchant_name']}</td>
+					<td>{$vo['price']}</td>
+					<td>{$vo['timeout']}</td>
+					<td>{$vo['addtime']|date="Y-m-d H:i:s",###}</td>
+			
+					<td>
+					<!-- <a href="__URL__/edit/id/{$vo['id']}/" target="navTab" >查看详细</a> -->
+					{$vo['intro']|msubstr=0,60,'utf-8',true}
+					</td>
+				</tr>
+			</volist>
+			
+			</tbody>
+		</table>
+		<div class="panelBar">
+			<div class="pages">
+				<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="5" <eq name="numPerPage" value="5">selected=selected</eq>>5</option>
+				<option value="10" <eq name="numPerPage" value="10">selected=selected</eq>>10</option>
+				<option value="15" <eq name="numPerPage" value="15">selected=selected</eq>>15</option>
+				<option value="20" <eq name="numPerPage" value="20">selected=selected</eq>>20</option>
+			</select>
+				<span>共{$totalCount}条</span>
+
+			</div>
+			<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+		</div>
+	</div>
+</div>
+

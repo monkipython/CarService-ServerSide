@@ -1,0 +1,66 @@
+
+        <include file="Public:header"/>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-left" >
+				<div class="btn-group" role="group">
+				  <a href="/Plateform/unbid" class="btn btn-info">未报价</a>
+				  <a href="/Plateform/bid" class="btn btn-info active">已报价</a>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-12" style="text-align:center; margin-top:10px;">
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+				  <!-- Table -->
+				  <table class="table" id="project-table">
+				  	<thead>
+					  	<tr>
+						  	<th>车主称呼</th>
+						  	<th>发布时间</th>
+						  	<th>项目内容</th>
+						  	<th>报价情况</th>
+						  	<th>距离</th>
+						  	<th>您的报价</th>
+						  	<th>状态</th>
+						  	<th colspan="2">操作</th>
+					  	</tr>
+				  	</thead>
+				  	<tbody>
+					   <volist name="data" id="vo">
+					 	<tr>
+						  	<td>{$vo['nick_name']}</td>
+						  	<td>{$vo['addtime']}</td>
+						  	<td>{$vo['service_name']}</td>
+						  	<td>{$vo['offer_price_num']}家报价</td>
+						  	<td><p>{$vo['distance']}公里</p></td>
+						  	<td>{$vo['price']}元</td>
+						  	<td>
+						  	<if condition ="$vo['demand_status'] eq 0">
+						  		<span class="color-green">等待用户确认</span>
+						  	<elseif condition = "$vo['demand_status'] eq 1"/>
+						  		<span class="color-red">需求被抢</span>
+						  	<elseif condition ="$vo['demand_status'] eq 2"/>	
+						  		<span class="color-grep">取消需求</span>
+						  		
+						  	<elseif condition ="$vo['demand_status'] eq 3"/>
+						  		<span class="color-grep">需求过期</span>
+						  		
+						  		
+						  	</if>
+						  	</td>
+						  	<td>
+						  	<a href="/Plateform/updateBid/demand/{$vo['id']}/type/2" class="btn btn-info btn-sm">查看</a>
+						  	</if>
+                                                        </td>
+					  	</tr>
+					 </volist>
+				  	</tbody>
+				  </table>
+				</div>
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+		</div>
+        <include file="Public:footer"/>
+	
+    </body>
+</html>

@@ -1,0 +1,396 @@
+
+<div class="container-fluid">
+<div class="row">
+<if condition ="!empty($cookie)">
+<div class="col-md-12"
+	style="height: 30px; background-color: #ddd; z-index: 99; margin-bottom: 0px; margin-top: 0px;">
+	<ul class="top-nav pull-right">
+		<li>欢迎 ，<a href="/user/detail/id/{$cookie['jid']}"> <span
+				class="badge badge-default" id="username_id" data="{$cookie['jid']}">{$cookie['name']}</span></a></li>
+	
+		<li><a href="/Index/message"><i class="fa fa-envelope"></i>
+				消息 <span class="label label-default">0</span> </a></li>
+		<li><a href="/Index/profile"><i class="fa fa-gear"></i> 帐号管理
+		</a></li>
+		<li><a href="javascript:;" id="loginOut"> 退出 </a></li>
+	</ul>
+</div>
+</if>
+<div class="col-md-12 col-xs-12 top-bg">
+	<div class="col-md-3 col-xs-12" >
+		<a href="/" class="pull-left"><img class="top-logo-answer" src="__PUBLIC__/img/logo.png"></a>
+				<if condition="$cookie['type'] eq 2">
+				<a class="pull-right plateform"  href="/Plateform/unbid">
+				进入商户后台 </a>	
+		</if>
+
+	</div>
+	<div class="col-md-8 col-xs-12">
+		<form class="navbar-form form-margin" role="search"  action="/Answer/search" method="get">
+			<div class="form-group col-md-6 col-xs-6 padding0">
+				<input type="text" class="form-control top-search-input" placeholder="Search" name="keyword" value="{$keyword}">
+			</div>
+			<div class="col-md-4 col-xs-6 padding3">
+				<button type="submit" class="btn btn-default">搜索</button>
+				<if condition="empty($cookie) ">
+					<a class="add-question" href="#" data-toggle="modal" data-target="#nostatus" >我要提问</a>
+				<else/>
+					<a class="add-question" href="#" data-toggle="modal" data-target="#myModaladdQuestion"  data-backdrop= 'static'>我要提问</a>
+				</if>
+			</div>
+		</form>
+	</div>
+
+</div>
+</div>
+
+<div class="row ">
+<div class="col-md-12 padding-none">
+<nav class="navbar navbar-default top-nav-answer" role="navigation">
+	<div class="container" >
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse "
+			id="bs-example-navbar-collapse-1" >
+			<ul class="nav navbar-nav navbar-left nav-p nav-a">
+				<li><span class="sprite"></span> <a href="/Answer/"
+					class="pull-left"> 全部 </a> <span class="sprite"></span></li>
+				<volist name="category" id="vo">
+				<li><a href="/Answer/index/id/{$vo['id']}"
+					class="pull-left"> {$vo['name']} </a><span class="sprite"></span></li>
+				</volist>
+			</ul>
+
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+</div>
+</div>
+</div>
+<div class="modal fade" id="nostatus" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+		data-backdrop="true">
+		<div class="modal-dialog ">
+			<div class="modal-content" style="border-radius:6px;">
+				<div class="modal-header" style="background-color: rgb(226,229,220);border-top-right-radius:6px;border-top-left-radius:6px;">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+		        <div class="modal-title" id="myModalLabel1">
+		 			<ul class="nav nav-tabs" id="myTab"> 
+				    
+				      <li class="active"><a href="#member-login">车主登录</a></li> 
+				        <li ><a href="#merchant-login">商家登录</a></li> 
+				    </ul> 
+		        </div>
+		      </div>
+				<div class="modal-body text-center" style="padding:0px;">
+					<div
+						class="  login">
+						<div class="login-body" style="border-bottom-right-radius:6px;border-bottom-left-radius:6px;
+border-top-right-radius:0;border-top-left-radius:0;
+">
+
+						    <div class="tab-content" style="padding:5px 0px 15px 0px;"> 
+							     
+						
+						      <div class="tab-pane" id="member-login">
+						      <if condition="empty($cookie)">
+								<form role="form" action="Acount/login" method="post" id="login">
+									<div class="input-group" style="padding: 5px;">
+										<span
+											class="input-group-addon glyphicon glyphicon-user span-left-type"></span>
+										<input type="text" class="form-control input-type"
+											name="username" placeholder="用户名">
+									</div>
+									<div class="input-group" style="padding: 5px;">
+										<span
+											class="input-group-addon glyphicon glyphicon-lock span-left-type "></span>
+										<input type="password" class="form-control input-type"
+											name="password" placeholder="密码">
+										<input name="return" type="hidden" value="1">
+										<input name="type" type="hidden" class="logintype" value="1">
+									</div>
+	
+									<div class="checkbox black-color" >
+										<label style="margin-left: 10px; height:10px;">
+										 <input
+											type="checkbox" class="checkboxsize" name="checkbox"
+											value='ON' checked="checked">自动登录
+										</label> 
+									
+									
+									</div>
+										<div class="clear"></div>
+										<div>
+									<a tabindex="0" class="btn  btn-danger login_submit"
+										role="button" id="login_btn_mer" data-toggle="popover" 
+										data-trigger="focus" data-placement="right" title=""
+										data-container="body" data-content="">登录</a>
+	
+									</div>
+								</form>
+								<else />
+								<div class="page-header">
+									<a href="javascript:;"> 欢迎 ，<span
+										class="badge badge-default" id="">{$cookie["name"]}
+									</span>回来
+									</a>
+								</div>
+									<if condition="$cookie['type'] eq 2">
+								<a href="/Plateform/unbid" class="btn btn-success"
+									style="margin: 20px 0px 60px 0px;">进入后台</a> 
+								<else/>
+									<a href="/Answer" class="btn btn-success"
+									style="margin: 20px 0px 60px 0px;">进入后台</a> 
+								</if>
+								 </if>
+						      
+						      
+						      
+						      </div> 
+						    <div class="tab-pane active" id="merchant-login">
+							      	<if condition="empty($cookie)">
+								<form role="form" action="Acount/login" method="post" id="login">
+									<div class="input-group" style="padding: 5px;">
+										<span
+											class="input-group-addon glyphicon glyphicon-user span-left-type"></span>
+										<input type="text" class="form-control input-type"
+											name="username" placeholder="用户名">
+									</div>
+									<div class="input-group" style="padding: 5px;">
+										<span
+											class="input-group-addon glyphicon glyphicon-lock span-left-type "></span>
+										<input type="password" class="form-control input-type"
+											name="password" placeholder="密码">
+										<input name="return" type="hidden" value="1">
+										<input name="type" type="hidden" class="logintype" value="0">
+									</div>
+	
+									<div class="checkbox black-color" >
+										<label style="margin-left: 10px; height:10px;">
+										 <input
+											type="checkbox" class="checkboxsize" name="checkbox"
+											value='ON' checked="checked">自动登录
+										</label> 
+									
+									
+									</div>
+										<div class="clear"></div>
+										<div>
+									<a tabindex="0" class="btn  btn-danger login_submit"
+										role="button" id="login_btn" data-toggle="popover" 
+										data-trigger="focus" data-placement="right" title=""
+										data-container="body" data-content="">登录</a>
+	
+									</div>
+								</form>
+								<else />
+								<div class="page-header">
+									<a href="javascript:;"> 欢迎 ，<span
+										class="badge badge-default" id="">{$cookie["name"]}
+									</span>回来
+									</a>
+								</div>
+								<if condition="$cookie['type'] eq 2">
+								<a href="/Plateform/unbid" class="btn btn-success"
+									style="margin: 20px 0px 60px 0px;">进入后台</a> 
+								<else/>
+									<a href="/Answer" class="btn btn-success"
+									style="margin: 20px 0px 60px 0px;">进入后台</a> 
+								</if>	
+									
+									</if>
+						
+							      
+							</div>
+						    </div> 					
+													
+						  </div> 
+						
+						
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+			
+			</div>
+		</div>
+	</div>
+<div class="modal fade " id="myModaladdQuestion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <div class="modal-title" id="myModalLabel1">
+		 			我要提问
+		        </div>
+		      </div>
+		      <div class="modal-body">
+		        	  <form  class="form-horizontal" >
+			            <div class="form-group">
+					    <label for="registerphone" class="col-xs-4 col-sm-3 control-label">问题：</label>
+					    <div class="col-xs-12 col-sm-8">
+					      <textarea  class="form-control" name="title" placeholder="" style="height:150px; text-align:left; resize: none;" ></textarea>
+					  </div>
+					  </div>
+			 
+					 
+					 <div class="form-group">
+					    <label for="registerphone" class="col-xs-4 col-sm-3 control-label">问题分类：</label>
+					    <div class="col-xs-12 col-sm-8">
+							<select name="pid" style="border:1px solid #ccc;border-radius:6px;">
+							  <option value ="">请选择</option>
+							  <volist name="category" id="vo">
+							 	 <option value ="{$vo['id']}">{$vo['name']}</option>
+							  </volist>
+							</select>
+					     
+					  </div>
+					  </div>
+					   <div class="form-group">
+					   <label for="registerphone" class="col-xs-4 col-sm-3 control-label">上传图片：</label>
+					    <div class="col-xs-12 col-sm-8">
+							<div id="queue"></div>
+							<input id="file_upload" name="file_upload" type="file" multiple="true">
+							<div class="col-xs-12" id ="uploadThumb">
+							
+								
+							</div>
+							
+						</div>
+					   </div>
+					  
+					  
+					  
+			        </form>
+		      </div>
+		      <div class="modal-footer">
+		        <a tabindex="0" class="btn btn-primary btn-sm btn-block theme-color-btn" role="button" id="addAnswer"
+									data-toggle="popover" data-trigger="focus" data-placement="top"
+									title=""  data-container="body"
+									data-content="">提问</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<audio id="message-alert" hidden="true">
+	  	<source src="__PUBLIC__/static/bootstrap/audio/alert.wav" type="audio/wav">
+	  </audio>
+	
+	<script src="__PUBLIC__/static/bootstrap/js/script.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="__PUBLIC__/static/bootstrap/js/jquery.easing.min.js"></script>
+
+	
+<script>
+	$().ready(function() {
+
+		$('#loginOut').click(function() {
+			$.ajax({
+				type : 'POST',
+				url : '/Acount/loginOut',
+				data : '',
+				success : function(json) {
+					if (json.code == 0) {
+						alert(json.msg);
+						location.href = "/";
+					} else {
+						alert('登出失败');
+					}
+				},
+				dataType : 'json'
+			});
+		});
+		
+		$('#addAnswer').click(function(){
+			var name = $('textarea[name=title]').val();
+			var pid = $('select[name=pid]').val();
+			var img = JSON.stringify(imgarr)
+			console.log(img);
+			if(name == '' || name == undefined){
+				$('#addAnswer').attr('data-content','请填写问题').popover('show');
+				return false;
+			}
+			if(pid == '' || pid == undefined){
+				$('#addAnswer').attr('data-content','请填写问题分类').popover('show');
+				return false;
+			}
+			$.ajax({
+				url:'/Answer/addQuestion',
+				type:"POST",
+				data:{'title':name,'pid':pid,'pics':img},
+				success: function(data){
+					console.log(data);
+					var d = data;
+					var msg = d.msg, code = d.code;
+					if(code == 0){
+					$('#addAnswer').attr('data-content','添加成功,1秒后自动关闭').popover('show');
+						  setTimeout(function () { 
+							//window.location.reload() ;
+							location.href = "/Answer/index/id/"+pid;
+						    }, 1000);
+					}else{
+						$('#addAnswer').attr('data-content',msg).popover('show');
+					}
+				},
+				  dataType: 'json'
+			});
+			
+			
+			
+		});
+		
+		
+		var imgarr = new Array() ;
+		var i = 0;
+		<?php $timestamp = time();?>
+		$('#file_upload').uploadify({
+			
+			'formData'     : {
+				'timestamp' : '<?php echo $timestamp;?>',
+				'token'     : '<?php echo md5('seeyoulater' . $timestamp);?>'
+			},
+			'buttonText': '<div>选择文件</div>',
+			'removeCompleted':true,
+			'swf'      : '/Public/uploadify3.2/uploadify.swf',
+			'uploader' : '/Answer/uploadQuestionPic',
+			
+		     onQueueComplete:function(queueData){
+                // console.log(queueData.uploadsSuccessful+'\n'+queueData.uploadsErrored)
+             },
+             onUploadSuccess: function(file,data,respone){
+            	// console.log(data);
+            	 var obj =eval('('+data+')');
+            	 var str = JSON.stringify(obj.data)
+            	imgarr[i] =  str;
+            	 i++;
+            	 console.log(imgarr);
+            	 $('#uploadThumb').append('<div class="col-xs-4"><img src="http://121.40.92.53/ycbb/Uploads'+obj['data']['hs']+'" class="img-responsive" /></div>');
+             },
+             onUploadError: function(file,errorCode,errorMsg,errorString){
+            	 console.log(file);
+            	 console.log(errorCode);
+            	 console.log(errorMsg);
+            	 console.log(errorString);
+           		 alert(errorMsg);
+             },
+		});
+		
+
+		
+		
+	})
+</script>
+    
+    <script> 
+      $(function () { 
+        $('#myTab a:first').tab('show');//初始化显示哪个tab 
+      
+        $('#myTab a').click(function (e) { 
+          e.preventDefault();//阻止a链接的跳转行为 
+
+          $(this).tab('show');//显示当前选中的链接及关联的content 
+        }) 
+      }) 
+    </script>

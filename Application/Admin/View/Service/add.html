@@ -1,0 +1,143 @@
+<div class="page">
+    <div class="pageContent">
+
+        <form method="post" action="__URL__/insert/navTabId/__DWZ__" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone)">
+            <input type="hidden" name="id" value="{$vo.id}" >
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>项目名称：</label>
+                    <input type="text" class="required"  name="name" id="name">
+                </div>
+                <div class="unit">
+                    <label>商家ID：</label>
+                    <input type="text" class="required"  name="merchant_id" id="merchant_id">
+                </div>
+                <div class="unit">
+                    <label>图片：</label>
+                    <div class="divider"></div>
+
+                    <input id="testFileInput2" type="file" name="image" 
+                           uploaderOption="{
+                           swf:'__PUBLIC__/uploadify/scripts/uploadify.swf',
+                           uploader:'__MODULE__/File/upload/path/Service/',
+                           formData:{PHPSESSID:'xxx', ajax:1},
+                           queueID:'fileQueue',
+                           buttonImage:'__PUBLIC__/uploadify/img/add.jpg',
+                           buttonClass:'my-uploadify-button',
+                           width:102,
+                           auto:false,
+                           onUploadSuccess:function(file,data,response){   
+                           var res=eval('(' + data + ')');
+                           var val=res.image.savepath+res.image.savename;
+                           var str = $('#imgurl1').html();
+                           str+='<input type=\'hidden\' name=\'pics[]\' value=\''+val+'\' />';
+                           $('#imgurl1').html(str);
+                           }
+                           }"
+                           />
+
+                    <div id="fileQueue" class="fileQueue"></div>
+                    <img src="__PUBLIC__/uploadify/img/upload.jpg" onclick="$('#testFileInput2').uploadify('upload', '*');"/>
+                    <img type="image" src="__PUBLIC__/uploadify/img/cancel.jpg" onclick="$('#testFileInput2').uploadify('cancel', '*');"/>
+                </div>
+                <div id="imgurl1">
+
+                </div>
+                <div class="unit">
+                    <label>项目分类：</label>
+                    <select class="" name="pcat_id" id="pcat_id" >
+                        <option value="">请选择母项目</option>
+                        <volist name="pcat" id="vocate">
+                            <option  value="{$key}" >{$vocate}</option>
+                        </volist>
+                    </select>
+                    <select class="" name="cat_id" id="cat_id" >
+                        <option value="">请选择子项目</option>
+                    </select>
+                </div>
+                <div class="unit">
+                    <label>省份：</label>
+                    <select class="" name="province_id" id="province_id" >
+                        <option value="">请选择省份</option>
+                        <volist name="province" id="vocate">
+                            <option value="{$key}" >{$vocate}</option>
+                        </volist>
+                    </select>
+                    <select class="" name="city_id" id="city_id" >
+                        <option value="">请选择城市</option>
+                    </select>
+                    <select class="" name="area_id" id="area_id">
+                        <option value="">请选择区县</option>
+                    </select>
+                </div>
+                <div class="unit">
+                    <label>价格：</label>
+                    <input type="text" class="required"   name="price" id="price">
+                </div>
+                <div class="unit">
+                    <label>服务时长：</label>
+                    <input type="text" class="required "   name="timeout" id="timeout" />
+                </div>
+                <div class="unit">
+                    <label>简介：</label>
+                    <textarea name="intro" cols="70" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".look_map").click(function() {
+            window.open("__MODULE__/Public/baidumap");
+        });
+
+        $('#province_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择城市</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#city_id").html(str);
+            });
+        });
+
+        $('#city_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择地区</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#area_id").html(str);
+            });
+        });
+        $('#pcat_id').change(function() {
+            var cat_id = $(this).val();
+            $.getJSON("__MODULE__/Service/getcat/id/" + cat_id + '/', function(result) {
+                var str = "<option value=''>请选择项目</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#cat_id").html(str);
+            });
+        });
+    });
+
+</script>
+

@@ -1,0 +1,37 @@
+<div class="page">
+	<div class="pageContent">
+
+	
+		<input type="hidden" name="id" value="{$vo.id}" >
+		<div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>用户：</label>
+                    {$vo.member_id|getMemberName}
+                </div>
+                
+                <div class="unit">
+                    <label>品牌：</label>
+                    {$vo.cart_brand}
+                </div>
+                <div class="unit">
+                    <label>车型：</label>
+                    {$vo.cart_model}
+                </div>
+                <div class="unit">
+                    <label>颜色：</label>
+                    {$vo.color}
+                </div>
+                <div class="unit">
+                    <label>排量：</label>
+                   {$vo.output}
+                </div>
+                <div class="unit">
+                    <label>备注：</label>
+                    {$vo.remark}
+                </div>
+            </div>
+	
+	</div>
+</div>
+
+

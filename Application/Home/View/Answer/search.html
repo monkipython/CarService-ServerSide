@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>搜索：{$keyword}</title>
+		<include file="Public:answerload"/>
+    </head>
+<body>
+   <include file="Public:answerheader"/>
+		<div class="container" >
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<span class="theme-h5">搜索到的问题（{$count}）</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" style="text-align:center; margin-top:10px;">
+				<div class="col-md-8">
+					<div class="col-md-12" style="border:1px solid #d9d9d9;">
+					<if condition="!empty($answer)">
+						<volist name="answer" id ="vo">
+								<div class="col-md-12 text-left " style="border-bottom:1px dotted #DBDBDB;" >
+									<div class="col-md-2" >
+										<a href="/user/detail/id/{$vo['system_user_id']}">
+										<img src="{$vo['header']|default='__PUBLIC__/img/default_user.jpg'}" width="80" height="80" class="img-circle header-img"/>
+										</a>
+									</div>
+									<div class="col-md-10" style="margin-left:-5px;padding:20px 0px 10px 0px;">
+										<div class="col-md-12">
+											<span class="theme-h6">{$vo['name']}：</span>
+										</div>
+										
+										<div class="col-md-12" style="text-inde">
+										<a href="/Answer/detail/id/{$vo['id']}" class=" answer-title">
+											{$vo['title']||msubstr=0,60,'utf-8',true}
+											</a>
+										</div>
+										
+										<div class="col-md-12  font-grep">
+											
+											<div class="col-md-3">
+												回答（{$vo['answer_num']}）
+											</div>
+											<div class="col-md-4">
+												分类（{$vo['pidname']}）
+											</div>
+											<div class="col-md-4">
+											 {$vo['addtime']}
+											</div>
+										</div>
+										<div class="col-md-12" style="padding-top:5px;">
+											<volist name ="vo.pics" id="img">
+											<div class="col-md-4">
+												<img alt="" src="{$img.hs}" class="img-responsive">
+											</div>
+											</volist>
+										</div>
+										
+									</div>
+									<if condition="!empty($vo['last_answer'])">
+									<div class="col-md-12">
+										<div class="col-md-12">
+											最近一条回复：
+										</div>
+										<div class="col-md-11 col-md-offset-1">
+											<div class="col-md-2">
+											<a href="/user/detail/id/{$vo['last_answer']['system_user_id']}">
+											<img src="{$vo['last_answer']['header']|default='__PUBLIC__/img/default_user.jpg'}" width="50" height="50" class="  img-circle "/>
+											</a>
+											</div>
+											<div class="col-md-9" class="answer-title" style="margin-left:-15px;" >
+												<div class="col-md-12">
+													<span class="theme-h6">{$vo['last_answer']['name']}：</span>
+												</div>
+												
+												<div class="col-md-8" style="text-indent:2em;" >
+													
+													{$vo['last_answer']['reply_content']||msubstr=0,60,'utf-8',true}
+													
+												</div>
+												<div class="col-md-4">
+													{$vo['last_answer']['addtime']}
+												</div>
+											</div>
+										
+										</div>
+									</div>
+									</if>
+								</div>
+								
+							</volist>		
+							<else/>
+								<div class="col-md-12 text-left " style="border-bottom:1px dotted #DBDBDB;" >
+									<div class="col-md-2" >
+									
+										<img src="__PUBLIC__/img/default_user.jpg" width="80" height="80" class="img-circle header-img"/>
+										
+									</div>
+									<div class="col-md-10" style="margin-left:-5px;padding:40px 0px 10px 0px;">
+										<div class="col-md-12">
+											
+										</div>
+										
+										<div class="col-md-12" style="text-inde">
+										<span class=" answer-title">
+											对不起，没搜索到相关的结果!
+											</span>
+										</div>
+										
+								
+										
+										
+									</div>
+					
+								</div>
+							
+							
+							
+							</if>	
+								
+								
+			
+					</div>
+				
+				</div>
+				
+				
+				
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+			</div>
+		</div>
+		
+
+
+		<!-- footer -->
+		<include file="Public:footer"/>
+		<!-- footer end-->
+    </body>
+</html>

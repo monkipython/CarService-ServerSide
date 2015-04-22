@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>驾客－首页</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="__PUBLIC__/static/bootstrap/css/front-end.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/static/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/static/bootstrap/css/pagination.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/static/bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+<!--         <link href="__PUBLIC__/static/bootstrap/css/prettify.css" rel="stylesheet" type="text/css" /> -->
+        <link href="__PUBLIC__/static/bootstrap/css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css" />
+        <script src="__PUBLIC__/static/jquery-2.0.3.min.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/jquery.paginatetable.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/static/bootstrap/js/bootstrap-dialog.min.js" type="text/javascript"></script>
+<!-- 		<script src="__PUBLIC__/static/bootstrap/js/run_prettify.js" type="text/javascript"></script> -->
+    </head>
+    <body>
+    
+    	<!-- Large modal -->
+		
+		<!-- modal end -->
+		
+    	<div class="col-md-12" style="height:30px; background-color:#ddd; z-index:99;margin-bottom:0px; margin-top:0px;">
+	    	<ul class="top-nav pull-right">
+		    	<li><a href="/jiake/php_jiake/ycbb/Index/message"><i class="fa fa-envelope"></i> 消息 <span class="label label-primary">0</span> </a></li>
+		    	<li><a href="/jiake/php_jiake/ycbb/Index/profile"><i class="fa fa-gear"></i> 帐号管理 </a></li>
+		    	<li><a href="#"> 欢迎 ，<span class="label label-primary">卢先生</span></a></li>
+		    	<li><a href="#"> 退出 </a></li>
+	    	</ul>
+    	</div>
+    	<div class="col-md-12" style="height:80px; z-index:99; margin-bottom:0px; background-color:#fff;">
+	    	<a href="#" class="pull-left" style="margin-top:20px; margin-left:50px;"><img src="__PUBLIC__/img/logo.png"></a>
+    	</div>
+        <nav class="navbar navbar-default" role="navigation" style="background-color:#f87d22;">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+			      data-target="#bs-example-navbar-collapse-1">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-left nav-p">
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/orderIncomplete"> 我的订单 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/unbid"> 我要抢单 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/event" class="active"> 限时活动 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/comment"> 服务评价 </a></li>
+			      	<li><a href="/jiake/php_jiake/ycbb/Index/project" > 我的项目 </a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="text-align:center">
+				<div class="btn-group" role="group" >
+				  <a href="/jiake/php_jiake/ycbb/Index/event" class="btn btn-info">全部</a>
+				  <a href="/jiake/php_jiake/ycbb/Index/activeEvent" class="btn btn-info">进行中</a>
+				  <a href="/jiake/php_jiake/ycbb/Index/inactiveEvent" class="btn btn-info active">未开始</a>
+				  <a href="/jiake/php_jiake/ycbb/Index/completeEvent" class="btn btn-info">已结束</a>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-12" style="text-align:center; margin-top:10px;">
+			<a href="/jiake/php_jiake/ycbb/Index/addEvent" class="col-xs-offset-11 btn btn-info" style="margin-bottom:20px;margin-right:-10px;">添加项目</a>
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+				  <!-- Table -->
+				  <table class="table" id="project-table">
+				  	<thead>
+					  	<tr>
+						  	<th>商家信息</th>
+						  	<th>活动时间</th>
+						  	<th>活动项目</th>
+						  	<th>市场价</th>
+						  	<th>特价</th>
+						  	<th>剩余数量</th>
+						  	<th>订单详情</th>
+					  	</tr>
+				  	</thead>
+				  	<tbody>
+					  	<tr>
+						  	<td>快车美容店</td>
+						  	<td>{$date}</td>
+						  	<td>洗车，美容</td>
+						  	<td>150元</td>
+						  	<td>120元</td>
+						  	<td>100</td>
+						  	<td><a href="/jiake/php_jiake/ycbb/Index/eventDetail">
+						  	<i class="fa fa-file-text fa-lg"></i></a></td>
+					  	</tr>
+					  	<tr>
+						  	<td>快车美容店</td>
+						  	<td>{$date}</td>
+						  	<td>洗车，美容</td>
+						  	<td>150元</td>
+						  	<td>120元</td>
+						  	<td>100</td>
+						  	<td><a href="/jiake/php_jiake/ycbb/Index/eventDetail">
+						  	<i class="fa fa-file-text fa-lg"></i></a></td>
+					  	</tr>
+				  	</tbody>
+				  </table>
+				</div>
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+		</div>
+		
+		
+		<!-- footer -->
+		<div class="footer">
+			<div class="col-md-12" style="text-align:center; font-size:18px; background-color:#f87d22; color:#fff; padding-top:50px; padding-bottom:40px;">
+			<p class="copy-right">版权所有：厦门日后科技有限公司</p>
+			<p>客服电话：000－0000-000 传真：0000-1234567 邮编：361000</p>
+			<p>Copyright &copy; 2013-2014</p>
+			</div>
+		</div>
+		<!-- footer end-->
+		
+    </body>
+</html>

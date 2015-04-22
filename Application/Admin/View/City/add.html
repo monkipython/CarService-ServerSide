@@ -1,0 +1,65 @@
+<div class="page">
+    <div class="pageContent">
+
+        <form method="post" action="__URL__/insert/navTabId/__DWZ__" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone)">
+            <input type="hidden" name="id" value="{$vo.id}" >
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>名称：</label>
+                    <input type="text" class="required"  name="name" id="name">
+                </div>
+                <div class="unit">
+                    <label>上级：</label>
+                    <select class="" name="province_id" id="province_id" >
+                        <option value="">请选择省份</option>
+                        <volist name="province" id="vocate">
+                            <option value="{$key}" >{$vocate}</option>
+                        </volist>
+                    </select>
+                    <select class="" name="city_id" id="city_id" >
+                        <option value="">请选择城市</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+</div>
+<script>
+    $(function() {
+        $('#province_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择城市</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#city_id").html(str);
+            });
+        });
+
+        $('#city_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择地区</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#area_id").html(str);
+            });
+        });
+    });
+
+</script>
+

@@ -1,0 +1,144 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="__URL__/update/navTabId/__DWZ__" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone)">
+            <input type="hidden" name="id" value="{$vo.id}" >
+            <div class="pageFormContent" layoutH="58">
+             <div class="unit">
+                    <label>店名：</label>
+                      <input type="text" class="required" value="{$vo.check_data.merchant_name}"  name="merchant_name">
+               		<img src="{$vo.check_data.header}  " width="75" 	height="75"/>
+                </div>
+                 <div class="unit">
+                    <label>联系电话：</label>
+                    <input type="text" class="required " value="{$vo.check_data.tel}"  name="tel"  />
+                </div>
+                
+                <div class="unit">
+                    <label>选择地址：</label>
+                     <select class="" name="province_id" id="province_id" >
+                        <option value="">请选择省份</option>
+                        <volist name="province" id="vocate">
+                        	<if condition=" $vo['check_data']['province_id'] eq $vocate['id']">
+                        	 <option selected=selected value="{$vocate.id}" >{$vocate.name}</option>
+                        	<else/>
+                        	 <option value="{$vocate.id}" >{$vocate.name}</option>
+                        	</if>
+                        </volist>
+                    </select>
+                    <select class="" name="city_id" id="city_id" >
+                        <option value="">请选择省份</option>
+                        <volist name="city" id="vocate1">
+                        	<if condition=" $vo['check_data']['city_id'] eq $vocate1['id']">
+                        	 <option selected=selected value="{$vocate1.id}" >{$vocate1.name}</option>
+                        	<else/>
+                        	 <option value="{$vocate1.id}" >{$vocate1.name}</option>
+                        	</if>
+                        
+                        </volist>
+                    </select>
+                    <select class="" name="area_id" id="area_id">
+                       <option value="">请选择区域</option>
+                        <volist name="area" id="vocate2">
+                        	<if condition=" $vo['check_data']['area_id'] eq $vocate2['id']">
+                        	 <option selected=selected value="{$vocate2.id}" >{$vocate2.name}</option>
+                        	<else/>
+                        	 <option value="{$vocate2.id}" >{$vocate2.name}</option>
+                        	</if>
+                        	
+                        </volist>
+                    </select>
+                </div>
+                <div class="unit">
+                    <label>详情地址：</label>
+                    <input type="text" class="required" value="{$vo.check_data.address}"  name="address" >
+                </div>
+               
+                <div class="unit">
+                    <label>营业时间：</label>
+                    <input type="text" class=" required" value="{$vo.check_data.business_time}"  name="business_time" >
+                </div>
+               
+                <div class="unit">
+                    <label>负责人：</label>
+                    <input type="text" class="required " value="{$vo.check_data.manager}"  name="manager"  />
+                </div>
+                <div class="unit">
+                    <label>经纬度：</label>
+                    {$vo.check_data.longitude}{$vo.check_data.latitude}
+                </div>
+                <div class="unit">
+                    <label>操作：</label>
+                    {$vo.check_action}
+                </div>
+                <div class="unit">
+                    <label>提交人：</label>
+                    {$vo.data_org}
+                </div>
+                 <div class="unit">
+                    <label>提交审核时间：</label>
+                    <input type="text" class="date required " value="{$vo.addtime|toDate}" dateFmt="yyyy-MM-dd HH:mm:ss"  name="addtime" id="end_time" />
+                </div>
+                
+                 <div class="unit">
+                    <volist name="vo.pics" id="pics">
+                        <img src="__UPLOAD__{$pics}" />
+                    </volist>
+                </div>
+             
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="button" onclick="checkby({$vo.id})">通过审核</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+		<script>
+				function checkby(id){
+						$.ajax({
+						     type: 'POST',
+						     url:'/index.php/App/Auth/execAction' ,
+						    data: {'id':id} ,
+						    success: function(json){
+						    	alert(json.msg);
+						    } ,
+						    dataType: 'json'
+						});
+				}
+			</script>
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".look_map").click(function() {
+            window.open("__MODULE__/Public/baidumap");
+        });
+
+        $('#province_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择城市</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#city_id").html(str);
+            });
+        });
+
+        $('#city_id').change(function() {
+            var province = $(this).val();
+            $.getJSON("__MODULE__/Merchant/getcity/id/" + province + '/', function(result) {
+                var str = "<option value=''>请选择地区</option>";
+                $.each(result, function(index, d) {
+                    if (d != null && index != 'callbackType') {
+                        str += "<option value='" + index + "'>" + d + "</option>";
+                    }
+                })
+                $("#area_id").html(str);
+            });
+        });
+    });
+
+</script>
+

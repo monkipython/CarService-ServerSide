@@ -1,0 +1,61 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class AcountController extends Controller {
+    public function register(){
+    	if(!empty($_GET['session_id'])){
+    	   $username=isset($_GET['username']) ?htmlspecialchars(trim($_GET['username'])):'';
+           $password=isset($_GET['password']) ?htmlspecialchars(trim($_GET['password'])):'';
+           $session_id=isset($_GET['session_id']) ?htmlspecialchars(trim($_GET['session_id'])):'';
+           $verify_code=isset($_GET['verify_code']) ?htmlspecialchars(trim($_GET['verify_code'])):'';
+	       $device = 'web';
+	       $url = C('CURL_POST_URL')."Merchant/register";
+	       $data = array(
+	       			'username'=>$username,
+	       			'password'=>$password,
+	       			'session_id'=>$session_id,
+	       			'verify_code'=>$verify_code,
+	       			'device'=>'web'
+	       		);
+	       $rel = CurlController::curl($url, $data);
+	      
+	       if($rel['code']==0){
+	       	 $_SESSION['uid'] = $rel['data'];
+	       	 $this->display('editUserInfo');
+	       }else{
+	       	$this->error($rel['msg']);
+	       }
+    	}
+        $this->display();
+    }
+    
+    public function editUserInfo(){
+//     	$uid = $_SESSION['uid'];
+//     	if(empty($uid)) $this->error('系统出错，请刷新');
+    	$this->display();
+    }
+    public function registerSuccess(){
+    	$this->display();
+    }
+    public function forgetPsd(){
+    	$this->display();
+    }
+    public function verifySameName(){
+    	$username = $_POST['username'];
+    	$verify = strlen($username);
+    	if($verify != 11 || !is_numeric($username)){
+    		die(json_encode(array('code'=>202,'msg'=>'手机格式不符合')));
+    	}
+    	$db = M('Merchant');
+    	$data = $db ->where(array('mobile'=>$username))->getField('id');
+    	if(!$data){
+    		die(json_encode(array('code'=>200,'msg'=>'可以注册')));
+    	}else{
+    		die(json_encode(array('code'=>202,'msg'=>'用户名已注册')));
+    	}
+    }
+    
+
+    
+    
+}

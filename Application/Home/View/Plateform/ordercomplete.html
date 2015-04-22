@@ -1,0 +1,71 @@
+    
+   <include file="Public:header"/>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<div class="btn-group" role="group" >
+				  <a href="/Plateform/orderIncomplete" class="btn btn-info ">未完成订单</a>
+				  <a href="/Plateform/ordercomplete" class="btn btn-info active">已完成订单</a>
+				  <a href="/Plateform/orderfailed" class="btn btn-info">失效订单</a>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-12" style="text-align:center; margin-top:10px;">
+				<div class="panel panel-default col-md-12" id="ycbb-project-list-panel">
+				  <!-- Table -->
+				  <table class="table" id="project-table">
+				  	<thead>
+					  	<tr>
+						  	<th>车主称呼</th>
+						  	<th>订单号</th>
+						  	<th>发布时间</th>
+						  	<th>发布项目</th>
+						  	<th>总额</th>
+						  	<th>车型</th>
+						  	<th colspan="2">操作</th>
+					  	</tr>
+				  	</thead>
+				  	<tbody>
+					  	
+					 <volist name="data" id="vo">
+					 	<tr>
+						  	<td  >{$vo['nick_name']}</td>
+						  	<td>{$vo['order_no']}</td>
+						  	<td>{$vo['addtime']}</td>
+						  	<td>{$vo['service_name']}</td>
+						  	<td>
+						 	 {$vo['total_price']}元
+						  	</td>
+						  	<td><p>{$vo['cart_model']}</p></td>
+						  	<td >
+						  	<a href="/Plateform/orderdetail/id/{$vo['order_no']}" class="btn btn-info btn-sm">查看</a>
+						  	<p style="color:#ccc; font-size:13px; margin:0px;">
+						  	<if condition ="$vo.member_comment eq 0 and $vo.merchant_comment eq 1">
+						  		您已评价
+						  	<elseif condition="$vo.member_comment eq 1 and $vo.merchant_comment eq 0"/>
+						  		用户已评论
+						  	<elseif condition="$vo.member_comment eq 1 and $vo.merchant_comment eq 1"/>	
+						  		已互评
+							<else/>
+								未评价
+						  	</if>
+						  	</p>
+						  	</td>
+						  	
+					  	</tr>
+					 
+					 </volist>
+				  	</tbody>
+				  </table>
+				</div>
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+		</div>
+		
+		
+		<!-- footer -->
+		<include file="Public:footer"/>
+		<!-- footer end-->
+
+    </body>
+</html>

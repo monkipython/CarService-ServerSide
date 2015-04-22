@@ -1,0 +1,53 @@
+<div class="page">
+    <div class="pageContent">
+
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>用户名称：</label>
+                    {$vo.member_id|getMemberName}
+                </div>
+                <div class="unit">
+                    <label>标题：</label>
+                   {$vo.title}
+                </div>
+                <div class="unit">
+                    <label>需求详情：</label>
+                   {$vo.desc}
+                </div>
+                <div class="unit">
+                    <label>到店时间：</label>
+                   {$vo.reach_time}
+                </div>
+                <div class="unit">
+                    <label>价格区间：</label>
+                    {$vo.start_price}--{$vo.end_price}
+                </div>
+                <div class="unit">
+                    <label>地区：</label>
+                   {$vo.area_id|getAreasName}
+                </div>
+                <div class="unit">
+                    <label>车辆信息：</label>
+                   {$vo['cart_brand']},{$vo['cart_model']},{$vo['color']},{$vo['output']}
+                </div>
+                <div class="unit">
+                    <label>选择商家：</label>
+                   {$vo.merchant_id|getMerchantName}
+                </div>
+                
+                <div class="unit">
+                    <label>发布时间：</label>
+                   {$vo.addtime|toDate}
+                </div>
+                 <div class="unit">
+                    <label>图片信息：</label>
+                   <volist name="vo.pics" id="pics">
+                        <img src="__UPLOAD__{$pics}" />
+                    </volist>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+

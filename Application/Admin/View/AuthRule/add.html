@@ -1,0 +1,62 @@
+<div class="page">
+    <div class="pageContent">
+
+        <form method="post" action="__URL__/insert/navTabId/__DWZ__/callbackType/closeCurrent" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone)">
+            <div class="pageFormContent" layoutH="58">
+                <div class="unit">
+                    <label>唯一标识：</label>
+                    <input type="text" class="required" value="{$vo.name}"  name="name" id="name">
+                </div>
+         
+                <div class="unit">
+                    <label>权限：</label>
+                    <input type="text" class="required" value="{$vo.title}"  name="title" id="title">
+                </div>
+                <div class="unit">
+                    <label>权限分类：</label>
+                    <select name="category">
+                    	<volist name="group" id ="v">
+                    		<option value="{$v.id}">{$v.auth_rule_group}</option>
+                    	</volist>
+                    </select>
+                   
+                </div>
+                 <div class="unit">
+                    <label>type：</label>
+                      <input type="text" class="required" value="{$vo.type}"  name="type" id="type">
+                </div>
+                 <div class="unit">
+                    <label>condition：</label>
+                      <input type="text" class="" value="{$vo.condition}"  name="condition" id="condition">
+                </div>
+               
+                <div class="unit">
+                    <label>状态：</label>
+                   	<select name="status">
+                   		<if condition ="$vo.status eq 1">
+                   		<option value="1" selected>正常</option>
+                   		<else/>
+                   		<option value="1">正常</option>
+                   		</if>
+                   		<if condition="$vo.status eq 0">
+                   		<option value="0" selected>禁用</option>
+                   		<else/>
+                   		<option value ="0">禁用</option>
+                   		</if>
+                   	
+                   	</select>
+					
+                </div>
+               
+            </div>
+
+            <div class="formBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+                    <li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+</div>

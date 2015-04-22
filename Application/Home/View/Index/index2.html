@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="驾遇-遇见最好的汽车生活服务平台">
+<meta name="author" content="">
+<title>驾遇 － 首页</title>
+<link rel="Shortcut icon" href="__PUBLIC__/img/favicon.ico" >
+
+<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+<link href="__PUBLIC__/static/bootstrap/css/frontend.css"
+	rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="__PUBLIC__/static/bootstrap/css/freelancer.css"
+	rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="__PUBLIC__/static/bootstrap/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- 自定义css -->
+<link href="__PUBLIC__/css/index.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	.nav-tabs > li.active > a{color:rgb(248,125,34)}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{color:rgb(248,125,34)}
+	.nav-tabs > li > a {color:black}
+	.download{padding:20px 0px;}
+@media screen and (max-width: 900px) {.alertFont{display:none;} }
+</style>
+</head>
+<body id="page-top" class="index">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-default"
+		style="position: fixed; z-index: 999; width: 100%;">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">导航</span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="/"> <img class="img-responsive"
+					src="__PUBLIC__/img/logo.png" style="margin-top: -10px;" />
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden"><a href="#page-top"></a></li>
+					<li class="page-scroll"><a href="#portfolio" class="active">首页</a>
+					</li>
+					<li class="page-scroll"><a href="#server">特色服务</a></li>
+					<li class="page-scroll"><a href="javascript:;">下载</a></li>
+					<li class="page-scroll"><a href="#about">关于我们</a></li>
+					<!-- 	<li class="page-scroll"><img src="__PUBLIC__/img/index_03.png"
+						style="margin-left: 35px; margin-top: 9px;" /> <a href="#about"
+						style="padding-top: 0px;">问答</a></li>  -->
+				</ul>
+
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 banner"
+					style="height: 358px;">
+				<div class="col-lg-4 alertFont" style="font-size:30px;color:rgb(37, 121, 216);margin-top:99px;text-indent:1.5em; ">我们的页面真的很丑，不然怎么证明我们缺UI呢？</div>
+					<div
+						class="col-lg-4 col-lg-offset-3 col-md-4 col-md-offset-7 col-sm-5 col-sm-offset-6 col-xs-12  login">
+						<div class="login-body">
+						
+							<if condition="empty($cookie)">
+							<form role="form" action="Acount/login" method="post" id="login">
+								<h3 class="theme-color">商家登录</h3>
+								<div class="input-group">
+									<span
+										class="input-group-addon glyphicon glyphicon-user span-left-type"></span>
+									<input type="text" class="form-control input-type"
+										name="username" placeholder="用户名">
+								</div>
+								<div class="input-group">
+									<span
+										class="input-group-addon glyphicon glyphicon-lock span-left-type"></span>
+									<input type="password" class="form-control input-type"
+										name="password" placeholder="密码">
+
+								</div>
+
+								<div class="checkbox black-color">
+									<label style="margin-left: 10px; float: left;"> <input
+										type="checkbox" class="checkboxsize" name="checkbox"
+										value='ON' checked="checked">自动登录
+									</label> <label style="margin-right: 10px; float: right;"> <!-- Button trigger modal -->
+										<button type="button"
+											class="btn btn-default btn-xs btn-transparent"
+											data-toggle="modal" data-target="#myModal">忘记密码？</button>
+
+									</label>
+								</div>
+								<a tabindex="0" class="btn  btn-danger login_submit"
+									role="button" id="login_btn" data-toggle="popover"
+									data-trigger="focus" data-placement="right" title=""
+									data-container="body" data-content="">登录</a>
+
+
+							</form>
+							<else />
+							<div class="page-header">
+								<a href="javascript:;"> 欢迎 ，<span
+									class="badge badge-default" id="">{$cookie["merchant_name"]}
+								</span>回来
+								</a>
+							</div>
+							<a href="/Plateform/unbid" class="btn btn-success"
+								style="margin: 20px 0px 60px 0px;">进入后台</a> </if>
+						</div>
+						<div class="login-bottom">
+							赶紧来注册吧！
+
+							<button type="button" class="btn btn-primary register_submit "
+								data-toggle="modal" data-target="#myModalRegister1">
+								免费注册</button>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">忘记密码</h4>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="phone" class="col-xs-4 col-sm-3 control-label">手机号：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="text" class="form-control" id="forgetphone"
+									placeholder="请输入手机号">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="code_verify" class="col-xs-12 col-sm-3 control-label">验证码：</label>
+							<div class="col-xs-8 col-sm-5">
+								<input type="text" class="form-control" id="forgetverify"
+									placeholder="请输入手机验证码">
+							</div>
+							<div class="col-xs-2 col-sm-2 " style="margin-left: -15px;">
+
+
+								<a tabindex="0" class="btn btn-default btn-sm" role="button"
+									id="forgetPsq_v" data-toggle="popover" data-trigger="focus"
+									data-placement="right" title="" data-container="body"
+									data-content="">获取验证码</a>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="forgetpsd" class="col-xs-4 col-sm-3 control-label">新密码：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="password" class="form-control" id="forgetpsd"
+									placeholder="请输入新密码">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="forgetpsdagain"
+								class="col-xs-4 col-sm-3 control-label">确认密码：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="password" class="form-control" id="forgetpsdagain"
+									placeholder="请再次输入新密码">
+							</div>
+						</div>
+
+
+
+					</form>
+				</div>
+				<div class="modal-footer">
+					<input type="hidden" id="forget_session_id" /> <a tabindex="0"
+						class="btn btn-primary btn-sm" style="width: 23%" role="button"
+						id="forgetPsd" data-toggle="popover" data-trigger="focus"
+						data-placement="top" title="" data-container="body"
+						data-content="">完成</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModalRegister1" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+		data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<div class="modal-title" id="myModalLabel1">
+						<img class="" src="__PUBLIC__/img/1_active.png">商户注册 <img
+							src="__PUBLIC__/img/dark-point.png"> <img class=""
+							src="__PUBLIC__/img/2.png">完善个人资料 <img
+							src="__PUBLIC__/img/dark-point.png"> <img class=""
+							src="__PUBLIC__/img/3.png">提交审核
+					</div>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="registerphone"
+								class="col-xs-4 col-sm-3 control-label">手机号：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="text" class="form-control" id="registerphone"
+									placeholder="请输入手机号">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="registerverify"
+								class="col-xs-12 col-sm-3 control-label">验证码：</label>
+							<div class="col-xs-8 col-sm-5">
+								<input type="text" class="form-control" id="registerverify"
+									placeholder="请输入手机验证码">
+							</div>
+							<div class="col-xs-2 col-sm-2 " style="margin-left: -15px;">
+
+
+								<a tabindex="0" class="btn btn-default btn-sm" role="button"
+									id="registerPsq_v" data-toggle="popover" data-trigger="focus"
+									data-placement="right" title="" data-container="body"
+									data-content="">获取验证码</a>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="registerpsd" class="col-xs-4 col-sm-3 control-label">新密码：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="password" class="form-control" id="registerpsd"
+									placeholder="请输入新密码">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="registerpsdagain"
+								class="col-xs-4 col-sm-3 control-label">确认密码：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="password" class="form-control"
+									id="registerpsdagain" placeholder="请再次输入新密码">
+							</div>
+						</div>
+
+
+
+					</form>
+				</div>
+				<div class="modal-footer">
+					<input type="hidden" id="register_session_id" /> <a tabindex="0"
+						class="btn btn-primary btn-sm btn-block theme-color-btn"
+						role="button" id="register" data-toggle="popover"
+						data-trigger="focus" data-placement="top" title=""
+						data-container="body" data-content="">下一步</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="myModalRegister2" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+		data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<div class="modal-title" id="myModalLabel2">
+						<img class="" src="__PUBLIC__/img/1_active.png">商户注册 <img
+							src="__PUBLIC__/img/light-point.png"> <img class=""
+							src="__PUBLIC__/img/2_active.png">完善个人资料 <img
+							src="__PUBLIC__/img/dark-point.png"> <img class=""
+							src="__PUBLIC__/img/3.png">提交审核
+
+					</div>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="companyname" class="col-xs-4 col-sm-3 control-label">汽车店名称：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="text" class="form-control" id="companyname"
+									placeholder="请填写汽车店名称">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="charger" class="col-xs-4 col-sm-3 control-label">负责人：</label>
+							<div class="col-xs-12 col-sm-8">
+								<input type="text" class="form-control" id="charger"
+									placeholder="请填写负责人">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-xs-4 col-sm-3 control-label">是否有wifi：</label>
+							<div class="col-xs-12 col-sm-8">
+								<span class="input-group-addon"> <input type="radio"
+									name="wifi" value='1'> 是
+								</span> <span class="input-group-addon"> <input type="radio"
+									name="wifi" value='0'> 否
+								</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="busstime" class="col-xs-4 col-sm-3 control-label">营业时间：</label>
+							<div class="col-xs-12 col-sm-8">
+								<div class="col-xs-2 input-group pull-left">
+									<input class="form-control  time-padding "
+										onkeyup="this.value=this.value.replace(/\D/g,'')"
+										onafterpaste="this.value=this.value.replace(/\D/g,'')"
+										maxlength="2" name="time1" type="text" /> <span
+										class="input-group-addon time-padding">时</span>
+								</div>
+								<div class="col-xs-2 input-group pull-left ">
+									<input class="form-control  time-padding"
+										onkeyup="this.value=this.value.replace(/\D/g,'')"
+										onafterpaste="this.value=this.value.replace(/\D/g,'')"
+										maxlength="2" name="time2" type="text" /> <span
+										class="input-group-addon time-padding">分</span>
+								</div>
+								<div class="col-xs-1 input-group pull-left ">
+									<span class="input-group-addon " style="padding: 7px 5px;">-</span>
+								</div>
+								<div class="col-xs-2 input-group pull-left">
+									<input class="form-control  time-padding "
+										onkeyup="this.value=this.value.replace(/\D/g,'')"
+										onafterpaste="this.value=this.value.replace(/\D/g,'')"
+										maxlength="2" name="time3" type="text" /> <span
+										class="input-group-addon time-padding">时</span>
+								</div>
+								<div class="col-xs-2 input-group pull-left">
+									<input class="form-control  time-padding"
+										onkeyup="this.value=this.value.replace(/\D/g,'')"
+										onafterpaste="this.value=this.value.replace(/\D/g,'')"
+										maxlength="2" name="time4" type="text" /> <span
+										class="input-group-addon time-padding">分</span>
+								</div>
+
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="companyaddr" class="col-xs-4 col-sm-3 control-label">汽车店地址：</label>
+
+							<div class="col-xs-12 col-sm-8 ">
+								<div class="col-xs-4">
+									<select class="" name="province_id" id="province_id">
+										<option value="">请选择省份</option>
+										<volist name="province" id="vocate">
+										<option value="{$key}">{$vocate}</option>
+										</volist>
+									</select>
+								</div>
+								<div class="col-xs-4">
+									<select class="" name="city_id" id="city_id">
+										<option value="">请选择城市</option>
+									</select>
+								</div>
+								<div class="col-xs-4">
+									<select class="" name="area_id" id="area_id">
+										<option value="">请选择区县</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-8 " style="margin-top: 5px;">
+								<input type="text" class="form-control" id="companyaddr"
+									placeholder="请填写街道地址">
+							</div>
+						</div>
+
+
+
+					</form>
+				</div>
+				<div class="modal-footer">
+
+					<a tabindex="0"
+						class="btn btn-primary btn-sm btn-block theme-color-btn"
+						role="button" id="register2" data-toggle="popover"
+						data-trigger="focus" data-placement="top" title=""
+						data-container="body" data-content="">下一步</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModalRegister3" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+		data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<div class="modal-title" id="myModalLabel3">
+						<img class="" src="__PUBLIC__/img/1_active.png">商户注册 <img
+							src="__PUBLIC__/img/light-point.png"> <img class=""
+							src="__PUBLIC__/img/2_active.png">完善个人资料 <img
+							src="__PUBLIC__/img/light-point.png"> <img class=""
+							src="__PUBLIC__/img/3_active.png">提交审核
+
+					</div>
+				</div>
+				<div class="modal-body text-center">
+					<h3>注册完成</h3>
+					<p>资料已提交后台审核，审核通过，客服会主动联系您。</p>
+				</div>
+				<div class="modal-footer">
+
+					<button type="button"
+						class="btn btn-primary btn-block theme-color-btn"
+						data-dismiss="modal">完成</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Portfolio Grid Section -->
+	<div class="container">
+	<!-- 	<div class="row download" id="download" >
+				<div class="col-md-12">
+					<ul class="nav nav-tabs" id="otherInfoTab">
+				    <li><a  id="a_1" class="font-color" href="#member">用户端</a></li>
+				    <li ><a id="a_2" class="font-color" href="#merchant">商务端</a></li>
+					</ul>
+				</div>
+		
+		</div> -->
+		<div class="row">
+			<div class="col-lg-12 border-bottom">
+				<h3 class="con-title" id="server">特色服务</h3>
+				<img src="__PUBLIC__/img/smcir.png"
+					style="margin-bottom: -2px; margin-left: 144px; display: block;" />
+			</div>
+		</div>
+		<div class="row border-deshed">
+			<div class="col-lg-6 text-center "
+				style="margin-left: -15px; margin-right: -15px; overflow: hidden;">
+				<div class=" content1">
+					<h3 class="conten-title">及时互动</h3>
+					<p class="conten-p">
+						及时与车主介绍沟通服务细节，做到服务先行，<br> 确定细节后达成交易，提升用户满意度，
+					</p>
+					<br>
+				</div>
+			</div>
+			<div class="col-lg-6 text-center " style="overflow: hidden;">
+				<img class="img-responsive pic1" src="__PUBLIC__/img/index03_03.png" />
+			</div>
+		</div>
+		<div class="row border-deshed">
+			<div class="col-lg-6 col-xs-12  text-center  ">
+				<img class="img-responsive pic2" src="__PUBLIC__/img/index03_07.png" />
+			</div>
+			<div class="col-lg-6 text-center  "
+				style="margin-left: -15px; margin-right: -15px;">
+				<div class=" content2">
+					<h3 class="conten-title">需求推送</h3>
+					<p class="conten-p">
+						把车主的需求及时推送给附近商户，商户<br> 可反馈报价与车主进一步的沟通，为自己争取跟多的客源。
+					</p>
+					<br>
+				</div>
+			</div>
+		</div>
+		<div class="row border-deshed">
+			<div class="col-lg-6 text-center "
+				style="margin-left: -15px; margin-right: -15px;">
+				<div class=" content3">
+					<h3 class="conten-title">养护通</h3>
+					<p class="conten-p">
+						车主填写爱车数据，系统未用户爱车做出评<br>估，并推荐保养方案和服务商家，间接促成车主消费。
+					</p>
+					<br>
+				</div>
+			</div>
+			<div class="col-lg-6 text-center ">
+				<img class="img-responsive pic3" src="__PUBLIC__/img/index03_11.png" />
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-lg-6 text-center ">
+				<img class="img-responsive pic4" src="__PUBLIC__/img/index03_15.png" />
+			</div>
+			<div class="col-lg-6 text-center "
+				style="margin-left: -15px; margin-right: -15px;">
+				<div class=" content4">
+					<h3 class="conten-title">社交平台</h3>
+					<p class="conten-p">
+						车主的交流分享平台。互帮互助、结伴<br>出游，晒心情、报路况，在这里车主们交流车生活。
+					</p>
+					<br>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12 border-bottom" style="margin-bottom: 21px;">
+				<h3 class="con-title" id="about">关于我们</h3>
+				<img class="" src="__PUBLIC__/img/smcir.png"
+					style="margin-bottom: -2px; margin-left: 144px; display: block;" />
+
+			</div>
+			<div class="col-lg-6 text-center "
+				style="border-right: 1px dashed #cccccc; padding-top: 65px; padding-bottom: 65px;">
+				<p style="text-align: left;">
+					<span class="bottom-font">公司介绍</span> <span class="bottom-font-2 "
+						style="margin-left: 10px;">驾遇，是专业汽车后服务综合应用平台。
+						提供洗车、保养、修车等汽车后服务，到车主组织自驾游、汽车知识问答等社区互动，再到汽车相关的保险、
+						二手车买卖等交易。驾遇是连接车主与商家的桥梁，让沟通更顺畅。展示服务优势与内容，及时提醒车主需求将会为您带来优质客源！加入驾遇平台，为您打开一扇
+						未来的窗! </span>
+				</p>
+			</div>
+			<div class="col-lg-6 text-center"
+				style="padding-top: 65px; padding-bottom: 65px;">
+				<p>
+					<span class="bottom-font">联系我们</span> <br> <span
+						class="bottom-font-2">电话：0592-5021243<br> QQ:418222547<br>
+						邮箱:xian2323@126.com<br> 地址:厦门市思明区莲前街道洪莲中路明发工业园1462号4F401<br>
+
+					</span>
+				</p>
+
+			</div>
+
+
+		</div>
+	</div>
+	<div id="gotop"
+		style="position: fixed; bottom: 100px; right: 25px; z-index: 9999;display:none;">
+		<a id="w-gotop" class="w-gotop" href="javascript:void(0)"
+			style="visibility: visible; color: rgb(96, 96, 96); display: block; width: 40px; height: 40px;">
+			<span class="glyphicon glyphicon-chevron-up gotop"
+			style="font-size: 22px; padding: 8px 7px 0px 9px;"></span> <span
+			class="w-text" style="display: none; padding-left: 4px;">返回<br>顶部
+		</span>
+		</a>
+	</div>
+	<!-- Footer -->
+
+	<!-- footer -->
+	<include file="Public:footer" />
+	<!-- footer end-->
+
+	<!-- jQuery -->
+	<script src="__PUBLIC__/static/jquery-2.0.3.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="__PUBLIC__/static/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="__PUBLIC__/static/bootstrap/js/jquery.easing.min.js"></script>
+	<!-- <script src="__PUBLIC__/static/bootstrap/js/classie.js"></script> -->
+	<script src="__PUBLIC__/static/bootstrap/js/cbpAnimatedHeader.js"></script>
+	<script src="__PUBLIC__/static/bootstrap/js/jquery.session.js"></script>
+	<!-- Contact Form JavaScript -->
+	<!--     <script src="__PUBLIC__/static/bootstrap/js/jqBootstrapValidation.js"></script> -->
+	<!--     <script src="__PUBLIC__/static/bootstrap/js/contact_me.js"></script> -->
+
+	<!-- Custom Theme JavaScript -->
+	<script src="__PUBLIC__/static/bootstrap/js/script.js"></script>
+	<script>
+		$().ready(function() {
+			 
+			
+			console.log('求简历：keita@caryu.net');
+			$("#w-gotop").click(function() {
+				$("html,body").animate({
+					scrollTop : "0px"
+				}, 200);
+			});
+			$("#w-gotop").hover(function() {
+				$(".gotop").hide();
+				$(".w-text").css("display", 'block');
+			}, function() {
+				$(".gotop").show();
+				$(".w-text").hide();
+			});
+			
+		       $('#province_id').change(function() {
+		            var province = $(this).val();
+		            $.getJSON("__MODULE__/Index/getcity/id/" + province + '/', function(result) {
+		                var str = "<option value=''>请选择城市</option>";
+		                $.each(result, function(index, d) {
+		                    if (d != null && index != 'callbackType') {
+		                        str += "<option value='" + index + "'>" + d + "</option>";
+		                    }
+		                })
+		                $("#city_id").html(str);
+		            });
+		        });
+
+		        $('#city_id').change(function() {
+		            var province = $(this).val();
+		            $.getJSON("__MODULE__/Index/getcity/id/" + province + '/', function(result) {
+		                var str = "<option value=''>请选择地区</option>";
+		                $.each(result, function(index, d) {
+		                    if (d != null && index != 'callbackType') {
+		                        str += "<option value='" + index + "'>" + d + "</option>";
+		                    }
+		                })
+		                $("#area_id").html(str);
+		            });
+		        });
+
+			//$('#myModalRegister2').modal('show');
+			window.onscroll = function() {
+				var top = $(document).scrollTop();
+				if(top < 100){
+					$('#gotop').hide();
+				}
+				if(top > 100){
+					$('#gotop').show();
+				}
+				if (top > 100) {
+					$('.pic1').animate({
+						marginLeft : "0px"
+					}, "1500", "linear", function() {
+						$('.content1').animate({
+							marginLeft : "0px"
+						}, '1500');
+					});
+
+				}
+				if (top > 500) {
+					$('.pic2').animate({
+						marginLeft : "0px"
+					}, "1500", "linear", function() {
+						$('.content2').animate({
+							marginLeft : "0px"
+						}, '1500', "linear");
+					});
+
+				}
+				if (top > 920) {
+					$('.pic3').animate({
+						marginLeft : "0px"
+					}, "1500", "linear", function() {
+						$('.content3').animate({
+							marginLeft : "0px"
+						}, '1500', "linear");
+					});
+
+				}
+
+				if (top > 1420) {
+					$('.pic4').animate({
+						marginLeft : "0px"
+					}, "1500", "linear", function() {
+						$('.content4').animate({
+							marginLeft : "0px"
+						}, '1500', "linear");
+					});
+
+				}
+
+			};
+
+		})
+	</script>
+</body>
+
+</html>

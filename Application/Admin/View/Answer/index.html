@@ -1,0 +1,122 @@
+<form id="pagerForm" action="__URL__" method="post">
+	<input type="hidden" name="pageNum" value="{$_REQUEST['pageNum']|default=1}"/>
+	<input type="hidden" name="numPerPage" value="{$numPerPage}"/>
+    <input type="hidden" name="_order" value="{$_REQUEST['_order']}"/>
+	<input type="hidden" name="_sort" value="{$_REQUEST['_sort']|default='1'}"/>
+    <input type="hidden" name="listRows" value="{$_REQUEST['listRows']}"/>
+     
+    <volist name="map" id="m">
+    <input type="hidden" name="{$key}" value="{$_REQUEST[$key]}"/>
+    </volist>
+</form>
+
+
+<div class="page">
+	<div class="pageHeader">
+		<form onsubmit="return navTabSearch(this);" action="__URL__" method="post">
+		<div class="searchBar">
+			<ul class="searchContent">
+				<li>
+					<label>分类名称：</label>
+					<select name="pid">
+					<option value="0">全部</option>
+					<volist name="cate" id ="vol">
+						<if condition ="$pid eq $vol['id']">
+						<option value="{$vol['id']}" selected>{$vol['name']}</option>
+						<else/>
+						<option value="{$vol['id']}">{$vol['name']}</option>
+						</if>
+					</volist>
+					</select>
+				
+				</li>
+				<li>
+					<label>搜索内容</label>
+					<input type="text" name="keywords" value="{$map['keywords']}">
+				</li>
+				<li>
+					<select name="timeStyle">
+					<option value="0" selected>全部</option>
+						<if condition ="$timeStyle eq 1">
+							<option value="1" selected>小于当前时间</option>
+						<else/>
+							<option value="1">小于当前时间</option>
+						</if>
+						<if condition ="$timeStyle eq 2">
+							<option value="2" selected>大于当前时间</option>
+						<else/>
+							<option value="2">大于当前时间</option>
+						</if>
+					</select>
+				</li>
+			</ul>
+			<div class="subBar">
+				<ul>
+					<li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+					
+				</ul>
+			</div>
+		</div>
+		</form>
+	</div>
+	
+	<div class="pageContent">
+		<div class="panelBar">
+			<ul class="toolBar">
+				<li><a class="add" href="__URL__/add" target="dialog" mask="true" width="700" height="400"><span>新增问题</span></a></li>
+				<li><a class="delete" href="__URL__/del/id/{sid_node}/navTabId/__DWZ__" target="ajaxTodo"  title="你确定要删除吗？" warn="请选择节点" ><span>删除</span></a></li>
+				<!-- <li><a class="edit" href="__URL__/edit/id/{sid_node}" target="dialog" mask="true" warn="请选择节点" width="700" height="400"><span>修改</span></a></li>
+						 -->
+			</ul>
+		</div>
+		<table class="list" width="100%" layoutH="116">
+			<thead>
+			<tr>
+				<th width="60">ID</th>
+				<th width="100">标题</th>
+                <th width="100">所属分类</th>
+				<th width="80" orderField="title">发布人</th>
+				<th width="80">发布时间</th>
+				 <th width="60">关注数</th>
+				  <th width="60">回答数</th>
+				
+			</tr>
+			</thead>
+			<tbody>
+	
+			
+			<volist id="vo" name="list">
+				<tr target="sid_node" rel="{$vo['id']}">
+					<td>{$vo['id']}</td>
+					<td><a href="__URL__/detail/id/{$vo['id']}/furl/{$furl}" target="navTab" rel="container.index">{$vo['title']}</a></td>
+					<td>{$vo['pidname']}</td>
+					<if condition="($vo['system_user_id'] gt 27 )and($vo['system_user_id'] lt 228)">
+					<td><p style="color:blue;">{$vo['name']}</p></td>
+					<else/>
+					<td>{$vo['name']}</td>
+					</if>
+					<td>{$vo['addtime']|date='Y-m-d H:i:s',###}</td>
+					<td>{$vo['attention']}</td>
+					<td>{$vo['answer_num']}</td>
+				</tr>
+			</volist>
+			
+			</tbody>
+		</table>
+		<div class="panelBar">
+			<div class="pages">
+				<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="5" <eq name="numPerPage" value="5">selected=selected</eq>>5</option>
+				<option value="10" <eq name="numPerPage" value="10">selected=selected</eq>>10</option>
+				<option value="15" <eq name="numPerPage" value="15">selected=selected</eq>>15</option>
+				<option value="20" <eq name="numPerPage" value="20">selected=selected</eq>>20</option>
+			</select>
+				<span>共{$totalCount}条</span>
+
+			</div>
+			<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+		</div>
+		
+	</div>
+</div>

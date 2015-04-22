@@ -1,0 +1,320 @@
+	<!-- Large modal -->
+
+	<!-- modal end -->
+
+
+	<include file="Public:header" />
+	<div class="container">
+		<div class="col-md-12" style="text-align: center; margin-top: 10px;">
+			<div class="panel panel-default">
+				<div class="panel-header" style="border-bottom: 1px solid #eee;">
+					<h3 class="h" style="color: #f87d22; margin-bottom: 15px;">
+						需求详情
+						<if condition="$data['demand_status'] eq 0 and $type eq 1"> <span
+							class="label label-success">正常</span> 
+							<elseif condition="$data['demand_status'] eq 0 and $type eq 2 " />
+							<span
+							class="label label-success">等待用户确认</span> 
+							<elseif condition="$data['demand_status'] eq 1" /> <span
+							class="label label-warning">需求被抢</span> <elseif
+							condition="$data['demand_status'] eq 2" /> <span
+							class="label label-default">取消需求</span> <elseif
+							condition="$data['demand_status'] eq 3" /> <span
+							class="label label-default">需求过期</span> </if>
+					</h3>
+				</div>
+				<form role="form" action="__URL__/offer_price?id={$data.id}" method="post">
+				<div class="panel-body">
+					<div class="col-md-12" style="text-align: left;">
+						<div class="col-md-3">
+							<span class="" style="margin-top: 20px; padding: 21px 5px;">
+								<img
+								src="{$data['header']|default='__PUBLIC__/img/default_user.jpg'}"
+								class="img-responsive  img-circle" /> <!-- <button class="btn btn-info">删除 <i class="fa fa-remove fa-la"></i></button> -->
+							</span>
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h4>昵称：{$data['nick_name']}</h4>
+							</div>
+							<div class="col-md-12">
+								<p>车主留言： {$data['description']}</p>
+							</div>
+							<volist name="data.pics" id="vo">
+							<div class="col-md-3">
+								<span class="thumbnail"> <img src="{$vo.hb}" /> <!-- <button class="btn btn-info">删除 <i class="fa fa-remove fa-la"></i></button> -->
+								</span>
+							</div>
+							</volist>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default">
+									车型：{$data['cart_model']} </label>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default"> 到店时间：
+									{$data['reach_time']} </label>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 20px;">
+								<label class="label label-default"> 距离：
+									{$data['distance']} 公里</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12"
+						style="border-top: 1px solid #eee; padding-top: 25px;">
+						<!-- Table -->
+						<div class="col-md-9 " style="margin-left: 12.5%">
+							
+								<table class="table table-bordered text-center" id="project-table">
+									<thead>
+										<tr>
+											<th>项目</th>
+											<th>价格</th>
+											<th>时长</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<volist name="data.list" id="vo">
+										<tr>
+											<td>{$vo['server_name']} <input type="hidden"
+												name="category_ids[]" value="{$vo['category_id']}"> <input
+												type="hidden" name="bidding_ids[]" value="{$vo['bidding_id']}">
+											</td>
+											<td><if condition="$vo.price eq -1"> <input
+													type="number" name="prices[]" value=""  class="input-style" 
+													placeholder="填写价格" />元 <else /> <input type="number"
+													name="prices[]" value="{$vo.price}"  class="input-style" 
+													placeholder="填写价格" />元 </if></td>
+											<td style="border-right:1px solid #dddddd;"><if condition="$vo.time eq -1"> <input
+													type="number" name="day[]" value="" class="time-format input-style"
+													 /> 天
+													 <input
+													type="number" name="hour[]" value=""   class="time-format input-style"
+													 /> 时
+													 <input
+													type="number" name="min[]" value="" class="time-format input-style"
+													 /> 分
+													<else />
+													
+													<if condition="$vo.day eq 0">
+													 <input
+													type="number" name="day[]" value="" class="time-format input-style"
+													 /> 
+													 <else/>
+													 <input
+													type="number" name="day[]" value="{$vo.day}" class="time-format input-style"
+													 />
+													</if> 
+													  天
+													 <if condition="$vo.hour eq 0">
+													  <input
+													type="number" name="hour[]" value="" class="time-format input-style"
+													 /> 
+													<else/>
+													  <input
+													type="number" name="hour[]" value="{$vo.hour}" class="time-format input-style"
+													 /> 
+													 </if>
+													 时
+													 <if condition ="$vo.min eq 0">
+														  <input
+														type="number" name="min[]" value="" class="time-format input-style"
+														 /> 
+													 <else/>
+														  <input
+														type="number" name="min[]" value="{$vo.min}" class="time-format input-style"
+														 /> 
+													 </if>
+													 分
+													</if>
+											</td>
+
+
+										</tr>
+										</volist>
+										<tr>
+											<td colspan="4">
+												<div class="form-group">
+													<h4 class="h h-sm"
+														style="text-align:left;">商家备注</h4>
+													<textarea class="form-control" 
+														style="width: 100%; height: 200px; resize: none; color: black; border: 1px solid #dcdcdc;"
+														placeholder="暂无备注" name="merchant_remark">{$data['merchant_remark']}</textarea>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							<div class="col-md-12">
+								<if condition=" $data.member_comment eq 1">
+									
+									
+								</if>
+							
+							
+							</div>
+						
+						
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<div class="row">
+						<div class="col-xs-offset-5 col-md-4">
+							<h5>
+								总价<span class="total_price">{$data['total_price']}</span>元 总时间<span
+									class="total_time">{$data['total_time']}</span>
+							</h5>
+						</div>
+						<div class=" col-md-3">
+							<div class="col-md-6">
+							<if condition ="$type eq 1">
+								<input type="submit" class="btn btn-info bidding" id="next-step"
+									value="报价" />
+							<elseif condition="$type eq 2 "/>
+							<input type="submit" class="btn btn-info bidding" id="next-step"
+									value="修改报价" />
+							</if>
+							</div>
+							<div class="col-md-6">
+								<a class="btn btn-info" href="javascript:window.history.go(-1);">取消</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			 </form>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer -->
+	<include file="Public:footer" />
+	<!-- footer end-->
+	<script>
+		$().ready(function() {
+			$("input[name='prices[]']").blur(function() {
+				var price = 0 * 1;
+				$("input[name='prices[]']").each(function() {
+					var value = $(this).val();
+					if (value == '' || value == undefined) {
+						$(this).val('');
+					} else if (!isNaN(value) && value >= 0) {
+						price += value * 1;
+					} else {
+						alert('价格必须是数字且大于等于0');
+						$(this).focus();
+						return false;
+					}
+				});
+				$('.total_price').html(price);
+
+			});
+			$(".time-format").blur(function() {
+
+				var day = 0 * 1;
+				var hour = 0 * 1;
+				var min = 0 * 1;
+				var hourInc = 0 * 1;
+				var dayInc = 0 * 1;
+				$("input[name='day[]']").each(function() {
+					var value = $(this).val();
+					if (value == '' || value == undefined) {
+						day += 0 * 1;
+					} else if (!isNaN(value) && value >= 0) {
+						day += value * 1;
+					} else {
+						alert('价格必须是数字且大于等于0');
+						$(this).focus();
+						return false;
+					}
+				});
+				
+				$("input[name='hour[]']").each(function() {
+					var value = $(this).val();
+					if (value == '' || value == undefined) {
+						hour += 0 * 1;
+					} else if (!isNaN(value) && value >= 0) {
+						hour += value * 1;
+					} else {
+						alert('价格必须是数字且大于等于0');
+						$(this).focus();
+						return false;
+					}
+				});
+				
+				$("input[name='min[]']").each(function() {
+					var value = $(this).val();
+					if (value == '' || value == undefined) {
+						min += 0 * 1;
+					} else if (!isNaN(value) && value >= 0) {
+						min += value * 1;
+					} else {
+						alert('价格必须是数字且大于等于0');
+						$(this).focus();
+						return false;
+					}
+				});
+				if(min >=60){
+					hourInc = parseInt(min /60);
+					min = min % 60;
+				}
+				hour = hour + hourInc;
+				if(hour>=24){
+					dayInc = parseInt(hour /24);
+					hour = hour % 24;
+				}
+				day = day +dayInc;
+				
+				$('.total_time').html(day+'天'+hour+'时'+min+ '分');
+
+			});
+		/*	$('.bidding').click(function(){
+				var price = new Array() ;
+				$("input[name='prices[]']").each(function(i) {
+					price[i] = $(this).val();
+				});
+				var day = new Array() ;
+				$("input[name='day[]']").each(function(i) {
+					day[i] = $(this).val();
+				});
+				var hour = new Array() ;
+				$("input[name='hour[]']").each(function(i) {
+					hour[i] = $(this).val();
+				});
+				var min = new Array() ;
+				$("input[name='min[]']").each(function(i) {
+					min[i] = $(this).val();
+				});
+				var merchant_remark = $('textarea[name=merchant_remark]').val();
+				console.log(price);
+				console.log(day);
+				console.log(hour);
+				console.log(min);
+				console.log(merchant_remark);
+				$.ajax({
+				    type: 'POST',
+				    url: '/Plateform/offer_price',
+				    data: {'bidding_ids':username,'password':password,'autologin':checkbox} ,
+				    success: function(json){
+				    	if(json['code'] == 0){
+				    		location.href = "/Plateform/unbid";
+				    		//$('#login_btn').attr('data-content','登录成功，跳转页面正在开发').popover('show');;
+				    	}else{
+				    		
+				    		$('#login_btn').attr('data-content',json['msg']).popover('show');;
+				    		
+				    	}
+				    } ,
+				    dataType: 'json'
+				});
+				
+				
+				
+			});*/
+			
+		})
+	</script>
+</body>
+</html>

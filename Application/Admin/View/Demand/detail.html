@@ -1,0 +1,198 @@
+<div class="page">
+	<div class="pageHeader">
+
+	</div>
+
+	<div class="pageContent">
+		<div class="panelBar">
+			<ul class="toolBar">
+				<li><a class="reload" href="__URL__/detail/id/{$data['id']}/furl/{$furlen}"  target="navTab"  rel="Demand.detail"><span>刷新</span></a></li>
+				<li><a class="icon" href="__URL__/cancelDemand/id/{$data['id']}/navTabId/__DWZ__" target="ajaxTodo"  title="你确定要取消需求吗？" ><span>取消需求</span></a></li>
+			</ul>
+		</div>
+	
+		<div class="row" layoutH="15">
+			<div class="col-md-12" style="margin-top:10px;padding:10px;">
+			<!-- Button trigger modal -->
+			
+				<div class="col-md-8">
+
+					<div class="col-md-12" style="border:1px solid #d9d9d9;">
+						<div class="col-md-12 text-left " style="border-bottom:1px dotted #DBDBDB;  padding:15px;  " >
+									<div class="col-md-2" style="float:left;" >
+										<h4>需求详情:</h4>
+										<div class="col-md-2"  style="float:left;padding-top:15px;">
+											<img src="{$data.header|default='__PUBLIC__/img/default_user.jpg'}" width ="80" height="80"/>
+										</div>
+									</div>
+									<div class="col-md-10" style="padding:10px 15px 10px 15px; float:left;">
+										<div class="col-md-12">
+											<span class="theme-h6">{$data['nick_name']}</span>
+										</div>
+										<div class="col-md-12">
+											<span class="theme  answer-title">报价项目：{$data['title']} -	用户电话：{$data['mobile']}</span>
+										</div>
+										
+										<div class="col-md-12" style="">
+										<p  class=" answer-title">
+											用户留言：{$data['description']}</br>
+										
+											</p>
+										</div>
+										<div class="col-md-12" style="padding-top:5px;">
+											<volist name ="data.pics" id="img">
+											<div class="col-md-4" style="float:left;padding:5px;">
+												<img alt="" src="{$img.hs}" class="img-responsive">
+											</div>
+											</volist>
+											<div class="clear"></div>
+										</div>
+										<div class="col-md-12  font-grep">
+											
+										
+											<div class="col-md-4" style="float:left">
+												报价数（{$data['is_bidding']}）
+											</div>
+											<div class="col-md-4" style="float:left">
+											 报价时间：{$data['addtime']|date="Y-m-d H:i:s",###}&nbsp;&nbsp;
+											</div>
+											<div class="col-md-4" style="float:left">
+											到店时间：{$data['reach_time']|date="Y-m-d H:i:s",###}
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+									</div>
+									<div class="clear"></div>
+								</div>
+								<h4>商家报价</h4>
+								<div style="min-height:80px;">
+										<volist name ="bidding" id ="ch">
+											<div class="col-md-12" style="padding-top:25px;">
+													<div class="col-md-2"  style="float:left">
+														<img src="{$ch.header|default='__PUBLIC__/img/default_user.jpg'}" width ="80" height="80"/>
+													</div>
+													<div class="col-md-10" style="padding:15px 15px 10px 15px; float:left">
+														<div class="col-md-12">
+															<span class="theme-h6">{$ch['merchant_name']}:</span>
+														</div>
+														
+														<div class="col-md-9" style="">
+														<p class=" answer-title">
+															总价格{$ch['total_price']}元，总时间{$ch['total_time']}分，距离{$ch['distance']}公里
+															</p>
+															<p class=" answer-title">
+																电话号码:{$ch['mobile']}<br/>
+																座机号：{$ch['tel']|default="无"}<br/>
+																留言：{$ch['remark']|default="无"}
+															</p>
+														</div>
+														
+														
+												<div class="clear"></div>
+													</div>
+						
+											<div class="clear"></div>
+											</div>
+											
+										</volist>
+									</div>	
+											<h4>附近商家</h4>
+											<volist name ="merchant" id ="ch">
+											<div class="col-md-12" style="padding-top:25px;">
+													<div class="col-md-2"  style="float:left">
+														<img src="{$ch.header|default='__PUBLIC__/img/default_user.jpg'}" width ="80" height="80"/>
+													</div>
+													<div class="col-md-10" style="padding:15px 15px 10px 15px; float:left">
+														<div class="col-md-12">
+															<span class="theme-h6">ID:{$ch['id']} 商家名:{$ch['merchant_name']}:</span>
+														</div>
+														
+														<div class="col-md-9" style="">
+														<p class=" answer-title">
+															座机号：{$ch['tel']|default="无"}，手机号:{$ch['mobile']|default="无"}，地址:{$ch['province']}{$ch['city']}{$ch['area']}{$ch['address']}，距离:{$ch['distance']}公里
+															</p>
+														</div>
+														
+														
+														<div class="clear"></div>
+													</div>
+						
+											<div class="clear"></div>
+											</div>
+											
+										</volist>
+									<div style="height:50px"></div>
+							<div class="clear"></div>
+								</div>
+					
+							</volist>		
+								
+							<div class="clear"></div>
+						
+			
+					</div>
+				
+				</div>
+				
+				
+				
+			</div>
+			</div>
+		
+		
+	</div>
+
+<script>
+function luad(id){
+	$.ajax({
+		url:'__MODULE__/Answer/clickLuad',
+		type:"POST",
+		data:{'id':id},
+		success: function(data){
+			if(data.code == 0){
+					//alert(data.msg);
+					$('#luad'+id).text(data.data.laud_count);
+			}else{
+				alert(data.msg);
+			}
+		},
+		  dataType: 'json'
+	});
+};
+function collect(id){
+	$.ajax({
+		url:'__MODULE__/Answer/collect',
+		type:"POST",
+		data:{'id':id,'type':<?php $a = $_SESSION['currentUser']['type'];if($a==0){echo 3;}elseif($a==2){echo 4;}else{echo 0;}?>},
+		success: function(data){
+			
+			if(data.code == 0){
+					//alert(data.msg);
+					$('#collect'+id).text(data.data.collect_count);
+			}else{
+				alert(data.msg);
+			}
+		},
+		  dataType: 'json'
+	});
+};
+function att(id){
+	$.ajax({
+		url:'__MODULE__/Answer/attend',
+		type:"POST",
+		data:{'id':id},
+		success: function(data){
+			
+			if(data.code == 0){
+					//alert(data.msg);
+					$('#att'+id).text(data.data.count);
+			}else{
+				alert(data.msg);
+			}
+		},
+		  dataType: 'json'
+	});
+};
+
+</script>

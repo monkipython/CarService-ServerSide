@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{$data['title']}</title>
+		<include file="Public:answerload"/>
+    </head>
+
+<body>
+   <include file="Public:answerheader"/>
+   <!-- Modal -->
+
+		<div class="container" >
+		<div class="row">
+			
+		</div>
+		<div class="row">
+			<div class="col-md-12" style="text-align:center; margin-top:10px;">
+			<!-- Button trigger modal -->
+			
+				<div class="col-md-8">
+					<div class="col-md-12" style="padding-left:0px;padding-right:0px;">
+						
+						<if condition="$data['is_answered'] eq 1 and edit_answer neq ''">
+						<div class="modal fade " id="myModaledit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">编辑回答</h4>
+						      </div>
+						      	<input name="edit_id" value="{$data['edit_answer']}" type="hidden"/>
+						      	<input name="answer_edit" value="{$data['edit_answer']}" type="hidden"/>
+						      <div class="modal-body">
+						      	<textarea class="form-control" rows="4"  name="context_pid" placeholder="请填写回答">{$data['answer_context']}</textarea>
+						         </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						        <button type="button" class="btn btn-primary" id="editanswer">确定</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#myModaledit">
+						编辑回答
+						</button>
+						<else/> 
+						<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">回答</h4>
+						      </div>
+						      	<input name="issue_id" value="{$data['issue_id']}" type="hidden"/>
+						      <div class="modal-body">
+						      	<textarea class="form-control" rows="4"  name="context_pid_0" placeholder="请填写回答"></textarea>
+						         </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						        <button type="button" class="btn btn-primary" id="answer">确定</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<if condition="empty($cookie) ">
+							<button type="button" class="btn btn-info pull-right " data-toggle="modal" data-target="#nostatus">
+							回答
+							</button>
+						<else/>
+						<button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#myModal">
+						回答
+						</button>
+						</if>
+						  </if>
+						
+					</div>
+					<div class="col-md-12" style="border:1px solid #d9d9d9;">
+						<div class="col-md-12 text-left " style="border-bottom:1px dotted #DBDBDB; margin-right:-15px;" >
+									<div class="col-md-2" >
+										<a href="/user/detail/id/{$data['system_user_id']}">
+										<img src="{$data['header']|default='__PUBLIC__/img/default_user.jpg'}" width="80" height="80" class="  img-circle header-img"/>
+										</a>
+									</div>
+									<div class="col-md-10" style="margin-left:-5px;padding:20px 0px 10px 0px;">
+										<div class="col-md-12">
+											<span class="theme-h6">{$data['name']}:</span>
+										</div>
+										
+										<div class="col-md-12" style="">
+										<p  class=" answer-title">
+											{$data['title']}
+											</p>
+										</div>
+										<div class="col-md-12" style="padding-top:5px;">
+											<volist name ="data.pics" id="img">
+											<div class="col-md-4">
+												<img alt="" src="{$img.hs}" class="img-responsive">
+											</div>
+											</volist>
+										</div>
+										<div class="col-md-12  font-grep">
+											
+											<div class="col-md-3">
+												<a href="javascript:att({$data['issue_id']});" >关注</a>（<span id="att{$data['issue_id']}">{$data['attention']}</span>）
+											</div>
+											<div class="col-md-4">
+												分类（{$data['category_name']}）
+											</div>
+											<div class="col-md-4">
+											 {$data['addtime']}
+											</div>
+										</div>
+										
+										
+									</div>
+									
+								</div>
+						<volist name="data.list" id ="vo">
+								<div class="col-md-12 text-left " style="border-bottom:1px dotted #DBDBDB;" >
+								
+									<div class="col-md-2" >
+										<a href="/user/detail/id/{$vo['system_user_id']}">
+										<img src="{$vo['header']|default='__PUBLIC__/img/default_user.jpg'}" width="80" height="80" class="  img-circle header-img"/>
+										</a>
+									</div>
+									<div class="col-md-10" style="margin-left:-5px;padding:20px 0px 10px 0px;">
+										<div class="col-md-12">
+											<span class="theme-h6">{$vo['name']}:</span>
+										</div>
+										
+										<div class="col-md-12" style="">
+										<p class=" answer-title">
+											{$vo['reply_content']}
+											</p>
+										</div>
+										
+										<div class="col-md-12  font-grep">
+											
+											<div class="col-md-3">
+												<a href="javascript:luad({$vo['id']});" >点赞</a>（<span  id="luad{$vo['id']}">{$vo['laud_count']}</span>）
+											</div>
+											<div class="col-md-4">
+												<a href="javascript:collect({$vo['id']});" >收藏</a>（<span  id="collect{$vo['id']}">{$vo['collect_count']}</span>）
+											</div>
+											<div class="col-md-4">
+											 {$vo['addtime']}
+											</div>
+										</div>
+										<div class="col-md-12">
+											<if condition="empty($cookie) ">
+												<button type="button" onclick="javascript:;" class="btn btn-info pull-right" data-toggle="modal" data-target="#nostatus">
+												评论
+												</button>
+											<else/>
+												<button type="button" onclick="javascript:changepid({$vo['id']});" class="btn btn-info pull-right" data-toggle="modal" data-target="#myModalCom">
+												评论
+												</button>
+											</if>
+										</div>
+										<volist name ="vo.child" id ="ch">
+											<div class="col-md-12">
+													<div class="col-md-2" >
+														<a href="/user/detail/id/{$ch['system_user_id']}">
+														<img src="{$ch['header']|default='__PUBLIC__/img/default_user.jpg'}" width="50" height="50" class="  img-circle header-img"/>
+														</a>
+													</div>
+													<div class="col-md-10" style="margin-left:-25px;padding:20px 0px 10px 0px;">
+														<div class="col-md-12">
+															<span class="theme-h6">{$ch['name']} 回复了   {$ch['pidname']} :</span>
+														</div>
+														
+														<div class="col-md-9" style="">
+														<p class=" answer-title">
+															{$ch['reply_content']}
+															</p>
+														</div>
+														<div class="col-md-3 font-grep">
+														 {$ch['addtime']}
+														</div>
+												
+													</div>
+												<div class="col-md-12">
+												<if condition="empty($cookie) ">
+													<button type="button" onclick="javascript:;" class="btn btn-info pull-right" data-toggle="modal" data-target="#nostatus">
+													评论
+													</button>
+												<else/>
+													<button type="button" onclick="javascript:changepid({$ch['id']});" class="btn btn-info pull-right" data-toggle="modal" data-target="#myModalCom">
+												评论
+												</button>
+												
+												</if>
+										</div>
+											</div>
+										</volist>
+									</div>
+								
+								</div>
+								
+							</volist>		
+								
+								
+								
+			
+					</div>
+				
+				</div>
+				
+				
+				
+				<div class="col-md-12" id="pagination">{$pages}</div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="modal fade " id="myModalCom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">评论</h4>
+						      </div>
+						      	<input name="pid" value="" type="hidden"/>
+						      	<input name="issue_id" value="{$data['issue_id']}" type="hidden"/>
+						      <div class="modal-body">
+						      	<textarea class="form-control" rows="4"  name="context_pid_com" placeholder="请填写评论"></textarea>
+						         </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						        <button type="button" class="btn btn-primary" id="Com">确定</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+		<!-- footer -->
+		<include file="Public:footer"/>
+		<!-- footer end-->
+		<script>
+			//$().ready(function(){
+				function luad(id){
+					$.ajax({
+						url:'/Answer/clickLuad',
+						type:"POST",
+						data:{'id':id},
+						success: function(data){
+							if(data.code == 0){
+									//alert(data.msg);
+									$('#luad'+id).text(data.data.laud_count);
+							}else{
+								alert(data.msg);
+							}
+						},
+						  dataType: 'json'
+					});
+				};
+				function collect(id){
+					$.ajax({
+						url:'/Answer/collect',
+						type:"POST",
+						data:{'id':id},
+						success: function(data){
+							
+							if(data.code == 0){
+									//alert(data.msg);
+									$('#collect'+id).text(data.data.collect_count);
+							}else{
+								alert(data.msg);
+							}
+						},
+						  dataType: 'json'
+					});
+				};
+				function att(id){
+					$.ajax({
+						url:'/Answer/attend',
+						type:"POST",
+						data:{'id':id},
+						success: function(data){
+							
+							if(data.code == 0){
+									//alert(data.msg);
+									$('#att'+id).text(data.data.count);
+							}else{
+								alert(data.msg);
+							}
+						},
+						  dataType: 'json'
+					});
+				};
+				function changepid(id){
+					$('input[name=pid]').val(id);
+				}
+			//})
+			$().ready(function(){
+				$('#answer').click(function(){
+					var context = $('textarea[name=context_pid_0]').val();
+					var issue = $('input[name=issue_id]').val();
+					$.ajax({
+						url:'/Answer/reply',
+						type:"POST",
+						data:{'context':context,'issue_id':issue},
+						success: function(data){
+							if(data.code == 0){
+									window.location.reload();
+							}else{
+								alert(data.msg);
+								$('#myModal').modal('hide');
+							}
+						},
+						  dataType: 'json'
+					});
+					
+				});
+				$('#editanswer').click(function(){
+					var context = $('textarea[name=context_pid]').val();
+					var id = $('input[name=edit_id]').val();
+					$.ajax({
+						url:'/Answer/editreply',
+						type:"POST",
+						data:{'context':context,'id':id,'pid':0},
+						success: function(data){
+							if(data.code == 0){
+									window.location.reload();
+							}else{
+								alert(data.msg);
+								$('#editanswer').modal('hide');
+							}
+						},
+						  dataType: 'json'
+					});
+					
+				});
+				$('#Com').click(function(){
+					var context = $('textarea[name=context_pid_com]').val();
+					var issue = $('input[name=issue_id]').val();
+					var pid = $('input[name=pid]').val();
+					$.ajax({
+						url:'/Answer/reply',
+						type:"POST",
+						data:{'context':context,'issue_id':issue,'pid':pid},
+						success: function(data){
+							if(data.code == 0){
+									window.location.reload();
+							}else{
+								alert(data.msg);
+								$('#myModalCom').modal('hide');
+							}
+						},
+						  dataType: 'json'
+					});
+					
+				});
+				
+			})
+		</script>
+    </body>
+</html>
